@@ -1,4 +1,4 @@
-## **RQ1 - How is energy consumption addressed in microservice architecture research?**
+## **RQ1 - How is energy efficiency considered in microservice architecture research?**
 
 How is energy consumption addressed throughout the software lifecycle and across different architectural components in microservice systems?
 
