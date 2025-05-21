@@ -45,7 +45,7 @@ How is energy consumption addressed throughout the software lifecycle and across
 ### Parameters
 
 - **Metric Type**: Absolute (Joules, Watts), Relative (efficiency ratio), Composite
-- **Measurement Scope**: CPU, Memo ry, Network, Storage, Full-stack
+- **Measurement Scope**: CPU, Memory, Network, Storage, Full-stack
 - **Normalization Basis**: Per request, Per transaction, Per user, Per service
 - **Business Relevance**: Cost-focused, Performance-balanced, Carbon footprint
 
