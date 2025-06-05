@@ -7,12 +7,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 # CONFIG
-PROJECT_URL = 'http://localhost:5001/projects/7438b4fcd1df4854945cbef3ce5bb78c/review'
+PROJECT_URL = 'http://localhost:5001/projects/69e26a8a15f94625bb4188b67c26e7f3/review'
 
 GROUP_A = ['micro', 'cloud application']
 GROUP_B = ['green', 'sustain', 'energy']
 IRR_THRESHOLD = 100
-
+PAPERS_CHECKED = 0
+TOTAL_PAPERS = 3146
 # AVVIO
 # service = Service(CHROMEDRIVER_PATH)
 # driver = webdriver.Chrome(service=service)
@@ -41,6 +42,7 @@ while irrelevant_streak < IRR_THRESHOLD:
         matched_a = [kw for kw in GROUP_A if kw in abstract_text]
         matched_b = [kw for kw in GROUP_B if kw in abstract_text]
         is_relevant = bool(matched_a) and bool(matched_b)
+        PAPERS_CHECKED += 1
 
         # Output
         # print("\n🔍 ABSTRACT:")
@@ -61,6 +63,7 @@ while irrelevant_streak < IRR_THRESHOLD:
             irrelevant_streak += 1
             max_irrelevant_streak = max(max_irrelevant_streak, irrelevant_streak)
 
+        print(f"\n🔢 Articolo {PAPERS_CHECKED} di {TOTAL_PAPERS}")
         print(f"🔁 Consecutivi irrilevanti: {irrelevant_streak}")
         print(f"🔁 Massimo consecutivi irrilevanti: {max_irrelevant_streak}")
         time.sleep(2)
