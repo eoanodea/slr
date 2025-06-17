@@ -1,0 +1,589 @@
+TY  - JOUR
+DO  - 10.1109/ICSCC62041.2024.10690844
+AU  - G. H. Prathama
+AU  - P. E. G. Gunawan
+AU  - A. W. O. Gama
+TI  - Green Computing Implementation for Indonesian Higher Education Adopting Serverless Microservices Architecture
+JO  - 2024 10th International Conference on Smart Computing and Communication (ICSCC)
+DA  - 01-Oct-24
+PB  - IEEE
+AB  - Sustainability poses a significant challenge within the realm of global information technology, especially within the resource-intensive settings of higher education. The present research delves into the application of serverless microservices architecture in universities in Indonesia as a prospective solution for eco-friendly computing. Through the utilization of cutting-edge serverless technologies, a prototype representing the IT framework of an Indonesian institution of higher education was formulated and assessed. The outcomes of this investigation reveal that the adoption of serverless microservices not only improves operational effectiveness but also brings about a notable reduction in energy consumption and carbon footprints. These findings offer valuable perspectives for academic leaders and IT experts who aspire to shift towards more sustainable IT infrastructures.
+KW  - Cost Efficiency
+KW  - cloud computing
+KW  - private universities
+KW  - serverless computation
+KW  - microservices architecture
+KW  - green computing
+KW  - Energy consumption
+KW  - Scalability
+KW  - Education
+KW  - Microservice architectures
+KW  - Prototypes
+KW  - Computer architecture
+KW  - Computational efficiency
+KW  - Resource management
+KW  - Sustainable development
+KW  - Information technology
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/IC2E61754.2024.00021
+AU  - A. Mokhtari
+AU  - B. Jonglez
+AU  - T. Ledoux
+TI  - Towards Digital Sustainability: Involving Cloud Users as Key Players
+JO  - 2024 IEEE International Conference on Cloud Engineering (IC2E)
+SN  - 2694-0825
+DA  - 14-Nov-24
+PB  - IEEE
+AB  - Due to the rapid growth of Cloud services, data centers have become major energy consumers, resulting in significant CO2 emissions. Several infrastructure-focused strategies, such as resource consolidation, have been used to reduce the carbon footprint of Cloud infrastructure. However, end-users are often left out of the picture. Since they are the primary target of Cloud applications, it would be beneficial to actively involve them in reducing the carbon footprint of Cloud applications. In this paper, we offer end-users a way to influence the carbon footprint of Cloud applications they use. To this end, we ask end-users to select a high-level mode to control the carbon footprint of a Cloud application. We then design a dynamic adaptation algorithm that determines an appropriate configuration for the application for each request, based on the end-user mode and on the carbon intensity of the infrastructure energy sources. We implement and evaluate our system on a simple image-resizing application. We run experiments on SeDuCe, a Cloud infrastructure testbed partially powered by solar panels. Our results show that we save energy consumption by up to $84 \%$ when all end-users agree to degrade the quality of the application’s output, and we provide a good quality-energy trade-off when end-users make heterogeneous choices. In addition, we are able to improve quality by leveraging the available green energy budget.
+KW  - cloud computing
+KW  - human-centered computing
+KW  - digital sustainability
+KW  - carbon footprint
+KW  - green energy
+KW  - Green energy
+KW  - Energy consumption
+KW  - Data centers
+KW  - Protocols
+KW  - Heuristic algorithms
+KW  - Calibration
+KW  - Solar panels
+KW  - Proposals
+KW  - Carbon
+KW  - Carbon footprint
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/IC2E59103.2023.00015
+AU  - R. Cordingly
+AU  - J. Kaur
+AU  - D. Dwivedi
+AU  - W. Lloyd
+TI  - Towards Serverless Sky Computing: An Investigation on Global Workload Distribution to Mitigate Carbon Intensity, Network Latency, and Cost
+JO  - 2023 IEEE International Conference on Cloud Engineering (IC2E)
+SN  - 2694-0825
+DA  - 06-Nov-23
+PB  - IEEE
+AB  - The high demand for energy consumption and the resulting carbon footprint of the cloud pose significant sustainability challenges, as cloud data centers consume vast amounts of energy. The emergence of serverless cloud computing platforms has opened up new avenues for more sustainable cloud computing. Serverless Function-as-a-Service (FaaS) cloud computing platforms facilitate deploying applications as decoupled microservices to leverage automatic rapid scaling, high availability, fault tolerance, and on-demand pricing. The absence of always-on hosting costs associated with virtual machines enables serverless functions to be deployed with many different function configurations and cloud regions to achieve high performance, low network latency, and reduced costs. In this paper, we investigate the utility of a global sky computing platform where serverless resources are aggregated between up to 19 distinct cloud regions. We prototype a serverless load distribution system to distribute client requests across serverless aggregations to minimize performance objectives, including network latency, runtime, hosting costs, and carbon footprint. To evaluate our serverless distribution system's ability to meet performance objectives, we continuously executed large experiments across 19 regions around the world from November 2022 through March 2023. Our serverless load distribution approach using aggregated resources reduced the carbon intensity of a globally distributed serverless application by up to 99.8%, network latency by 65%, or hosting costs by 58% by optimizing function routing to deployments with optimal hardware configurations.
+KW  - Sky Computing
+KW  - Serverless Computing
+KW  - Function-as-a-Service
+KW  - Green Computing
+KW  - Cloud computing
+KW  - Costs
+KW  - Runtime
+KW  - Prototypes
+KW  - Pricing
+KW  - Routing
+KW  - Virtual machining
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/ISCC61673.2024.10733735
+AU  - C. Courageux-Sudan
+AU  - A. -C. Orgerie
+AU  - M. Quinson
+TI  - Studying the end-to-end performance, energy consumption and carbon footprint of fog applications
+JO  - 2024 IEEE Symposium on Computers and Communications (ISCC)
+SN  - 2642-7389
+DA  - 31-Oct-24
+PB  - IEEE
+AB  - The deployment of applications closer to end-users through fog computing has shown promise in improving network communication times and reducing contention. However, the use of fog applications such as microservices necessitates intricate network interactions among heterogeneous devices. Consequently, understanding the impact of different application and infrastructure parameters on performance becomes crucial. Current literature either offers end-to-end models that lack granularity and validation or fine-grained models that only consider a portion of the infrastructure. Our research first compares experimentally the accuracy of the existing integrated frameworks. We then combine one of these tools with a collection of validated models to obtain comprehensive metrics regarding microservice applications operating in the fog. Through a use-case, we demonstrate the effectiveness of our approach in investigating fog environments, from examining application latencies to greenhouse gas emissions.
+KW  - Modeling and simulation
+KW  - Fog-computing
+KW  - Microservice
+KW  - Performance evaluation
+KW  - Energy consumption
+KW  - Performance evaluation
+KW  - Computers
+KW  - Energy consumption
+KW  - Accuracy
+KW  - Computational modeling
+KW  - Microservice architectures
+KW  - Greenhouse gases
+KW  - Carbon footprint
+KW  - Edge computing
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/TITS.2023.3274307
+AU  - L. Wang
+AU  - X. Deng
+AU  - J. Gui
+AU  - X. Chen
+AU  - S. Wan
+TI  - Microservice-Oriented Service Placement for Mobile Edge Computing in Sustainable Internet of Vehicles
+JO  - IEEE Transactions on Intelligent Transportation Systems
+SN  - 1558-0016
+DA  - 17-May-23
+PB  - IEEE
+AB  - The integration of Mobile Edge Computing (MEC) and microservice architecture drives the implementation of the sustainable Internet of Vehicles (IoV). The microservice architecture enables the decomposition of a service into multiple independent, fine-grained microservices working independently. With MEC, microservices can be placed on Edge Service Providers (ESPs) dynamically, responding quickly and reducing service latency and resource consumption. However, the burgeoning of IoV leads to high computation and resource overheads, making service resource requirements an imminent issue. What’s more, due to the limited computation power of ESPs, they can only host a few services. Therefore, ESPs should judiciously decide which services to host. In this paper, we propose a Microservice-oriented Service Placement (MOSP) mechanism for MEC-enabled IoV to shorten service latency, reduce high resource consumption levels and guarantee long-term sustainability. Specifically, we formulate the service placement as an integer linear programming program, where service placement decisions are collaboratively optimized among ESPs, aiming to address spatial demand coupling, service heterogeneity, and decentralized coordination in MEC systems. MOSP comprises an upper layer to map the service requests to ESPs and a lower layer to adjust the service placement of ESPs. Evaluation results show that the microservice-oriented service deployment mechanism offers dramatic improvements in terms of resource savings, latency reduction, and service speed.
+KW  - Mobile edge computing
+KW  - microservice
+KW  - Internet of Vehicles
+KW  - service placement
+KW  - Microservice architectures
+KW  - Servers
+KW  - Cloud computing
+KW  - Quality of service
+KW  - Costs
+KW  - Multi-access edge computing
+KW  - Memory management
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/WETICE64632.2024.00024
+AU  - J. A. Larracoechea
+AU  - S. Ilarri
+AU  - P. Roose
+TI  - RADIANCE: A CASE Tool For Green Software Design
+JO  - 2024 32nd International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE)
+DA  - 14-Feb-25
+PB  - IEEE
+AB  - Regardless of the improvements in the efficiency of energy consumption of information and communication technology, energy consumption will forever be a requisite for software execution. Consequently, researchers have promoted the development of green and sustainable software with new development methods and tools. These, however, have been adopted with limited success due to technicalities and specific language/platform requirements. In this paper, we present RADIANCE: a web app for designing greener software with a model-driven approach based on the Behavior-Based Consumption Profiles (BBCP) external Domain-Specific Language (DSL). RADIANCE, in contrast to other tools, embraces users with different levels of knowledge about green software and software architecture. Moreover, RADIANCE assesses and rates, reports, and provides advice on the energy-consuming patterns of the software models created by the user, assisting them in identifying possible design changes that result in greener software designs from the initial stages of software development.
+KW  - Software design
+KW  - Green software
+KW  - Sustainable software
+KW  - Energy consumption
+KW  - Software development
+KW  - Model Driven Software Development
+KW  - Energy consumption
+KW  - Software design
+KW  - Computer aided software engineering
+KW  - Software architecture
+KW  - Green products
+KW  - Software
+KW  - Information and communication technology
+KW  - DSL
+KW  - Software development management
+KW  - Domain specific languages
+ER  - 
+
+TY  - JOUR
+DO  - 10.3390/app14177456
+AU  - Larracoechea J.A.
+AU  - Ilarri S.
+AU  - Roose P.
+TI  - A Proposal of Behavior-Based Consumption Profiles for Green Software Design
+AB  - Despite the increase in the efficiency of energy consumption in information and communication technology, software execution and its constraints are responsible for how energy is consumed in hardware hosts. Consequently, researchers have promoted the development of sustainable software with new development methods and tools to lessen its hardware demands. However, the approaches developed so far lack cohesiveness along the stages of the software development life cycle (SDLC) and exist outside of a holistic method for green software development (GSD). In addition, there is a severe lack of approaches that target the analysis and design stages of the SDLC, leaving software architects and designers unsupported. In this article, we introduce our behavior-based consumption profile (BBCP) external Domain-Specific Language (DSL), aimed at assisting software architects and designers in modeling the behavior of software. The models generated with our external DSL contain multiple sets of properties that characterize features of the software’s behavior. In contrast to other modeling languages, our BBCP emphasizes how time and probability are involved in software execution and its evolution over time, helping its users to gather an expectation of software usage and hardware consumption from the initial stages of software development. To illustrate the feasibility and benefits of our proposal, we conclude with an analysis of the model of a software service created using the BBCP, which is simulated using Insight Maker to obtain an estimation of hardware consumption and later translated to energy consumption. © 2024 by the authors.
+KW  - behavior with software
+KW  - green software
+KW  - SOA
+KW  - software behavior
+KW  - software engineering
+KW  - software profiling
+PY  - 2024.0
+JO  - Applied Sciences (Switzerland)
+KW  - Program translators
+KW  - Software design
+KW  - Behavior with software
+KW  - Behavior-based
+KW  - Energy-consumption
+KW  - Green software
+KW  - SOA
+KW  - Software architects
+KW  - Software behavior
+KW  - Software development life-cycle
+KW  - Software execution
+KW  - Software profiling
+KW  - Green development
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/ISCA59077.2024.00041
+AU  - Wang J.
+AU  - Berger D.S.
+AU  - Kazhamiaka F.
+AU  - Irvene C.
+AU  - Zhang C.
+AU  - Choukse E.
+AU  - Frost K.
+AU  - Fonseca R.
+AU  - Warrier B.
+AU  - Bansal C.
+AU  - Stern J.
+AU  - Bianchini R.
+AU  - Sriraman A.
+TI  - Designing Cloud Servers for Lower Carbon
+AB  - To mitigate climate change, we must reduce carbon emissions from hyperscale cloud computing. We find that cloud compute servers cause the majority of emissions in a general-purpose cloud. Thus, we motivate designing carbon-efficient compute server SKUs, or GreenSKUs, using recently-available low-carbon server components. To this end, we design and build three GreenSKUs using low-carbon components, such as energy-efficient CPUs, reused old DRAM via CXL, and reused old SSDs.We detail several challenges that limit GreenSKUs, carbon savings at scale and may prevent their adoption by cloud providers. To address these challenges, we develop a novel methodology and associated framework, GSF (GreenSKU Framework), that enables a cloud provider to systematically evaluate a GreenSKU's carbon savings at scale. We implement GSF within Microsoft Azure's production constraints to evaluate our three GreenSKUs' carbon savings. Using GSF, we show that our most carbon-efficient GreenSKU reduces emissions per core by 28 % compared to currently-deployed cloud servers. When designing GreenSKUs to meet applications' performance requirements, we reduce emissions by 15 %. When incorporating overall data center overheads, our GreenSKU reduces Azure's net cloud emissions by 8 %. © 2024 IEEE.
+KW  - Carbon
+KW  - Cloud Computing
+KW  - Data Center
+KW  - Server Design
+KW  - Sustainability
+PY  - 2024.0
+JO  - Proceedings - International Symposium on Computer Architecture
+KW  - Carbon
+KW  - Climate change
+KW  - Energy efficiency
+KW  - Green computing
+KW  - Program processors
+KW  - Windows operating system
+KW  - Carbon emissions
+KW  - Carbon saving
+KW  - Cloud providers
+KW  - Cloud servers
+KW  - Cloud-computing
+KW  - Datacenter
+KW  - Design and build
+KW  - Low carbon
+KW  - Server components
+KW  - Server design
+KW  - Cloud computing
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/ACCESS.2021.3075973
+AU  - E. Ahvar
+AU  - S. Ahvar
+AU  - Z. Á. Mann
+AU  - N. Crespi
+AU  - R. Glitho
+AU  - J. Garcia-Alfaro
+TI  - DECA: A Dynamic Energy Cost and Carbon Emission-Efficient Application Placement Method for Edge Clouds
+JO  - IEEE Access
+SN  - 2169-3536
+DA  - 27-Apr-21
+PB  - IEEE
+AB  - As an increasing amount of data processing is done at the network edge, high energy costs and carbon emission of Edge Clouds (ECs) are becoming significant challenges. The placement of application components (e.g., in the form of containerized microservices) on ECs has an important effect on the energy consumption of ECs, impacting both energy costs and carbon emissions. Due to the geographic distribution of ECs, there is a variety of resources, energy prices and carbon emission rates to consider, which makes optimizing the placement of applications for cost and carbon efficiency even more challenging than in centralized clouds. This paper presents a Dynamic Energy cost and Carbon emission-efficient Application placement method (DECA) for ECs. DECA addresses both the initial placement of applications on ECs and the re-optimization of the placement using migrations. DECA considers geographically varying energy prices and carbon emission rates as well as optimizing the usage of both network and computing resources at the same time. By combining a prediction-based A* algorithm with a Fuzzy Sets technique, DECA makes intelligent decisions to optimize energy cost and carbon emissions. Simulation results show the ability of DECA in providing a tradeoff and optimizing energy cost and carbon emission at the same time.
+KW  - Edge cloud
+KW  - energy consumption
+KW  - energy costs
+KW  - green computing
+KW  - carbon emission
+KW  - application placement
+KW  - Carbon dioxide
+KW  - Energy consumption
+KW  - Internet of Things
+KW  - Cloud computing
+KW  - Optimization
+KW  - Resource management
+KW  - Time factors
+ER  - 
+
+TY  - JOUR
+DO  - 10.3390/su16135738
+AU  - Soongpol B.
+AU  - Netinant P.
+AU  - Rukhiran M.
+TI  - Practical Sustainable Software Development in Architectural Flexibility for Energy Efficiency Using the Extended Agile Framework
+AB  - Many regular business operations are transforming into digital services, increasing advanced multi-platforms, rapid operational alignment, flexibility, and environmental impact through energy consumption, hardware waste, and technology investments. Flexible and sustainable system development models emphasizing energy efficiency can help innovate software development as digital servicing applications shift. This research is motivated by the need to improve energy consumption in early software design and development due to rising technological efficiency and sustainability demands. Although effective in iterative development and stakeholder engagement, traditional Agile methodologies often struggle with long-term sustainability and energy efficiency. Extended Agile, combining Agile, layered architecture, and aspect-oriented frameworks (ALAI), promises to improve system modularity, flexibility, maintainability, and sustainability. This study’s findings are not just theoretical, but also practically relevant, as they explore the energy efficiency of ALAI software development methodologies, using graduate admission information system services (GAISS) as an example. GAISS is a complex system that handles the entire process of graduate admissions, from application submission to final decision. The study quantifies the energy usage of a student-list webpage by analyzing Microsoft IIS server logs from February 2022 to May 2024. Directly applicable findings show that the GAISS based on the ALAI framework reduces energy consumption by 10.7914% compared to traditional Agile software developments. ALAI used 892.80 kWh versus Agile’s 1000.80 kWh during operations, saving energy. These findings demonstrate the benefits of integrating aspect-oriented frameworks and layering approaches into Agile methodologies, contributing to sustainable software development discourse. The study emphasizes the importance of energy-efficient frameworks such as ALAI to reduce software systems’ environmental impact and promote software development sustainability. The findings of this study, with their practical relevance, assist software developers and organizations in choosing software design and development methods that maximize operational efficiency and environmental sustainability. © 2024 by the authors.
+KW  - agile
+KW  - aspect-oriented
+KW  - energy efficiency
+KW  - flexibility
+KW  - framework
+KW  - layering
+KW  - software development
+KW  - sustainability
+PY  - 2024.0
+JO  - Sustainability (Switzerland)
+KW  - business development
+KW  - energy efficiency
+KW  - environmental impact
+KW  - information system
+KW  - software
+KW  - stakeholder
+KW  - sustainability
+KW  - sustainable development
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/ICPADS56603.2022.00082
+AU  - C. Song
+AU  - F. Jiang
+AU  - X. Liang
+AU  - N. Ahuja
+AU  - M. J. Kumar
+TI  - Service Level Objective Adaptive Energy Efficiency Management
+JO  - 2022 IEEE 28th International Conference on Parallel and Distributed Systems (ICPADS)
+SN  - 2690-5965
+DA  - 27-Mar-23
+PB  - IEEE
+AB  - Cloud applications are transforming to microservice based deployment. Microservice comes with many advantages-scalability, agility, availability – and it suits the complicated cloud applications. For microservice deployment, service quality metrics play important role to ensure reliable user experiences for those applications built upon many small services, and the service level objective (SLO) is adopted to govern resource provision for optimal operation cost. Amid growing awareness on data center carbon emission, more organizations are paying attention to energy-efficient practices in cloud deployment to reduce energy consumption and operational carbon footprint. Modern processors provide fine-grained power scaling capabilities, e.g., Intel Xeon PCPS (PerCore P-States), this paper presented a dynamic energy efficiency management framework to adaptively scale processor core frequency as well as implicated energy consumption in accordance with service quality requirements. In this paper, we discussed hurdles and solutions for applying platform energy intelligence to microservices that are often with intrinsic platform-agnostic. The experiments proved the proposed method can effectively reduce energy consumption with competitive cost benefits without compromising service quality goals.
+KW  - Microservices
+KW  - Service Mesh
+KW  - Per-Core P-States
+KW  - Service Level Objective (SLO)
+KW  - Service Level Indicator (SLI)
+KW  - Energy Efficiency
+KW  - Carbon Reduction
+KW  - Sustainability
+KW  - Adaptive Control
+KW  - Core Frequency Scaling
+KW  - Energy consumption
+KW  - Program processors
+KW  - Costs
+KW  - Power system management
+KW  - Memory management
+KW  - Microservice architectures
+KW  - Tail
+ER  - 
+
+TY  - JOUR
+DO  - 10.3390/app12125793
+AU  - Saboor A.
+AU  - Hassan M.F.
+AU  - Akbar R.
+AU  - Shah S.N.M.
+AU  - Hassan F.
+AU  - Magsi S.A.
+AU  - Siddiqui M.A.
+TI  - Article Containerized Microservices Orchestration and Provisioning in Cloud Computing: A Conceptual Framework and Future Perspectives
+AB  - Cloud computing is a rapidly growing paradigm which has evolved from having a mono-lithic to microservices architecture. The importance of cloud data centers has expanded dramatically in the previous decade, and they are now regarded as the backbone of the modern economy. Cloud-based microservices architecture is incorporated by firms such as Netflix, Twitter, eBay, Amazon, Hailo, Groupon, and Zalando. Such cloud computing arrangements deal with the parallel deployment of data-intensive workloads in real time. Moreover, commonly utilized cloud services such as the web and email require continuous operation without interruption. For that purpose, cloud service providers must optimize resource management, efficient energy usage, and carbon footprint reduction. This study presents a conceptual framework to manage the high amount of microservice execution while reducing response time, energy consumption, and execution costs. The proposed framework suggests four key agent services: (1) intelligent partitioning: responsible for microservice classification; (2) dynamic allocation: used for pre-execution distribution of microservices among containers and then makes decisions for dynamic allocation of microservices at runtime; (3) resource optimization: in charge of shifting workloads and ensuring optimal resource use; (4) mutation ac-tions: these are based on procedures that will mutate the microservices based on cloud data center workloads. The suggested framework was partially evaluated using a custom-built simulation envi-ronment, which demonstrated its efficiency and potential for implementation in a cloud computing context. The findings show that the engrossment of suggested services can lead to a reduced number of network calls, lower energy consumption, and relatively reduced carbon dioxide emissions. © 2022 by the authors. Licensee MDPI, Basel, Switzerland.
+KW  - cloud computing
+KW  - containers
+KW  - microservices
+KW  - multicloud
+KW  - virtual machine
+PY  - 2022.0
+JO  - Applied Sciences (Switzerland)
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.jnca.2019.102441
+AU  - Yu Y.
+AU  - Yang J.
+AU  - Guo C.
+AU  - Zheng H.
+AU  - He J.
+TI  - Joint optimization of service request routing and instance placement in the microservice system
+AB  - Microservice architecture is a promising architectural style. It decomposes monolithic software into a set of loosely coupled containerized microservices and associates them into multiple microservice chains to serve service requests. The new architecture creates flexibility for service provisioning but also introduces increased energy consumption and low service performance. Efficient resource allocation is critical. Unfortunately, existing solutions are designed at a coarse level for virtual machine (VM)-based clouds and not optimized for such chain-oriented service provisioning. In this paper, we study the resource allocation optimization problem for service request routing and microservice instance placement, so as to jointly reduce both resource usage and chains’ end-to-end response time for saving energy and guaranteeing Quality of Service (QoS). We design detailed workload models for microservices and chains and formulate the optimization problem as a bi-criteria optimization problem. To address it, a three-stage scheme is proposed to search and optimize the trade-off decisions, route service requests into instances and deploy instances to servers in a balanced manner. Through numerical evaluations, we show that while assuring the same QoS, our scheme performs significantly better than and faster than benchmarking algorithms on reducing energy consumption and balancing load. © 2019
+KW  - Bi-criteria optimization
+KW  - Energy consumption
+KW  - Load balance
+KW  - Microservice
+KW  - Microservice chain
+KW  - QoS
+PY  - 2019.0
+JO  - Journal of Network and Computer Applications
+KW  - Balancing
+KW  - Economic and social effects
+KW  - Energy utilization
+KW  - Optimization
+KW  - Resource allocation
+KW  - Benchmarking algorithm
+KW  - Bicriteria optimization
+KW  - Efficient resource allocation
+KW  - End-to-end response time
+KW  - Load balance
+KW  - Microservice
+KW  - Reducing energy consumption
+KW  - Resource allocation optimization
+KW  - Quality of service
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/ACCESS.2024.3461149
+AU  - K. Afachao
+AU  - A. M. Abu-Mahfouz
+AU  - G. P. Hanke
+TI  - Efficient Microservice Deployment in the Edge-Cloud Networks With Policy-Gradient Reinforcement Learning
+JO  - IEEE Access
+SN  - 2169-3536
+DA  - 16-Sep-24
+PB  - IEEE
+AB  - The rise of user-centric design demands ubiquitous access to infrastructure and applications, facilitated by the Edge-Cloud network and microservices. However, efficiently managing resource allocation while orchestrating microservice placement in such dynamic environments presents a significant challenge. These challenges stem from the limited resources of edge devices, the need for low latency responses, and the potential for performance degradation due to service failures or inefficient deployments. This paper addresses the challenge of microservice placement in Edge-Cloud environments by proposing a novel Reinforcement Learning algorithm called Bi-Generic Advantage Actor-Critic for Microservice Placement Policy. This algorithm’s ability to learn and adapt to the dynamic environment makes it well-suited for optimizing resource allocation and service placement decisions within the Edge-Cloud. We compare this algorithm against three baseline algorithms through simulations on a real-world dataset, evaluating performance metrics such as execution time, network usage, average migration delay, and energy consumption. The results demonstrate the superiority of the proposed method, with an 8% reduction in execution time, translating to faster response times for users. Additionally, it achieves a 4% decrease in network usage and a 2% decrease in energy consumption compared to the best-performing baseline. This research contributes by reproducing the Edge-Cloud environment, applying the novel Bi-Generic Advantage Actor-Critic technique, and demonstrating significant improvements over the state-of-the-art baseline algorithms in microservice placement and resource management within Edge-Cloud environments.
+KW  - Edge computing
+KW  - microservices
+KW  - network optimization
+KW  - online placement
+KW  - scheduling algorithms
+KW  - reinforcement learning
+KW  - Microservice architectures
+KW  - Heuristic algorithms
+KW  - Reliability
+KW  - Optimization methods
+KW  - Resource management
+KW  - Containers
+KW  - Edge computing
+KW  - Scheduling
+KW  - User centered design
+KW  - Reinforcement learning
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/TC.2025.3535826
+AU  - Wang L.
+AU  - Liu X.
+AU  - Ding H.
+AU  - Hu Y.
+AU  - Peng K.
+AU  - Hu M.
+TI  - Energy-Delay-Aware Joint Microservice Deployment and Request Routing with DVFS in Edge: A Reinforcement Learning Approach
+AB  - The emerging microservice architecture offers opportunities for accommodating delay-sensitive applications in edge. However, such applications are computation-intensive and energy-consuming, imposing great difficulties to edge servers with limited computing resources, energy supply, and cooling capabilities. To reduce delay and energy consumption in edge, efficient microservice orchestration is necessary, but significantly challenging. Due to frequent communications among multiple microservices, service deployment and request routing are tightly-coupled, which motivates a complex joint optimization problem. When considering multi-instance modeling and fine-grained orchestration for massive microservices, the difficulty is extremely enlarged. Nevertheless, previous work failed to address the above difficulties. Also, they neglected to balance delay and energy, especially lacking dynamic energy-saving abilities. Therefore, this paper minimizes energy and delay by jointly optimizing microservice deployment and request routing via multi-instance modeling, fine-grained orchestration, and dynamic adaptation. Our queuing network model enables accurate end-to-end time analysis covering queuing, computing, and communicating delays. We then propose a delay-aware reinforcement learning algorithm, which derives the static service deployment and routing decisions. Moreover, we design an energy-aware dynamic frequency scaling algorithm, which saves energy with fluctuating request patterns. Experiment results demonstrate that our approaches significantly outperform baseline algorithms in both delay and energy consumption.  © 1968-2012 IEEE.
+KW  - dynamic voltage frequency scaling
+KW  - Edge computing
+KW  - queuing theory
+KW  - reinforcement learning
+KW  - service orchestration
+PY  - 2025.0
+JO  - IEEE Transactions on Computers
+KW  - Delay tolerant networks
+KW  - Delay-sensitive applications
+KW  - Dynamic frequency scaling
+KW  - Edge computing
+KW  - Energy efficiency
+KW  - Energy utilization
+KW  - Finite automata
+KW  - Learning algorithms
+KW  - Queueing networks
+KW  - Reinforcement learning
+KW  - Voltage scaling
+KW  - Delay aware
+KW  - Dynamic voltage
+KW  - Dynamic voltage frequency scaling
+KW  - Edge computing
+KW  - Frequency-scaling
+KW  - Queuing theory
+KW  - Reinforcement learnings
+KW  - Routings
+KW  - Service orchestration
+KW  - Voltage frequency
+KW  - Queueing theory
+ER  - 
+
+TY  - JOUR
+DO  - 10.1007/978-3-319-69035-3_14
+AU  - Xu M.
+AU  - Buyya R.
+TI  - Energy efficient scheduling of application components via brownout and approximate markov decision process
+AB  - Unexpected loads in Cloud data centers may trigger overloaded situation and performance degradation. To guarantee system performance, cloud computing environment is required to have the ability to handle overloads. The existing approaches, like Dynamic Voltage Frequency Scaling and VM consolidation, are effective in handling partial overloads, however, they cannot function when the whole data center is overloaded. Brownout has been proved to be a promising approach to relieve the overloads through deactivating application non-mandatory components or microservices temporarily. Moreover, brownout has been applied to reduce data center energy consumption. It shows that there are trade-offs between energy saving and discount offered to users (revenue loss) when one or more services are not provided temporarily. In this paper, we propose a brownout-based approximate Markov Decision Process approach to improve the aforementioned trade-offs. The results based on real trace demonstrate that our approach saves 20% energy consumption than VM consolidation approach. Compared with existing energy-efficient brownout approach, our approach reduces the discount amount given to users while saving similar energy consumption. © Springer International Publishing AG 2017.
+KW  - Application component
+KW  - Brownout
+KW  - Cloud energy efficiency
+KW  - Markov decision process
+KW  - Microservices
+PY  - 2017.0
+JO  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+KW  - Commerce
+KW  - Decision making
+KW  - Distributed computer systems
+KW  - Dynamic frequency scaling
+KW  - Economic and social effects
+KW  - Energy conservation
+KW  - Energy utilization
+KW  - Green computing
+KW  - Markov processes
+KW  - Voltage scaling
+KW  - Application components
+KW  - Brownout
+KW  - Cloud computing environments
+KW  - Dynamic voltage frequency scaling
+KW  - Energy-Efficient Scheduling
+KW  - Markov Decision Processes
+KW  - Microservices
+KW  - Performance degradation
+KW  - Energy efficiency
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/TSUSC.2017.2661339
+AU  - Xu M.
+AU  - Dastjerdi A.V.
+AU  - Buyya R.
+TI  - Energy Efficient Scheduling of Cloud Application Components with Brownout
+AB  - It is common for cloud data centers meeting unexpected loads like request bursts, which may lead to overloaded situation and performance degradation. Dynamic Voltage Frequency Scaling and VM consolidation have been proved effective to manage overloads. However, they cannot function when the whole data center is overloaded. Brownout provides a promising direction to avoid overloads through configuring applications to temporarily degrade user experience. Additionally, brownout can also be applied to reduce data center energy consumption. As a complementary option for Dynamic Voltage Frequency Scaling and VM consolidation, our combined brownout approach reduces energy consumption through selectively and dynamically deactivating application optional components, which can also be applied to self-contained microservices. The results show that our approach can save more than 20 percent energy consumption and there are trade-offs between energy saving and discount offered to users. © 2016 IEEE.
+KW  - application component
+KW  - brownout
+KW  - Cloud data centers
+KW  - energy efficient
+KW  - microservices
+PY  - 2016.0
+JO  - IEEE Transactions on Sustainable Computing
+KW  - Dynamic frequency scaling
+KW  - Economic and social effects
+KW  - Energy efficiency
+KW  - Energy utilization
+KW  - Voltage scaling
+KW  - Application components
+KW  - brownout
+KW  - Cloud data centers
+KW  - Energy efficient
+KW  - microservices
+KW  - Green computing
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/TSUSC.2018.2808493
+AU  - M. Xu
+AU  - A. N. Toosi
+AU  - R. Buyya
+TI  - iBrownout: An Integrated Approach for Managing Energy and Brownout in Container-Based Clouds
+JO  - IEEE Transactions on Sustainable Computing
+SN  - 2377-3782
+DA  - 26-Feb-18
+PB  - IEEE
+AB  - Energy consumption of Cloud data centers has been a major concern of many researchers, and one of the reasons for huge energy consumption of Clouds lies in the inefficient utilization of computing resources. Besides energy consumption, another challenge of data centers is the unexpected loads, which leads to the overloads and performance degradation. Compared with VM consolidation and Dynamic Voltage Frequency Scaling that cannot function well when the whole data center is overloaded, brownout has shown to be a promising technique to handle both overloads and energy consumption through dynamically deactivating application optional components, which are also identified as containers/microservices. In this work, we propose an integrated approach to manage energy consumption and brownout in container-based cloud data centers. We also evaluate our proposed scheduling policies with real traces in a prototype system. The results show that our approach reduces about 40, 20, and 10 percent energy than the approach without power-saving techniques, brownout-overbooking approach and auto-scaling approach, respectively, while ensuring Quality of Service.
+KW  - Cloud data centers
+KW  - energy efficiency
+KW  - QoS
+KW  - containers
+KW  - microservices
+KW  - brownout
+KW  - Data centers
+KW  - Energy consumption
+KW  - Cloud computing
+KW  - Quality of service
+KW  - Servers
+KW  - Containers
+KW  - Prototypes
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/JIOT.2022.3155598
+AU  - Yu Y.
+AU  - Liu J.
+AU  - Fang J.
+TI  - Online Microservice Orchestration for IoT via Multiobjective Deep Reinforcement Learning
+AB  - By providing loosely coupled, lightweight, and independent services, the microservice architecture is promising for large-scale and complex service provision requirements in the Internet of Things (IoT). However, it requires more fine-grained resource management and orchestration for service provision. Most of the existing microservice orchestration solutions are based on those designed for the traditional cloud. They can only provide coarse-grained resource allocation using possibly conflicting weighted objectives. In this article, we present a fine-grained microservice orchestration approach to provide services online for dynamic requests of IoT applications. By using a fine-grained resource model of energy cost and service end-to-end response time of orchestrated microservices, we formulate the microservice orchestration problem as a multiobjective Markov decision process. We then propose a multiobjective optimization solution based on deep reinforcement learning (DRL) to simultaneously reduce energy consumption and response time. Through extensive experiments, our proposed algorithm presents significant performance results than the state of the art. To the best of our knowledge, this is the first work that addresses microservice orchestration using DRL for multiple conflicting objectives.  © 2014 IEEE.
+KW  - Deep reinforcement learning (DRL)
+KW  - energy consumption, Internet of Things (IoT)
+KW  - online microservice orchestration
+KW  - Quality-of-Service (QoS) assurance
+PY  - 2022.0
+JO  - IEEE Internet of Things Journal
+KW  - Deep learning
+KW  - Internet of things
+KW  - Markov processes
+KW  - Multiobjective optimization
+KW  - Natural resources management
+KW  - Quality of service
+KW  - Reinforcement learning
+KW  - Resource allocation
+KW  - Deep reinforcement learning
+KW  - Energy-consumption
+KW  - Fine grained
+KW  - Microservice architecture
+KW  - Multi objective
+KW  - Online microservice orchestration
+KW  - QoS assurance.
+KW  - Quality-of-service
+KW  - Reinforcement learnings
+KW  - Resource management
+KW  - Energy utilization
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/ICAC.2019.00018
+AU  - N. Schmitt
+AU  - L. Iffländer
+AU  - A. Bauer
+AU  - S. Kounev
+TI  - Online Power Consumption Estimation for Functions in Cloud Applications
+JO  - 2019 IEEE International Conference on Autonomic Computing (ICAC)
+SN  - 2474-0756
+DA  - 12-Sep-19
+PB  - IEEE
+AB  - The growth of cloud services leads to more and more data centers that are increasingly larger and consume considerable amounts of power. To increase energy efficiency, informed decisions on workload placement and provisioning are essential. Micro-services and the upcoming serverless platforms with more granular deployment options exacerbate this problem. For this reason, knowing the power consumption of the deployed application becomes crucial, providing the necessary information for autonomous decision making. However, the actual power draw of a server running a specific application under load is not available without specialized measurement equipment or power consumption models. Yet, granularity is often only down to machine level and not application level. In this paper, we propose a monitoring and modeling approach to estimate power consumption on an application function level. The model uses performance counters that are allocated to specific functions to assess their impact on the total power consumption. Hence our model applies to a large variety of servers and for micro-service and serverless workloads. Our model uses an additional correction to minimize falsely allocated performance counters and increase accuracy. We validate the proposed approach on real hardware with a dedicated benchmarking application. The evaluation shows that our approach can be used to monitor application power consumption down to the function level with high accuracy for reliable workload provisioning and placement decisions.
+KW  - Energy efficiency, serverless, micro-services, code offloading, DevOps
+KW  - Power demand
+KW  - Data centers
+KW  - Power measurement
+KW  - Load modeling
+KW  - Monitoring
+KW  - Hardware
+KW  - Software
+ER  - 
+
