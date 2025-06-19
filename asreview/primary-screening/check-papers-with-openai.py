@@ -65,8 +65,8 @@ def ask_openai(title, abstract):
         return "API Error"
 
 def main():
-    input_csv = "asreview/secondary-screening/secondary-screening-start.csv"
-    output_csv = "asreview/secondary-screening/secondary-screening-with-openai.csv"
+    input_csv = "asreview/primary-screening/primary-screening-start.csv"
+    output_csv = "asreview/primary-screening/primary-screening-with-openai.csv"
     df = pd.read_csv(input_csv)
 
     results = []
