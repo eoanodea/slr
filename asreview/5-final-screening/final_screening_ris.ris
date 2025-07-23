@@ -1,0 +1,1577 @@
+1.
+TY  - JOUR
+DO  - 10.1145/3715700
+AU  - Yang, Yihong
+AU  - Zhou, Zhangbing
+AU  - Shu, Lei
+AU  - Zhou, Feng
+AU  - Gaaloul, Walid
+AU  - Khan, Arif Ali
+TI  - Web 3.0-Enabled Microservice Re-Scheduling for Heterogenous Resources Co-Optimization in Metaverse-Integrated Edge Networks
+JO  - ACM Trans. Auton. Adapt. Syst.
+DA  - 2025-01
+AB  - The Web 3.0 and metaverse can empower intelligent application of Connected Autonomous Vehicles (CAVs). The adoption of edge computing can contribute to the low latency interaction between CAVs and the metaverse. Microservices are widely deployed on edge networks and the cloud nowadays. User's requests from CAVs are typically fulfilled through the composition of microservices, which may be hosted by contiguous edge nodes. Requests may differ on their required resources at runtime. Consequently, when requests are continuously injected into edge networks, the usage of heterogenous resources, including CPU, memory, and network bandwidth, may not be the same, or differ significantly, on certain edge nodes. This happens especially when burst requests are injected into the network to be satisfied concurrently. Therefore, the usage of heterogenous resources provided by edge nodes should be co-optimized through re-scheduling microservices. To address this challenge, this paper proposes a Web 3.0-enabled Microservice Re-Scheduling approach (called MRS), which is a migration-based mechanism integrating a placement strategy. Specifically, we formulate the microservice re-scheduling task as a multi-objective and multi-constraint optimization problem, which can be solved through a penalty signal-integrated framework and an improved pointer network. Extensive experiments are conducted on two real-world datasets. Evaluation results show that our MRS performs better than the counterparts with improvements of at least 7.7%, 2.4% and 2.2% in terms of network throughput, latency and energy consumption.
+KW  - Connected Autonomous Vehicles (CAVs)
+KW  - Heterogenous Resources Co-Optimization
+KW  - Metaverse
+KW  - Microservice Re-Scheduling
+KW  - Web 3.0
+SN  - 1556-4665
+N1  - ASReview_prior
+N1  - ASReview_relevant
+ER  - 
+
+2.
+TY  - JOUR
+DO  - 10.3390/s23167142
+AU  - Ashraf M.
+AU  - Shiraz M.
+AU  - Abbasi A.
+AU  - Alqahtani O.
+AU  - Badshah G.
+AU  - Lasisi A.
+TI  - Microservice Application Scheduling in Multi-Tiered Fog-Computing-Enabled IoT
+JO  - Sensors
+AB  - Fog computing extends mobile cloud computing facilities at the network edge, yielding low-latency application execution. To supplement cloud services, computationally intensive applications can be distributed on resource-constrained mobile devices by leveraging underutilized nearby resources to meet the latency and bandwidth requirements of application execution. Building upon this premise, it is necessary to investigate idle or underutilized resources that are present at the edge of the network. The utilization of a microservice architecture in IoT application development, with its increased granularity in service breakdown, provides opportunities for improved scalability, maintainability, and extensibility. In this research, the proposed schedule tackles the latency requirements of applications by identifying suitable upward migration of microservices within a multi-tiered fog computing infrastructure. This approach enables optimal utilization of network edge resources. Experimental validation is performed using the iFogSim2 simulator and the results are compared with existing baselines. The results demonstrate that compared to the edgewards approach, our proposed technique significantly improves the latency requirements of application execution, network usage, and energy consumption by 66.92%, 69.83%, and 4.16%, respectively. © 2023 by the authors.
+KW  - constrained devices
+KW  - distributed application execution
+KW  - fog computing
+KW  - Internet of Things
+KW  - microservice application scheduling
+KW  - service delay
+KW  - Energy utilization
+KW  - Fog
+KW  - Internet of things
+KW  - Mobile cloud computing
+KW  - Application execution
+KW  - Application scheduling
+KW  - Computing facilities
+KW  - Constrained devices
+KW  - Distributed application executions
+KW  - Low latency
+KW  - Microservice application scheduling
+KW  - Multi-tiered
+KW  - Network edges
+KW  - Service delays
+KW  - Fog computing
+PY  - 2023
+N1  - ASReview_relevant
+ER  - 
+
+3.
+TY  - JOUR
+DO  - 10.1002/spe.3217
+AU  - Wu J.
+AU  - Zhang J.
+AU  - Zhang Y.
+AU  - Wen Y.
+TI  - Constraint-aware and multi-objective optimization for micro-service composition in mobile edge computing
+JO  - Software - Practice and Experience
+AB  - As a new paradigm of distributed computing, mobile edge computing (MEC) has gained increasing attention due to its ability to expand the capabilities of centralized cloud computing. In MEC environments, a software application typically consists of multiple micro-services, which can be composed together in a flexible manner to achieve various user requests. However, the composition of micro-services in MEC is still a challenging research issue arising from three aspects. Firstly, composite micro-services constructed by ignoring the processing capabilities of different micro-services may cause waste of edge resources. Secondly, edge servers' limitations in terms of computational power can easily cause service occupancy between composite micro-services, severely affecting the user experience. Thirdly, in dynamic and unstable mobile environments, different edge users have different sensitivities to request latency, which increases the complexity of micro-service composition. In order to improve edge resource utilization and user experience on micro-service invocations, in this paper, we comprehensively consider the above three factors, and we first model the micro-services composition problem in MEC as a constrained multi-objective optimization problem. Then, a micro-service composition optimization method M3C combining graph search and branch-and-bound strategy is proposed to find a composition solution set with low energy consumption and high success rate for multiple edge users. Finally, we perform a series of experiments on two widely used datasets. Experimental results show that our proposed approach significantly outperforms the four competing baseline approaches, and that it is sufficiently efficient for practical deployment. © 2023 John Wiley & Sons Ltd.
+KW  - micro-service composition
+KW  - micro-services
+KW  - mobile edge computing
+KW  - multi-objective optimization
+KW  - Application programs
+KW  - Branch and bound method
+KW  - Constrained optimization
+KW  - Energy utilization
+KW  - Mobile edge computing
+KW  - Quality of service
+KW  - Centralised
+KW  - Cloud-computing
+KW  - Computing environments
+KW  - Edge resources
+KW  - Micro services
+KW  - Micro-service composition
+KW  - Multi-objectives optimization
+KW  - Services composition
+KW  - Users' experiences
+KW  - Multiobjective optimization
+PY  - 2024
+N1  - ASReview_relevant
+ER  - 
+
+4.
+TY  - JOUR
+DO  - 10.1109/GLOBECOM38437.2019.9014114
+AU  - J. Gedeon
+AU  - M. Wagner
+AU  - J. Heuschkel
+AU  - L. Wang
+AU  - M. Muhlhauser
+TI  - A Microservice Store for Efficient Edge Offloading
+JO  - 2019 IEEE Global Communications Conference (GLOBECOM)
+DA  - 27-Feb-20
+PB  - IEEE
+AB  - Current edge computing frameworks require tight coupling between mobile clients and surrogates, i.e., the offloaded code has been preconfigured with its required execution environment. In many cases, this includes prior transfers of code blocks or execution environments from mobile devices to the offloading infrastructure. This approach incurs additional latency and is detrimental for the energy consumption of the mobile devices. In this paper, we propose the concept of a microservice store. Using the microservice abstraction common in software development and following the serverless paradigm, we envision a repository through which said services are made accessible to developers and can be re-used across applications. We implement a proof-of-concept edge computing system based on a microservice repository and demonstrate its benefits with real-world applications on mobile devices. Our results show that we were able to reduce latencies by up to 14x and save up to 94% of battery life.
+KW  - Edge computing
+KW  - Object detection
+KW  - Mobile handsets
+KW  - Containers
+KW  - Semantics
+KW  - Cloud computing
+KW  - Image edge detection
+SN  - 2576-6813
+N1  - ASReview_relevant
+ER  - 
+
+5.
+TY  - JOUR
+DO  - 10.1109/TITS.2023.3274307
+AU  - L. Wang
+AU  - X. Deng
+AU  - J. Gui
+AU  - X. Chen
+AU  - S. Wan
+TI  - Microservice-Oriented Service Placement for Mobile Edge Computing in Sustainable Internet of Vehicles
+JO  - IEEE Transactions on Intelligent Transportation Systems
+DA  - 17-May-23
+PB  - IEEE
+AB  - The integration of Mobile Edge Computing (MEC) and microservice architecture drives the implementation of the sustainable Internet of Vehicles (IoV). The microservice architecture enables the decomposition of a service into multiple independent, fine-grained microservices working independently. With MEC, microservices can be placed on Edge Service Providers (ESPs) dynamically, responding quickly and reducing service latency and resource consumption. However, the burgeoning of IoV leads to high computation and resource overheads, making service resource requirements an imminent issue. What’s more, due to the limited computation power of ESPs, they can only host a few services. Therefore, ESPs should judiciously decide which services to host. In this paper, we propose a Microservice-oriented Service Placement (MOSP) mechanism for MEC-enabled IoV to shorten service latency, reduce high resource consumption levels and guarantee long-term sustainability. Specifically, we formulate the service placement as an integer linear programming program, where service placement decisions are collaboratively optimized among ESPs, aiming to address spatial demand coupling, service heterogeneity, and decentralized coordination in MEC systems. MOSP comprises an upper layer to map the service requests to ESPs and a lower layer to adjust the service placement of ESPs. Evaluation results show that the microservice-oriented service deployment mechanism offers dramatic improvements in terms of resource savings, latency reduction, and service speed.
+KW  - Mobile edge computing
+KW  - microservice
+KW  - Internet of Vehicles
+KW  - service placement
+KW  - Microservice architectures
+KW  - Servers
+KW  - Cloud computing
+KW  - Quality of service
+KW  - Costs
+KW  - Multi-access edge computing
+KW  - Memory management
+SN  - 1558-0016
+N1  - ASReview_relevant
+ER  - 
+
+6.
+TY  - JOUR
+DO  - 10.1109/ACCESS.2024.3461149
+AU  - K. Afachao
+AU  - A. M. Abu-Mahfouz
+AU  - G. P. Hanke
+TI  - Efficient Microservice Deployment in the Edge-Cloud Networks With Policy-Gradient Reinforcement Learning
+JO  - IEEE Access
+DA  - 16-Sep-24
+PB  - IEEE
+AB  - The rise of user-centric design demands ubiquitous access to infrastructure and applications, facilitated by the Edge-Cloud network and microservices. However, efficiently managing resource allocation while orchestrating microservice placement in such dynamic environments presents a significant challenge. These challenges stem from the limited resources of edge devices, the need for low latency responses, and the potential for performance degradation due to service failures or inefficient deployments. This paper addresses the challenge of microservice placement in Edge-Cloud environments by proposing a novel Reinforcement Learning algorithm called Bi-Generic Advantage Actor-Critic for Microservice Placement Policy. This algorithm’s ability to learn and adapt to the dynamic environment makes it well-suited for optimizing resource allocation and service placement decisions within the Edge-Cloud. We compare this algorithm against three baseline algorithms through simulations on a real-world dataset, evaluating performance metrics such as execution time, network usage, average migration delay, and energy consumption. The results demonstrate the superiority of the proposed method, with an 8% reduction in execution time, translating to faster response times for users. Additionally, it achieves a 4% decrease in network usage and a 2% decrease in energy consumption compared to the best-performing baseline. This research contributes by reproducing the Edge-Cloud environment, applying the novel Bi-Generic Advantage Actor-Critic technique, and demonstrating significant improvements over the state-of-the-art baseline algorithms in microservice placement and resource management within Edge-Cloud environments.
+KW  - Edge computing
+KW  - microservices
+KW  - network optimization
+KW  - online placement
+KW  - scheduling algorithms
+KW  - reinforcement learning
+KW  - Microservice architectures
+KW  - Heuristic algorithms
+KW  - Reliability
+KW  - Optimization methods
+KW  - Resource management
+KW  - Containers
+KW  - Edge computing
+KW  - Scheduling
+KW  - User centered design
+KW  - Reinforcement learning
+SN  - 2169-3536
+N1  - ASReview_relevant
+ER  - 
+
+7.
+TY  - JOUR
+DO  - 10.1016/j.jnca.2019.102441
+AU  - Yu Y.
+AU  - Yang J.
+AU  - Guo C.
+AU  - Zheng H.
+AU  - He J.
+TI  - Joint optimization of service request routing and instance placement in the microservice system
+JO  - Journal of Network and Computer Applications
+AB  - Microservice architecture is a promising architectural style. It decomposes monolithic software into a set of loosely coupled containerized microservices and associates them into multiple microservice chains to serve service requests. The new architecture creates flexibility for service provisioning but also introduces increased energy consumption and low service performance. Efficient resource allocation is critical. Unfortunately, existing solutions are designed at a coarse level for virtual machine (VM)-based clouds and not optimized for such chain-oriented service provisioning. In this paper, we study the resource allocation optimization problem for service request routing and microservice instance placement, so as to jointly reduce both resource usage and chains’ end-to-end response time for saving energy and guaranteeing Quality of Service (QoS). We design detailed workload models for microservices and chains and formulate the optimization problem as a bi-criteria optimization problem. To address it, a three-stage scheme is proposed to search and optimize the trade-off decisions, route service requests into instances and deploy instances to servers in a balanced manner. Through numerical evaluations, we show that while assuring the same QoS, our scheme performs significantly better than and faster than benchmarking algorithms on reducing energy consumption and balancing load. © 2019
+KW  - Bi-criteria optimization
+KW  - Energy consumption
+KW  - Load balance
+KW  - Microservice
+KW  - Microservice chain
+KW  - QoS
+KW  - Balancing
+KW  - Economic and social effects
+KW  - Energy utilization
+KW  - Optimization
+KW  - Resource allocation
+KW  - Benchmarking algorithm
+KW  - Bicriteria optimization
+KW  - Efficient resource allocation
+KW  - End-to-end response time
+KW  - Load balance
+KW  - Microservice
+KW  - Reducing energy consumption
+KW  - Resource allocation optimization
+KW  - Quality of service
+PY  - 2019
+N1  - ASReview_relevant
+ER  - 
+
+8.
+TY  - JOUR
+DO  - 10.1109/TC.2025.3535826
+AU  - Wang L.
+AU  - Liu X.
+AU  - Ding H.
+AU  - Hu Y.
+AU  - Peng K.
+AU  - Hu M.
+TI  - Energy-Delay-Aware Joint Microservice Deployment and Request Routing with DVFS in Edge: A Reinforcement Learning Approach
+JO  - IEEE Transactions on Computers
+AB  - The emerging microservice architecture offers opportunities for accommodating delay-sensitive applications in edge. However, such applications are computation-intensive and energy-consuming, imposing great difficulties to edge servers with limited computing resources, energy supply, and cooling capabilities. To reduce delay and energy consumption in edge, efficient microservice orchestration is necessary, but significantly challenging. Due to frequent communications among multiple microservices, service deployment and request routing are tightly-coupled, which motivates a complex joint optimization problem. When considering multi-instance modeling and fine-grained orchestration for massive microservices, the difficulty is extremely enlarged. Nevertheless, previous work failed to address the above difficulties. Also, they neglected to balance delay and energy, especially lacking dynamic energy-saving abilities. Therefore, this paper minimizes energy and delay by jointly optimizing microservice deployment and request routing via multi-instance modeling, fine-grained orchestration, and dynamic adaptation. Our queuing network model enables accurate end-to-end time analysis covering queuing, computing, and communicating delays. We then propose a delay-aware reinforcement learning algorithm, which derives the static service deployment and routing decisions. Moreover, we design an energy-aware dynamic frequency scaling algorithm, which saves energy with fluctuating request patterns. Experiment results demonstrate that our approaches significantly outperform baseline algorithms in both delay and energy consumption.  © 1968-2012 IEEE.
+KW  - dynamic voltage frequency scaling
+KW  - Edge computing
+KW  - queuing theory
+KW  - reinforcement learning
+KW  - service orchestration
+KW  - Delay tolerant networks
+KW  - Delay-sensitive applications
+KW  - Dynamic frequency scaling
+KW  - Edge computing
+KW  - Energy efficiency
+KW  - Energy utilization
+KW  - Finite automata
+KW  - Learning algorithms
+KW  - Queueing networks
+KW  - Reinforcement learning
+KW  - Voltage scaling
+KW  - Delay aware
+KW  - Dynamic voltage
+KW  - Dynamic voltage frequency scaling
+KW  - Edge computing
+KW  - Frequency-scaling
+KW  - Queuing theory
+KW  - Reinforcement learnings
+KW  - Routings
+KW  - Service orchestration
+KW  - Voltage frequency
+KW  - Queueing theory
+PY  - 2025
+N1  - ASReview_relevant
+ER  - 
+
+9.
+TY  - JOUR
+DO  - 10.1109/JIOT.2022.3155598
+AU  - Yu Y.
+AU  - Liu J.
+AU  - Fang J.
+TI  - Online Microservice Orchestration for IoT via Multiobjective Deep Reinforcement Learning
+JO  - IEEE Internet of Things Journal
+AB  - By providing loosely coupled, lightweight, and independent services, the microservice architecture is promising for large-scale and complex service provision requirements in the Internet of Things (IoT). However, it requires more fine-grained resource management and orchestration for service provision. Most of the existing microservice orchestration solutions are based on those designed for the traditional cloud. They can only provide coarse-grained resource allocation using possibly conflicting weighted objectives. In this article, we present a fine-grained microservice orchestration approach to provide services online for dynamic requests of IoT applications. By using a fine-grained resource model of energy cost and service end-to-end response time of orchestrated microservices, we formulate the microservice orchestration problem as a multiobjective Markov decision process. We then propose a multiobjective optimization solution based on deep reinforcement learning (DRL) to simultaneously reduce energy consumption and response time. Through extensive experiments, our proposed algorithm presents significant performance results than the state of the art. To the best of our knowledge, this is the first work that addresses microservice orchestration using DRL for multiple conflicting objectives.  © 2014 IEEE.
+KW  - Deep reinforcement learning (DRL)
+KW  - energy consumption, Internet of Things (IoT)
+KW  - online microservice orchestration
+KW  - Quality-of-Service (QoS) assurance
+KW  - Deep learning
+KW  - Internet of things
+KW  - Markov processes
+KW  - Multiobjective optimization
+KW  - Natural resources management
+KW  - Quality of service
+KW  - Reinforcement learning
+KW  - Resource allocation
+KW  - Deep reinforcement learning
+KW  - Energy-consumption
+KW  - Fine grained
+KW  - Microservice architecture
+KW  - Multi objective
+KW  - Online microservice orchestration
+KW  - QoS assurance.
+KW  - Quality-of-service
+KW  - Reinforcement learnings
+KW  - Resource management
+KW  - Energy utilization
+PY  - 2022
+N1  - ASReview_relevant
+ER  - 
+
+10.
+TY  - JOUR
+DO  - 10.1109/TNSM.2024.3497155
+AU  - Adeppady M.
+AU  - Conte A.
+AU  - Giaccone P.
+AU  - Karl H.
+AU  - Chiasserini C.F.
+TI  - Dynamic Management of Constrained Computing Resources for Serverless Services
+JO  - IEEE Transactions on Network and Service Management
+AB  - In resource-constrained cloud systems, e.g., at the network edge or in private clouds, serverless computing is increasingly adopted to deploy microservices-based applications, leveraging its promised high resource efficiency. Provisioning resources to serverless services, however, poses several challenges, due to the high cold-start latency of containers and stringent Service Level Agreement (SLA) requirements of the microservices. In response, we investigate the behavior of containers in different states (i.e., running, warm, or cold) and exploit our experimental observations to formulate an optimization problem that minimizes the energy consumption of the active servers while reducing SLA violations. In light of the problem complexity, we propose a low-complexity algorithm, named AiW, which utilizes a multi-queueing approach to balance energy consumption and system performance by reusing containers effectively and invoking cold-starts only when necessary. To further minimize the energy consumption of data centers, we introduce the two-timescale COmputing resource Management at the Edge (COME) framework, comprising an orchestrator running our proposed AiW algorithm for container provisioning and Dynamic Server Provisioner (DSP) for dynamically activating/deactivating servers in response to AiW's decisions on request scheduling. COME addresses the mismatch in timescales for resource provisioning decisions at the container and server levels. Extensive performance evaluation through simulation shows AiW's close match to the optimum and COME's significant reduction in power consumption by 22-64% compared state-of-the-art alternatives. © 2004-2012 IEEE.
+KW  - Cloud Computing Services
+KW  - Edge Computing
+KW  - Energy-aware Management
+KW  - Orchestration
+KW  - Edge computing
+KW  - Energy utilization
+KW  - Information management
+KW  - Cloud computing services
+KW  - Cold-start
+KW  - Dynamic management
+KW  - Edge computing
+KW  - Energy aware
+KW  - Energy-aware management
+KW  - Energy-consumption
+KW  - Orchestration
+KW  - Servicelevel agreement (SLA)
+KW  - Time-scales
+KW  - Cloud platforms
+PY  - 2024
+N1  - ASReview_relevant
+ER  - 
+
+11.
+TY  - JOUR
+DO  - 10.1109/JIOT.2020.3011057
+AU  - S. R. Chaudhry
+AU  - A. Palade
+AU  - A. Kazmi
+AU  - S. Clarke
+TI  - Improved QoS at the Edge Using Serverless Computing to Deploy Virtual Network Functions
+JO  - IEEE Internet of Things Journal
+DA  - 21-Jul-20
+PB  - IEEE
+AB  - Multiaccess edge computing (MEC) will strengthen forthcoming 5G networks by improving the Quality of Service (QoS), in particular, reducing latency, increasing data processing rates, and providing real-time information to develop high-value Internet-of-Things (IoT) services. To enable data-intensive network services and support advanced analytics, many network operators have proposed to integrate MEC systems with network function virtualization (NFV) consolidating virtual network functions (VNFs) and edge capabilities on a shared infrastructure. As of yet, this integration is not fully established, with various architectural issues currently open, even at standardization level. For instance, any update to VNFs deployed in a MEC system requires a time-consuming manual effort, which affects the overall infrastructure operations. To address these pitfalls, VNFs can be decomposed into microservices, which maintain their own states and exhibit different resource consumption requirements. This article presents an approach to integration that leverages serverless computing to merge MEC and NFV at the system level and to deploy VNFs on demand, by combining MEC functional blocks with an NFV orchestrator using a Kubernetes cluster. We further investigate whether the resource utilization of a MEC system can be improved by leveraging networked FPGA-enabled MEC servers, through an extension of the edge layer that takes advantage of available programmable hardware. We quantitatively evaluate and demonstrate the improvement of 75% end-to-end latency, 99.96% VNF execution time, 26.9% resource utilization, and 15.8% energy consumption in comparison with traditional baselines of cloud, edge, and serverless-edge test cases for a high-definition real-time video streaming application.
+KW  - Edge computing
+KW  - networked FPGA
+KW  - serverless computing
+KW  - virtual network functions (VNFs) and data security
+KW  - Hardware
+KW  - Internet of Things
+KW  - Field programmable gate arrays
+KW  - Streaming media
+KW  - Servers
+KW  - Task analysis
+KW  - Quality of service
+SN  - 2327-4662
+N1  - ASReview_relevant
+ER  - 
+
+12.
+TY  - JOUR
+DO  - 10.1109/ICPADS56603.2022.00082
+AU  - C. Song
+AU  - F. Jiang
+AU  - X. Liang
+AU  - N. Ahuja
+AU  - M. J. Kumar
+TI  - Service Level Objective Adaptive Energy Efficiency Management
+JO  - 2022 IEEE 28th International Conference on Parallel and Distributed Systems (ICPADS)
+DA  - 27-Mar-23
+PB  - IEEE
+AB  - Cloud applications are transforming to microservice based deployment. Microservice comes with many advantages-scalability, agility, availability – and it suits the complicated cloud applications. For microservice deployment, service quality metrics play important role to ensure reliable user experiences for those applications built upon many small services, and the service level objective (SLO) is adopted to govern resource provision for optimal operation cost. Amid growing awareness on data center carbon emission, more organizations are paying attention to energy-efficient practices in cloud deployment to reduce energy consumption and operational carbon footprint. Modern processors provide fine-grained power scaling capabilities, e.g., Intel Xeon PCPS (PerCore P-States), this paper presented a dynamic energy efficiency management framework to adaptively scale processor core frequency as well as implicated energy consumption in accordance with service quality requirements. In this paper, we discussed hurdles and solutions for applying platform energy intelligence to microservices that are often with intrinsic platform-agnostic. The experiments proved the proposed method can effectively reduce energy consumption with competitive cost benefits without compromising service quality goals.
+KW  - Microservices
+KW  - Service Mesh
+KW  - Per-Core P-States
+KW  - Service Level Objective (SLO)
+KW  - Service Level Indicator (SLI)
+KW  - Energy Efficiency
+KW  - Carbon Reduction
+KW  - Sustainability
+KW  - Adaptive Control
+KW  - Core Frequency Scaling
+KW  - Energy consumption
+KW  - Program processors
+KW  - Costs
+KW  - Power system management
+KW  - Memory management
+KW  - Microservice architectures
+KW  - Tail
+SN  - 2690-5965
+N1  - ASReview_relevant
+ER  - 
+
+13.
+TY  - JOUR
+DO  - 10.1145/3423211.3425683
+AU  - Gunasekaran, Jashwant Raj
+AU  - Thinakaran, Prashanth
+AU  - Nachiappan, Nachiappan C.
+AU  - Kandemir, Mahmut Taylan
+AU  - Das, Chita R.
+TI  - Fifer: Tackling Resource Underutilization in the Serverless Era
+JO  - Proceedings of the 21st International Middleware Conference
+DA  - 2020
+PB  - Association for Computing Machinery
+AB  - Datacenters are witnessing a rapid surge in the adoption of serverless functions for microservices-based applications. A vast majority of these microservices typically span less than a second, have strict SLO requirements, and are chained together as per the requirements of an application. The aforementioned characteristics introduce a new set of challenges, especially in terms of container provisioning and management, as the state-of-the-art resource management frameworks, employed in serverless platforms, tend to look at microservice-based applications similar to conventional monolithic applications. Hence, these frameworks suffer from microservice agnostic scheduling and colossal container over-provisioning, especially during workload fluctuations, thereby resulting in poor resource utilization.In this work, we quantify the above shortcomings using a variety of workloads on a multi-node cluster managed by the Kubernetes and Brigade serverless framework. To address them, we propose Fifer — an adaptive resource management framework to efficiently manage function-chains on serverless platforms. The key idea is to make Fifer (i) utilization conscious by efficiently bin packing jobs to fewer containers using function-aware container scaling and intelligent request batching, and (ii) at the same time, SLO-compliant by proactively spawning containers to avoid cold-starts, thus minimizing the overall response latency. Combining these benefits, Fifer improves container utilization and cluster-wide energy consumption by 4× and 31%, respectively, without compromising on SLO's, when compared to the state-of-the-art schedulers employed by serverless platforms.
+KW  - scheduling
+KW  - serverless
+KW  - resource-management
+KW  - queuing
+SN  - 978-1-4503-8153-6
+N1  - ASReview_relevant
+ER  - 
+
+14.
+TY  - JOUR
+DO  - 10.1145/3472883.3486992
+AU  - Bhasi, Vivek M.
+AU  - Gunasekaran, Jashwant Raj
+AU  - Thinakaran, Prashanth
+AU  - Mishra, Cyan Subhra
+AU  - Kandemir, Mahmut Taylan
+AU  - Das, Chita
+TI  - Kraken: Adaptive Container Provisioning for Deploying Dynamic DAGs in Serverless Platforms
+JO  - Proceedings of the ACM Symposium on Cloud Computing
+DA  - 2021
+PB  - Association for Computing Machinery
+AB  - The growing popularity of microservices has led to the proliferation of online cloud service-based applications, which are typically modelled as Directed Acyclic Graphs (DAGs) comprising of tens to hundreds of microservices. The vast majority of these applications are user-facing, and hence, have stringent SLO requirements. Serverless functions, having short resource provisioning times and instant scalability, are suitable candidates for developing such latency-critical applications. However, existing serverless providers are unaware of the workflow characteristics of application DAGs, leading to container over-provisioning in many cases. This is further exacerbated in the case of dynamic DAGs, where the function chain for an application is not known a priori. Motivated by these observations, we propose Kraken, a workflow-aware resource management framework that minimizes the number of containers provisioned for an application DAG while ensuring SLO-compliance. We design and implement Kraken on OpenFaaS and evaluate it on a multi-node Kubernetes-managed cluster. Our extensive experimental evaluation using DeathStarbench workload suite and real-world traces demonstrates that Kraken spawns up to 76% fewer containers, thereby improving container utilization and saving cluster-wide energy by up to 4x and 48%, respectively, when compared to state-of-the art schedulers employed in serverless platforms.
+KW  - scheduling
+KW  - serverless
+KW  - resource-management
+KW  - queuing
+SN  - 978-1-4503-8638-8
+N1  - ASReview_relevant
+ER  - 
+
+15.
+TY  - JOUR
+DO  - 10.1109/ACCESS.2021.3075973
+AU  - E. Ahvar
+AU  - S. Ahvar
+AU  - Z. Á. Mann
+AU  - N. Crespi
+AU  - R. Glitho
+AU  - J. Garcia-Alfaro
+TI  - DECA: A Dynamic Energy Cost and Carbon Emission-Efficient Application Placement Method for Edge Clouds
+JO  - IEEE Access
+DA  - 27-Apr-21
+PB  - IEEE
+AB  - As an increasing amount of data processing is done at the network edge, high energy costs and carbon emission of Edge Clouds (ECs) are becoming significant challenges. The placement of application components (e.g., in the form of containerized microservices) on ECs has an important effect on the energy consumption of ECs, impacting both energy costs and carbon emissions. Due to the geographic distribution of ECs, there is a variety of resources, energy prices and carbon emission rates to consider, which makes optimizing the placement of applications for cost and carbon efficiency even more challenging than in centralized clouds. This paper presents a Dynamic Energy cost and Carbon emission-efficient Application placement method (DECA) for ECs. DECA addresses both the initial placement of applications on ECs and the re-optimization of the placement using migrations. DECA considers geographically varying energy prices and carbon emission rates as well as optimizing the usage of both network and computing resources at the same time. By combining a prediction-based A* algorithm with a Fuzzy Sets technique, DECA makes intelligent decisions to optimize energy cost and carbon emissions. Simulation results show the ability of DECA in providing a tradeoff and optimizing energy cost and carbon emission at the same time.
+KW  - Edge cloud
+KW  - energy consumption
+KW  - energy costs
+KW  - green computing
+KW  - carbon emission
+KW  - application placement
+KW  - Carbon dioxide
+KW  - Energy consumption
+KW  - Internet of Things
+KW  - Cloud computing
+KW  - Optimization
+KW  - Resource management
+KW  - Time factors
+SN  - 2169-3536
+N1  - ASReview_relevant
+ER  - 
+
+16.
+TY  - JOUR
+DO  - 10.1109/ICAC.2019.00018
+AU  - N. Schmitt
+AU  - L. Iffländer
+AU  - A. Bauer
+AU  - S. Kounev
+TI  - Online Power Consumption Estimation for Functions in Cloud Applications
+JO  - 2019 IEEE International Conference on Autonomic Computing (ICAC)
+DA  - 12-Sep-19
+PB  - IEEE
+AB  - The growth of cloud services leads to more and more data centers that are increasingly larger and consume considerable amounts of power. To increase energy efficiency, informed decisions on workload placement and provisioning are essential. Micro-services and the upcoming serverless platforms with more granular deployment options exacerbate this problem. For this reason, knowing the power consumption of the deployed application becomes crucial, providing the necessary information for autonomous decision making. However, the actual power draw of a server running a specific application under load is not available without specialized measurement equipment or power consumption models. Yet, granularity is often only down to machine level and not application level. In this paper, we propose a monitoring and modeling approach to estimate power consumption on an application function level. The model uses performance counters that are allocated to specific functions to assess their impact on the total power consumption. Hence our model applies to a large variety of servers and for micro-service and serverless workloads. Our model uses an additional correction to minimize falsely allocated performance counters and increase accuracy. We validate the proposed approach on real hardware with a dedicated benchmarking application. The evaluation shows that our approach can be used to monitor application power consumption down to the function level with high accuracy for reliable workload provisioning and placement decisions.
+KW  - Energy efficiency, serverless, micro-services, code offloading, DevOps
+KW  - Power demand
+KW  - Data centers
+KW  - Power measurement
+KW  - Load modeling
+KW  - Monitoring
+KW  - Hardware
+KW  - Software
+SN  - 2474-0756
+N1  - ASReview_relevant
+ER  - 
+
+17.
+TY  - JOUR
+DO  - 10.3390/app12125793
+AU  - Saboor A.
+AU  - Hassan M.F.
+AU  - Akbar R.
+AU  - Shah S.N.M.
+AU  - Hassan F.
+AU  - Magsi S.A.
+AU  - Siddiqui M.A.
+TI  - Article Containerized Microservices Orchestration and Provisioning in Cloud Computing: A Conceptual Framework and Future Perspectives
+JO  - Applied Sciences (Switzerland)
+AB  - Cloud computing is a rapidly growing paradigm which has evolved from having a mono-lithic to microservices architecture. The importance of cloud data centers has expanded dramatically in the previous decade, and they are now regarded as the backbone of the modern economy. Cloud-based microservices architecture is incorporated by firms such as Netflix, Twitter, eBay, Amazon, Hailo, Groupon, and Zalando. Such cloud computing arrangements deal with the parallel deployment of data-intensive workloads in real time. Moreover, commonly utilized cloud services such as the web and email require continuous operation without interruption. For that purpose, cloud service providers must optimize resource management, efficient energy usage, and carbon footprint reduction. This study presents a conceptual framework to manage the high amount of microservice execution while reducing response time, energy consumption, and execution costs. The proposed framework suggests four key agent services: (1) intelligent partitioning: responsible for microservice classification; (2) dynamic allocation: used for pre-execution distribution of microservices among containers and then makes decisions for dynamic allocation of microservices at runtime; (3) resource optimization: in charge of shifting workloads and ensuring optimal resource use; (4) mutation ac-tions: these are based on procedures that will mutate the microservices based on cloud data center workloads. The suggested framework was partially evaluated using a custom-built simulation envi-ronment, which demonstrated its efficiency and potential for implementation in a cloud computing context. The findings show that the engrossment of suggested services can lead to a reduced number of network calls, lower energy consumption, and relatively reduced carbon dioxide emissions. © 2022 by the authors. Licensee MDPI, Basel, Switzerland.
+KW  - cloud computing
+KW  - containers
+KW  - microservices
+KW  - multicloud
+KW  - virtual machine
+PY  - 2022
+N1  - ASReview_relevant
+ER  - 
+
+18.
+TY  - JOUR
+DO  - 10.1109/TGCN.2024.3420957
+AU  - Z. Bellal
+AU  - L. Lahlou
+AU  - N. Kara
+AU  - I. El Khayat
+TI  - GAS: DVFS-Driven Energy Efficiency Approach for Latency-Guaranteed Edge Computing Microservices
+JO  - IEEE Transactions on Green Communications and Networking
+DA  - 01-Jul-24
+PB  - IEEE
+AB  - Edge computing-based microservices (ECM) are pivotal infrastructure components for latency-critical applications such as Virtual Reality/Augmented Reality (VR/AR) and the Internet of Things (IoT). ECM involves strategically deploying microservices at the network’s edge to fulfill the low latency needs of modern applications. However, achieving efficient resource and energy consumption while meeting the latency requirement in the ECM environment remains challenging. Dynamic Voltage and Frequency Scaling (DVFS) is a common technique to address this issue. It adjusts the CPU frequency and voltage to balance energy cost and performance. However, selecting the optimal CPU frequency depends on the nature of the microservice workload (e.g., CPU-bound, memory-bound, or mixed). Moreover, various microservices with different latency requirement can be deployed on the same edge node. This makes the DVFS application extremely challenging, particularly for a chip-wide DVFS implementation for which CPU cores operate at the same frequency and voltage. To this end, we propose GAS, enerGy Aware microServices edge computing framework, which enables CPU frequency scaling to meet diverse microservice latency requirement with the minimum energy cost. Our evaluation indicates that our CPU scaling policy decreases energy consumption by 5% to 23% compared to Linux governors while maintaining latency requirement and significantly contributing to sustainable edge computing.
+KW  - Edge computing
+KW  - microservice
+KW  - DVFS
+KW  - energy-efficient
+KW  - container autoscaling
+KW  - Microservice architectures
+KW  - Edge computing
+KW  - Energy consumption
+KW  - Energy efficiency
+KW  - Task analysis
+KW  - Frequency diversity
+KW  - Time-frequency analysis
+SN  - 2473-2400
+N1  - ASReview_relevant
+ER  - 
+
+19.
+TY  - JOUR
+DO  - 10.1007/s10723-024-09789-9
+AU  - Agos Jawaddi S.N.
+AU  - Ismail A.
+AU  - Sulaiman M.S.
+AU  - Cardellini V.
+TI  - Analyzing Energy-Efficient and Kubernetes-Based Autoscaling of Microservices Using Probabilistic Model Checking
+JO  - Journal of Grid Computing
+AB  - Microservices are widely used to enable agility and scalability in modern software systems, while cloud computing offers cost-effective ways to provision computing resources on demand. However, ensuring the correctness of scaling decisions and their impact on energy consumption is a challenging problem that has not been sufficiently addressed in previous research. Thus, in this paper, we present an innovative approach for analyzing host energy consumption and energy violations influenced by microservice autoscaling policies using probabilistic model checking (PMC). We propose four variations of the Markov Decision Process (MDP) models that incorporate various scaling constraints inspired by Kubernetes-based Horizontal Pod Autoscaler, and we encode these models using two different approaches, namely, bounded-by-action (BBA) and bounded-by-state (BBS). We use PMC to verify the scaling policies in terms of host energy consumption and energy violations, and we conduct sensitivity analysis to demonstrate the effectiveness of our models in generating energy-efficient scaling policies. Our results show that the latency and energy-based MDP model offers the most suitable policies for ensuring energy efficiency in microservice systems. Additionally, the number of pods and the scale-out action significantly affect energy consumption and violations. Sensitivity analysis also reveals that incorporating latency into scaling decisions is key to energy efficiency, while variations in the maximum pod threshold significantly influence energy consumption and violation. Our approach provides a formal method for ensuring the correctness of microservice autoscaling decisions in cloud environments at design time and can help reduce energy consumption and violations while ensuring service-level objectives are met. © The Author(s), under exclusive licence to Springer Nature B.V. 2024.
+KW  - Energy-driven microservice autoscaling
+KW  - Formal verification
+KW  - Kubernetes
+KW  - Markov decision process
+KW  - Microservices
+KW  - Probabilistic model checking
+KW  - Cloud computing
+KW  - Energy efficiency
+KW  - Formal verification
+KW  - Health risks
+KW  - Model checking
+KW  - Program debugging
+KW  - Sensitivity analysis
+KW  - Autoscaling
+KW  - Energy-consumption
+KW  - Energy-driven
+KW  - Energy-driven microservice autoscaling
+KW  - Kubernetes
+KW  - Markov Decision Processes
+KW  - Microservice
+KW  - Probabilistic model checking
+KW  - Probabilistic model-checking
+KW  - Scalings
+KW  - Markov processes
+PY  - 2025
+N1  - ASReview_relevant
+ER  - 
+
+20.
+TY  - JOUR
+DO  - 10.1109/TSUSC.2018.2808493
+AU  - M. Xu
+AU  - A. N. Toosi
+AU  - R. Buyya
+TI  - iBrownout: An Integrated Approach for Managing Energy and Brownout in Container-Based Clouds
+JO  - IEEE Transactions on Sustainable Computing
+DA  - 26-Feb-18
+PB  - IEEE
+AB  - Energy consumption of Cloud data centers has been a major concern of many researchers, and one of the reasons for huge energy consumption of Clouds lies in the inefficient utilization of computing resources. Besides energy consumption, another challenge of data centers is the unexpected loads, which leads to the overloads and performance degradation. Compared with VM consolidation and Dynamic Voltage Frequency Scaling that cannot function well when the whole data center is overloaded, brownout has shown to be a promising technique to handle both overloads and energy consumption through dynamically deactivating application optional components, which are also identified as containers/microservices. In this work, we propose an integrated approach to manage energy consumption and brownout in container-based cloud data centers. We also evaluate our proposed scheduling policies with real traces in a prototype system. The results show that our approach reduces about 40, 20, and 10 percent energy than the approach without power-saving techniques, brownout-overbooking approach and auto-scaling approach, respectively, while ensuring Quality of Service.
+KW  - Cloud data centers
+KW  - energy efficiency
+KW  - QoS
+KW  - containers
+KW  - microservices
+KW  - brownout
+KW  - Data centers
+KW  - Energy consumption
+KW  - Cloud computing
+KW  - Quality of service
+KW  - Servers
+KW  - Containers
+KW  - Prototypes
+SN  - 2377-3782
+N1  - ASReview_relevant
+ER  - 
+
+21.
+TY  - JOUR
+DO  - 10.1109/COMSNETS56262.2023.10041344
+AU  - I. Syrigos
+AU  - D. Kefalas
+AU  - N. Makris
+AU  - T. Korakis
+TI  - EELAS: Energy Efficient and Latency Aware Scheduling of Cloud-Native ML Workloads
+JO  - 2023 15th International Conference on COMmunication Systems & NETworkS (COMSNETS)
+DA  - 15-Feb-23
+PB  - IEEE
+AB  - The widespread use of microservices and the use of cloud-native methodologies for the deployment of services have increased the service providers' flexibility and management efficiency. As the available resources for scheduling such work-loads have extended the boundaries of traditional datacenters to the fog, edge, and beyond -edge, the scheduling of challenging workloads must also account for energy efficiency, as these devices are typically battery-powered and resource-constrained, while maintaining acceptable performance. Specifically for ML inference workloads, provisioning and access latency plays a cru-cial role in their successful operation. Towards combating these issues, we design, develop, and evaluate our platform for Energy Efficient Latency-Aware Scheduling (EELAS) of workloads. First, we formulate the scheduling problem as an ILP problem, and then we develop a less complex heuristic method that allows the efficient allocation of resources within the continuum. Our EELAS prototype integrates with Kubernetes and is capable of reducing the overall energy consumption of cloud-to-things resources while accounting for latency of ML workloads. Our evaluation in real-world settings reveals significant energy gains for scheduling ML inference tasks, also reachable with the minimum possible latency from far-edge devices.
+KW  - cloud-to-things continuum
+KW  - energy efficiency
+KW  - latency aware
+KW  - workload scheduling
+KW  - testbed
+KW  - Training
+KW  - Performance evaluation
+KW  - Learning systems
+KW  - Heuristic algorithms
+KW  - Prototypes
+KW  - Microservice architectures
+KW  - Energy efficiency
+SN  - 2155-2509
+N1  - ASReview_relevant
+ER  - 
+
+22.
+TY  - JOUR
+DO  - 10.1109/TSUSC.2017.2661339
+AU  - Xu M.
+AU  - Dastjerdi A.V.
+AU  - Buyya R.
+TI  - Energy Efficient Scheduling of Cloud Application Components with Brownout
+JO  - IEEE Transactions on Sustainable Computing
+AB  - It is common for cloud data centers meeting unexpected loads like request bursts, which may lead to overloaded situation and performance degradation. Dynamic Voltage Frequency Scaling and VM consolidation have been proved effective to manage overloads. However, they cannot function when the whole data center is overloaded. Brownout provides a promising direction to avoid overloads through configuring applications to temporarily degrade user experience. Additionally, brownout can also be applied to reduce data center energy consumption. As a complementary option for Dynamic Voltage Frequency Scaling and VM consolidation, our combined brownout approach reduces energy consumption through selectively and dynamically deactivating application optional components, which can also be applied to self-contained microservices. The results show that our approach can save more than 20 percent energy consumption and there are trade-offs between energy saving and discount offered to users. © 2016 IEEE.
+KW  - application component
+KW  - brownout
+KW  - Cloud data centers
+KW  - energy efficient
+KW  - microservices
+KW  - Dynamic frequency scaling
+KW  - Economic and social effects
+KW  - Energy efficiency
+KW  - Energy utilization
+KW  - Voltage scaling
+KW  - Application components
+KW  - brownout
+KW  - Cloud data centers
+KW  - Energy efficient
+KW  - microservices
+KW  - Green computing
+PY  - 2016
+N1  - ASReview_relevant
+ER  - 
+
+23.
+TY  - JOUR
+DO  - 10.1007/978-3-319-69035-3_14
+AU  - Xu M.
+AU  - Buyya R.
+TI  - Energy efficient scheduling of application components via brownout and approximate markov decision process
+JO  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+AB  - Unexpected loads in Cloud data centers may trigger overloaded situation and performance degradation. To guarantee system performance, cloud computing environment is required to have the ability to handle overloads. The existing approaches, like Dynamic Voltage Frequency Scaling and VM consolidation, are effective in handling partial overloads, however, they cannot function when the whole data center is overloaded. Brownout has been proved to be a promising approach to relieve the overloads through deactivating application non-mandatory components or microservices temporarily. Moreover, brownout has been applied to reduce data center energy consumption. It shows that there are trade-offs between energy saving and discount offered to users (revenue loss) when one or more services are not provided temporarily. In this paper, we propose a brownout-based approximate Markov Decision Process approach to improve the aforementioned trade-offs. The results based on real trace demonstrate that our approach saves 20% energy consumption than VM consolidation approach. Compared with existing energy-efficient brownout approach, our approach reduces the discount amount given to users while saving similar energy consumption. © Springer International Publishing AG 2017.
+KW  - Application component
+KW  - Brownout
+KW  - Cloud energy efficiency
+KW  - Markov decision process
+KW  - Microservices
+KW  - Commerce
+KW  - Decision making
+KW  - Distributed computer systems
+KW  - Dynamic frequency scaling
+KW  - Economic and social effects
+KW  - Energy conservation
+KW  - Energy utilization
+KW  - Green computing
+KW  - Markov processes
+KW  - Voltage scaling
+KW  - Application components
+KW  - Brownout
+KW  - Cloud computing environments
+KW  - Dynamic voltage frequency scaling
+KW  - Energy-Efficient Scheduling
+KW  - Markov Decision Processes
+KW  - Microservices
+KW  - Performance degradation
+KW  - Energy efficiency
+PY  - 2017
+N1  - ASReview_relevant
+ER  - 
+
+24.
+TY  - JOUR
+DO  - 10.1109/IC2E61754.2024.00021
+AU  - A. Mokhtari
+AU  - B. Jonglez
+AU  - T. Ledoux
+TI  - Towards Digital Sustainability: Involving Cloud Users as Key Players
+JO  - 2024 IEEE International Conference on Cloud Engineering (IC2E)
+DA  - 14-Nov-24
+PB  - IEEE
+AB  - Due to the rapid growth of Cloud services, data centers have become major energy consumers, resulting in significant CO2 emissions. Several infrastructure-focused strategies, such as resource consolidation, have been used to reduce the carbon footprint of Cloud infrastructure. However, end-users are often left out of the picture. Since they are the primary target of Cloud applications, it would be beneficial to actively involve them in reducing the carbon footprint of Cloud applications. In this paper, we offer end-users a way to influence the carbon footprint of Cloud applications they use. To this end, we ask end-users to select a high-level mode to control the carbon footprint of a Cloud application. We then design a dynamic adaptation algorithm that determines an appropriate configuration for the application for each request, based on the end-user mode and on the carbon intensity of the infrastructure energy sources. We implement and evaluate our system on a simple image-resizing application. We run experiments on SeDuCe, a Cloud infrastructure testbed partially powered by solar panels. Our results show that we save energy consumption by up to $84 \%$ when all end-users agree to degrade the quality of the application’s output, and we provide a good quality-energy trade-off when end-users make heterogeneous choices. In addition, we are able to improve quality by leveraging the available green energy budget.
+KW  - cloud computing
+KW  - human-centered computing
+KW  - digital sustainability
+KW  - carbon footprint
+KW  - green energy
+KW  - Green energy
+KW  - Energy consumption
+KW  - Data centers
+KW  - Protocols
+KW  - Heuristic algorithms
+KW  - Calibration
+KW  - Solar panels
+KW  - Proposals
+KW  - Carbon
+KW  - Carbon footprint
+SN  - 2694-0825
+N1  - ASReview_relevant
+ER  - 
+
+25.
+TY  - JOUR
+DO  - 10.1016/j.suscom.2025.101088
+AU  - Laso S.
+AU  - Rodríguez P.
+AU  - Herrera J.L.
+AU  - Berrocal J.
+AU  - Murillo J.M.
+TI  - Energy consumption and workload prediction for edge nodes in the Computing Continuum
+JO  - Sustainable Computing: Informatics and Systems
+AB  - The Computing Continuum paradigm provides developers with a distributed infrastructure for deploying applications through the network, improving performance and energy consumption. However, to maintain applications’ efficiency, their deployment in the Computing Continuum has to be continuously adapted to the varying load of different nodes of the network. In practice, existing support frameworks allow developers to automatically identify how to deploy applications based on the infrastructure status. However, as the application takes time to be deployed, the chosen deployment is outdated once it is applied through the network, as workloads change over time. To address this practical engineering challenge and plan deployments that foresee changes in energy consumption and workload, predictive solutions are needed. To fulfill this need, this work presents the Microservice Energy consumption and Workload Forecaster (MEWF), a prediction system that leverages artificial intelligence techniques to precisely predict CPU usage and energy consumption in varying circumstances. Our practical evaluation over multiple real microservices shows that MEWF improves prediction precision by up to 55% w.r.t. state-of-the-art benchmarks, enabling efficient resource management and demonstrating significant value for real-world deployments. © 2025
+KW  - Artificial Intelligence
+KW  - Computing Continuum
+KW  - Energy consumption
+KW  - Microservices
+KW  - Workload prediction
+KW  - Change-over time
+KW  - Computing continuum
+KW  - Distributed infrastructure
+KW  - Edge nodes
+KW  - Energy consumption prediction
+KW  - Energy-consumption
+KW  - Improving performance
+KW  - Microservice
+KW  - Varying load
+KW  - Workload predictions
+PY  - 2025
+N1  - ASReview_relevant
+ER  - 
+
+26.
+TY  - JOUR
+DO  - 10.1109/ISCC61673.2024.10733735
+AU  - C. Courageux-Sudan
+AU  - A. -C. Orgerie
+AU  - M. Quinson
+TI  - Studying the end-to-end performance, energy consumption and carbon footprint of fog applications
+JO  - 2024 IEEE Symposium on Computers and Communications (ISCC)
+DA  - 31-Oct-24
+PB  - IEEE
+AB  - The deployment of applications closer to end-users through fog computing has shown promise in improving network communication times and reducing contention. However, the use of fog applications such as microservices necessitates intricate network interactions among heterogeneous devices. Consequently, understanding the impact of different application and infrastructure parameters on performance becomes crucial. Current literature either offers end-to-end models that lack granularity and validation or fine-grained models that only consider a portion of the infrastructure. Our research first compares experimentally the accuracy of the existing integrated frameworks. We then combine one of these tools with a collection of validated models to obtain comprehensive metrics regarding microservice applications operating in the fog. Through a use-case, we demonstrate the effectiveness of our approach in investigating fog environments, from examining application latencies to greenhouse gas emissions.
+KW  - Modeling and simulation
+KW  - Fog-computing
+KW  - Microservice
+KW  - Performance evaluation
+KW  - Energy consumption
+KW  - Performance evaluation
+KW  - Computers
+KW  - Energy consumption
+KW  - Accuracy
+KW  - Computational modeling
+KW  - Microservice architectures
+KW  - Greenhouse gases
+KW  - Carbon footprint
+KW  - Edge computing
+SN  - 2642-7389
+N1  - ASReview_relevant
+ER  - 
+
+27.
+TY  - JOUR
+DO  - 10.1109/ACCESS.2023.3330649
+AU  - Y. Huang
+AU  - X. Zhang
+AU  - Z. Xu
+TI  - SatEdge: Platform of Edge Cloud at Satellite and Scheduling Mechanism for Microservice Modules
+JO  - IEEE Access
+DA  - 06-Nov-23
+PB  - IEEE
+AB  - Edge cloud at satellite (ECS) is a newly developed edge computing (EC) technology that uses EC services offered by satellites to support high reliability and seamless global coverage. Satellites assume the role of computing and storage nodes for edge clouds, while terrestrial control centers function as cloud centers. In this paper, we propose a novel system and software architecture for the ECS to improve the cloud management of satellite networks and increase the flexibility of satellite service provision at the edge. Then, we propose a platform for the ECS based on KubeEdge called SatEdge. SatEdge has many function modules to meet the needs of the satellite-terrestrial network (STN) such as high reliability, high flexibility, and low latency. On this platform, we designed a microservice scheduling algorithm called optimal microservice scheduling with adaptivity and mobility (OMS-AM). OMS-AM can schedule a globally optimal workflow for microservice modules on the satellites to minimize task processing latency, failed task rate, and energy consumption. Compared with our last work, OMS-AM reduces the task processing latency by 14% at most. Additionally, OMS-AM improves the mobility of the current scheduling method put forth in our previous study, which may help lower the task failure rate. Energy usage and the total normalized costs are additional indicators of the efficiency of the microservice architecture.
+KW  - Edge cloud at satellite
+KW  - satellite-terrestrial network
+KW  - edge computing
+KW  - microservice scheduling
+KW  - Satellites
+KW  - Microservice architectures
+KW  - Cloud computing
+KW  - Computer architecture
+KW  - Containers
+KW  - Edge computing
+KW  - Task analysis
+SN  - 2169-3536
+N1  - ASReview_relevant
+ER  - 
+
+28.
+TY  - JOUR
+DO  - 10.1145/3412841.3441888
+AU  - Valera, Hernan Humberto Alvarez
+AU  - Dalmau, Marc
+AU  - Roose, Philippe
+AU  - Larracoechea, Jorge
+AU  - Herzog, Christina
+TI  - An energy saving approach: understanding microservices as multidimensional entities in p2p networks
+JO  - Proceedings of the 36th Annual ACM Symposium on Applied Computing
+DA  - 2021
+PB  - Association for Computing Machinery
+AB  - With the use of microservices, many software solutions have been improved in terms of scalability, response efficiency, ease of load balancing among others. However, it is still a challenge to dynamically deploy them according to devices' heterogeneity and energy consumption concerns, while maintaining a defined QoS. Centralized and decentralized approaches that manage microservices deployment have the traditional pros and cons long discussed over time. While the former offer greater control over distributed application components, the latter offers frugal network negotiations, no system-wide crashes, privacy, among others.This work focuses on identifying "ideal" host candidates for microservices' execution in a decentralized network, applying run-time scheduling operations (migration or duplication) to reduce energy consumption. To do this, we created a scheduling algorithm using MAAN (a P2P approach) to interpret a decentralized network as a multidimensional resource (capacity-demand) space, which supports range queries in a logarithmic quantity of hops. In this way, a node that runs a set of microservices is able to 1) map them in terms of their execution requirements (i.e. CPU frequency, RAM capacity, Network rate and disk speed) 2) Select an ideal microservice to be moved or duplicated, 3) find ideal node(s) that meet all those requirements in an optimal computational complexity and 4) negotiate the movement or duplication of the selected microservice, by analyzing energy consumption and QoS criteria.
+KW  - cloud computing
+KW  - microservices
+KW  - power consumption
+KW  - energy consumption
+KW  - distributed algorithms
+KW  - P2P
+SN  - 978-1-4503-8104-8
+N1  - ASReview_relevant
+ER  - 
+
+29.
+TY  - JOUR
+DO  - 10.1109/ACCESS.2024.3462894
+AU  - A. Alzahrani
+AU  - M. Tang
+TI  - Energy-Aware Microservice-Based SaaS Deployment in a Cloud Data Center Using Hybrid Particle Swarm Optimization
+JO  - IEEE Access
+DA  - 18-Sep-24
+PB  - IEEE
+AB  - The deployment of software as a service (SaaS) using a microservice architecture offers several benefits, including scalability, flexibility, and ease of maintenance. One of the most important advantages of the new microservice-based SaaS deployment is that the increase in energy consumption incurred by the deployment of a new microservice-based SaaS can be considered. With the aim of reducing the increase in energy consumption, this paper proposes a new method, namely Hybrid Particle Swarm Optimization (HPSO), to solve the microservice-based SaaS deployment problem. The HPSO incorporates adaptive inertia weight, cognitive, and social parameters to balance the trade-off between exploration and exploitation during the optimization process. Furthermore, the HPSO incorporates a local optimizer to improve the best global solution within the swarm, with a specific emphasis on improving energy efficiency. To evaluate the performance of the HPSO, we have implemented it and compared it with a GA method by experiment. The experimental results have shown that the HPSO can further reduce the increase in energy consumption by 3.68% compared to GA.
+KW  - Cloud computing
+KW  - data center
+KW  - deployment
+KW  - energy consumption
+KW  - hybrid particle swarm optimization
+KW  - microservice
+KW  - optimization
+KW  - software as a service
+KW  - Microservice architectures
+KW  - Data centers
+KW  - Software as a service
+KW  - Genetic algorithms
+KW  - Energy consumption
+KW  - Cloud computing
+KW  - Servers
+KW  - Particle swarm optimization
+SN  - 2169-3536
+N1  - ASReview_relevant
+ER  - 
+
+30.
+TY  - JOUR
+DO  - 10.1007/978-3-030-71906-7_6
+AU  - Pontes F.A.
+AU  - Curry E.
+TI  - Cloud-Edge Microservice Architecture for DNN-based Distributed Multimedia Event Processing
+JO  - Communications in Computer and Information Science
+AB  - The rise of Big Data, Internet of Multimedia Things (IoMT), and Deep Neural Network (DNN) enabled the growth of DNN-based Computer Vision solutions to Multimedia Event Processing (MEP) applications. When these are applied to a real-world scenario we notice the importance of having a system with a satisfactory speed that can fit in the limited resources of most IoMT devices. However, most solutions for distributed MEP are dependent on a Cloud architecture, which makes these applications migration to the Edge more challenging. As a response to this, we present a microservice architecture for DNN-based distributed MEP over heterogeneous Cloud-Edge environments. We describe our solution that allows for an easier deployment both on the Edge and on the Cloud. We show that choosing the proper tools for an Edge-Friendly solution can lead to 100 times less resource utilisation. Our preliminary investigation shows promising results, with a reduction in energy consumption by 8% with a minor drawback of 15% in throughput in the Edge and a negligible increase in energy consumption on the Cloud. © 2021, Springer Nature Switzerland AG.
+KW  - Cloud-Independent
+KW  - Deep Neural Networks
+KW  - Distributed computing
+KW  - Edge-Friendly
+KW  - Multimedia Event Processing
+KW  - Cloud computing
+KW  - Deep neural networks
+KW  - Energy utilization
+KW  - Green computing
+KW  - Network architecture
+KW  - Cloud architectures
+KW  - Distributed multimedia
+KW  - Edge-friendly
+KW  - Event Processing
+KW  - Real-world scenario
+KW  - Reduction in energy consumption
+KW  - Resource utilisation
+KW  - Computer architecture
+PY  - 2021
+N1  - ASReview_relevant
+ER  - 
+
+31.
+TY  - JOUR
+DO  - 10.1109/ICSA59870.2024.00012
+AU  - Cortellessa V.
+AU  - Di Pompeo D.
+AU  - Tucci M.
+TI  - Exploring Sustainable Alternatives for the Deployment of Microservices Architectures in the Cloud
+JO  - Proceedings - IEEE 21st International Conference on Software Architecture, ICSA 2024
+AB  - As organizations increasingly migrate their applications to the cloud, the optimization of microservices architectures becomes imperative for achieving sustainability goals. Nonetheless, sustainable deployments may increase costs and deteriorate performance, thus the identification of optimal trade-offs among these conflicting requirements is a key objective not easy to achieve. This paper introduces a novel approach to support cloud deployment of microservices architectures by targeting optimal combinations of application performance, deployment costs, and power consumption. By leveraging genetic algorithms, specifically NSGA-II, we automate the generation of alternative architectural deployments. The results demonstrate the potential of our approach through a comprehensive assessment of the Train Ticket case study.  © 2024 IEEE.
+KW  - model-driven engineering
+KW  - performance
+KW  - refactoring
+KW  - search-based software engineering
+KW  - sustainability
+KW  - Computer architecture
+KW  - Economic and social effects
+KW  - Genetic algorithms
+KW  - Sustainable development
+KW  - Cloud deployments
+KW  - Key objective
+KW  - Model-driven Engineering
+KW  - Optimal combination
+KW  - Optimisations
+KW  - Performance
+KW  - Refactorings
+KW  - Search-based
+KW  - Search-based software engineering
+KW  - Trade off
+KW  - Software engineering
+PY  - 2024
+N1  - ASReview_relevant
+ER  - 
+
+32.
+TY  - JOUR
+DO  - 10.1145/3418899
+AU  - Brondolin, Rolando
+AU  - Santambrogio, Marco D.
+TI  - A Black-box Monitoring Approach to Measure Microservices Runtime Performance
+JO  - ACM Trans. Archit. Code Optim.
+DA  - 2020-11
+AB  - Microservices changed cloud computing by moving the applications’ complexity from one monolithic executable to thousands of network interactions between small components. Given the increasing deployment sizes, the architectural exploitation challenges, and the impact on data-centers’ power consumption, we need to efficiently track this complexity. Within this article, we propose a black-box monitoring approach to track microservices at scale, focusing on architectural metrics, power consumption, application performance, and network performance. The proposed approach is transparent w.r.t. the monitored applications, generates less overhead w.r.t. black-box approaches available in the state-of-the-art, and provides fine-grain accurate metrics.
+KW  - cloud computing
+KW  - docker
+KW  - kubernetes
+KW  - Microservices
+KW  - network performance monitoring
+KW  - performance monitoring
+KW  - power attribution
+SN  - 1544-3566
+N1  - ASReview_relevant
+ER  - 
+
+33.
+TY  - JOUR
+DO  - 10.1109/WETICE49692.2020.00026
+AU  - H. H. A. Valera
+AU  - M. Dalmau
+AU  - P. Roose
+AU  - J. Larracoechea
+AU  - C. Herzog
+TI  - DRACeo: A smart simulator to deploy energy saving methods in microservices based networks
+JO  - 2020 IEEE 29th International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE)
+DA  - 01-Feb-21
+PB  - IEEE
+AB  - Nowadays, many researchers work to identify microservices-based application deployments and scheduling solutions to save energy without decreasing functional QoS. In this work, we present DRACeo: A simulator that allows facing this challenge in a simple and efficient way, enabling its users to focus uniquely on microservices deployment/scheduling algorithms and its hardware/software repercussions (load vs. energy consumption) without worrying about low-level network configurations or operating system issues. DRACeo is able to deploy and schedule (move, duplicate, start/stop) microservices and their dependencies on various devices with software and hardware heterogeneity (CPU, bandwidth, RAM, Battery, etc.), taking into account various scheduling heuristics algorithms: centralized vs non-centralized. To do this, DRACeo allows deploying custom network topologies based on client-server schemes or p2p distributions, where devices can (dis)appear, turn on/off obeying random circumstances or user strategies. Finally, the simulator performs relevant operations such as QoS definition, resource monitoring, calculation of energy saved and consumption tracking (at device and network level). We tested some ideas based on our previous work “Kaligreen” to demonstrate the effectiveness of DRACeo.
+KW  - microservices
+KW  - middleware
+KW  - energy
+KW  - consumption
+KW  - CPU
+KW  - network
+KW  - hard disk
+KW  - prototype
+KW  - simulator
+KW  - Performance evaluation
+KW  - Schedules
+KW  - Software algorithms
+KW  - Random access memory
+KW  - Quality of service
+KW  - Software
+KW  - Scheduling
+SN  - 2641-8169
+N1  - ASReview_relevant
+ER  - 
+
+34.
+TY  - JOUR
+DO  - 10.1109/IE54923.2022.9826775
+AU  - H. Humberto Alvarez Valera
+AU  - M. Dalmau
+AU  - P. Roose
+AU  - J. Larracoechea
+AU  - C. Herzog
+TI  - PISCO: A smart simulator to deploy energy saving methods in microservices based networks
+JO  - 2022 18th International Conference on Intelligent Environments (IE)
+DA  - 15-Jul-22
+PB  - IEEE
+AB  - Nowadays, many researchers work to identify microservices-based application deployments and scheduling solutions to save energy without decreasing functional QoS. In this work, we present PISCO: A simulator that allows facing this challenge in a simple and efficient way, enabling its users to focus uniquely on microservices deployment/scheduling algorithms and its hardware/software repercussions (load vs. energy consumption) without worrying about low-level network configurations or operating system issues. PISCO is able to deploy and schedule (move, duplicate, start/stop) microservices and their dependencies on various devices with software and hardware heterogeneity (CPU, bandwidth, RAM, Battery, etc.), taking into account various scheduling heuristics algorithms: centralized vs non-centralized. To do this, PISCO allows deploying custom network topologies based on client-server schemes or p2p distributions, where devices can (dis)appear, turn on/off obeying random circumstances or user strategies.Finally, the simulator performs relevant operations such as QoS definition, resource monitoring, calculation of energy saved and consumption tracking (at device and network level). We tested some ideas based on our previous work “Kaligreen” to demonstrate the effectiveness of PISCO.
+KW  - microservices
+KW  - middleware
+KW  - energy
+KW  - consumption
+KW  - CPU
+KW  - network
+KW  - hard disk
+KW  - prototype
+KW  - simulator
+KW  - Performance evaluation
+KW  - Schedules
+KW  - Network topology
+KW  - Operating systems
+KW  - Software algorithms
+KW  - Microservice architectures
+KW  - Random access memory
+SN  - 2472-7571
+N1  - ASReview_relevant
+ER  - 
+
+35.
+TY  - JOUR
+DO  - 10.1145/3565010.3569065
+AU  - Tootaghaj, Diman Zad
+AU  - Mercian, Anu
+AU  - Adarsh, Vivek
+AU  - Sharifian, Mehrnaz
+AU  - Sharma, Puneet
+TI  - SmartNICs at edge for transient compute elasticity
+JO  - Proceedings of the 3rd International Workshop on Distributed Machine Learning
+DA  - 2022
+PB  - Association for Computing Machinery
+AB  - This paper proposes a new architecture that strategically harvests the untapped compute capacity of the SmartNICs to offload transient microservices workload spikes, thereby reducing the SLA violations while providing better performance/energy consumption. This is particularly important for ML workloads at Edge deployments with stringent SLA requirements. Usage of the untapped compute capacity is more favorable than deploying extra servers, as SmartNICs are economically and operationally more desirable. We propose Spike-Offload, a low-cost and scalable platform that leverages machine learning to predict the spikes and orchestrates seamless offloading of generic microservices workloads to the SmartNICs, eliminating the need for pre-deploying expensive host servers and their under-utilization. Our SpikeOffload evaluation shows that SLA violations can be reduced by up to 20% for specific workloads. Furthermore, we demonstrate that for specific workloads our approach can potentially reduce capital expenditure (CAPEX) by more than 40%. Also, performance per unit energy consumption can be improved by upto 2X.
+KW  - edge
+KW  - serverless computing
+KW  - application offload
+KW  - SmartNIC
+SN  - 978-1-4503-9922-7
+N1  - ASReview_relevant
+ER  - 
+
+36.
+TY  - JOUR
+DO  - 10.1109/TNSM.2021.3126822
+AU  - Z. Xiang
+AU  - M. Höweler
+AU  - D. You
+AU  - M. Reisslein
+AU  - F. H. P. Fitzek
+TI  - X-MAN: A Non-Intrusive Power Manager for Energy-Adaptive Cloud-Native Network Functions
+JO  - IEEE Transactions on Network and Service Management
+DA  - 10-Nov-21
+PB  - IEEE
+AB  - Emerging microservices demand flexible low-latency processing of network functions in virtualized environments, e.g., as containerized network functions (CNFs). While ensuring highly responsive low-latency CNF processing, the computing environments should conserve energy to reduce costs. In this systems integration study, we develop and evaluate the novel XDP-Monitoring Energy-Adaptive Network Functions (X-MAN) framework for managing the CPU operational states (P-states) so as to reduce the power consumption while prioritizing low-latency service. Architecturally, X-MAN consists of lightweight traffic monitors that are attached to the virtual network interfaces in the kernel space for per-CNF traffic monitoring and a power manager in user space with a global view of the CNFs on a CPU core. Algorithmically, X-MAN monitors the CPU core utilization via hybrid simple and weighted moving average prediction fed by the traffic monitors and a power management based on step-based CPU core frequency (P-state) adjustments. We evaluate X-MAN through extensive measurements in a real physical testbed operating at up to 10 Gbps. We find that X-MAN incurs significantly shorter and more consistent monitoring latencies for the CPU utilization than a state-of-the-art CPU hardware counter approach. Also, X-MAN achieves more responsive CPU core frequency adjustments and more pronounced reductions of the CPU power consumption than a state-of-the-art code instrumentation approach. We make the X-MAN source code publicly available.
+KW  - Containerized network function (CNF)
+KW  - CPU P-state
+KW  - express data path (XDP)
+KW  - load monitoring
+KW  - microservice
+KW  - network testbed
+KW  - power management
+KW  - Monitoring
+KW  - Power system management
+KW  - Codes
+KW  - Central Processing Unit
+KW  - Hardware
+KW  - Instruments
+KW  - Kernel
+SN  - 1932-4537
+N1  - ASReview_relevant
+ER  - 
+
+37.
+TY  - JOUR
+DO  - 10.1109/INFOCOMWKSHPS61880.2024.10620732
+AU  - J. Gómez-DelaHiz
+AU  - A. Fakhreddine
+AU  - J. M. Murillo
+AU  - J. Galán-Jiménez
+TI  - Joint Optimization of Throughput and Energy Consumption in Microservices-Based UAV Networks
+JO  - IEEE INFOCOM 2024 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
+DA  - 13-Aug-24
+PB  - IEEE
+AB  - The application of Unmanned Aerial Vehicle (UAV) networks to the coverage problem in rural and low-income areas is actively studied nowadays by the research community. A UAV-based network infrastructure is different from traditional cellular networks relying on Base Stations. By mounting small cells on top of UAVs, coverage can be enhanced in regions where network operators avoid to invest due to the low Return on Investment. In case there is a requirement for an enhanced throughput in a rural area (e.g., users requesting IoT applications with strict QoS requriements), a potential solution is to place several UAV s over the same area, thus maximizing the offered throughput. However, this situation would lead to an increase in the energy consumption. To tackle this problem, this paper proposes an optimal solution to the problem of jointly maximizing the offered throughput in rural scenarios where users request microservice-based IoT applications, while minimizing the energy consumption of the swarm of UAV s. A Mixed Integer Linear Programming (MILP)-based formulation is defined and evaluated over realistic scenarios. Experimental results demonstrate how the solution is able to perform UAV placement in a way to maximize the offered throughput in the highest number of areas, while minimizing the total number of deployed UAVs.
+KW  - UAV
+KW  - Throughput
+KW  - Optimization
+KW  - MILP
+KW  - Rural areas
+KW  - Energy consumption
+KW  - Costs
+KW  - Microservice architectures
+KW  - Quality of service
+KW  - Throughput
+KW  - Autonomous aerial vehicles
+KW  - Mixed integer linear programming
+SN  - 2833-0587
+N1  - ASReview_relevant
+ER  - 
+
+38.
+TY  - JOUR
+DO  - 10.1016/j.comnet.2025.111158
+AU  - Calagna A.
+AU  - Ravera S.
+AU  - Chiasserini C.F.
+TI  - Enabling efficient collection and usage of network performance metrics at the edge
+JO  - Computer Networks
+AB  - Microservices (MSs)-based architectures have become the de facto standard for designing and implementing edge computing applications. In particular, by leveraging Network Performance Metrics (NPMs) coming from the Radio Access Network (RAN) and sharing context-related information, AI-driven MSs have demonstrated to be highly effective in optimizing RAN performance. In this context, this work addresses the critical challenge of ensuring efficient data sharing and consistency by proposing a holistic platform that regulates the collection and usage of NPMs. We first introduce two reference platform architectures and detail their implementation using popular, off-the-shelf database solutions. Then, to evaluate and compare such architectures and their implementation, we develop PACE, a highly configurable, scalable, MS-based emulation framework of producers and consumers of NPMs, capable of realistically reproducing a broad range of interaction patterns and load dynamics. Using PACE on our cloud computing testbed, we conduct a thorough characterization of various NPM platform architectures and implementations under a spectrum of realistic edge traffic scenarios, from loosely coupled control loops to latency- and mission- critical use cases. Our results reveal fundamental trade-offs in stability, availability, scalability, resource usage, and energy footprint, demonstrating how PACE effectively enables the identification of suitable platform solutions depending on the reference edge scenario and the required levels of reliability and data consistency. © 2025 The Authors
+KW  - Data availability
+KW  - Data consistency
+KW  - Edge computing
+KW  - Microservices
+KW  - Cloud platforms
+KW  - Radio access networks
+KW  - Computing applications
+KW  - Data availability
+KW  - Data consistency
+KW  - De facto standard
+KW  - Edge computing
+KW  - Microservice
+KW  - Network performance metrics
+KW  - Performance
+KW  - Platform architecture
+KW  - Radio access networks
+KW  - Cloud computing architecture
+PY  - 2025
+N1  - ASReview_relevant
+ER  - 
+
+39.
+TY  - JOUR
+DO  - 10.1016/j.iot.2024.101463
+AU  - García-Gil S.
+AU  - Ramos-Ramos D.
+AU  - Berrocal J.
+AU  - Murillo J.M.
+AU  - Galán-Jiménez J.
+TI  - Microservices migration: A pathway to improved energy efficiency in UAV networks
+JO  - Internet of Things (The Netherlands)
+AB  - The access to Internet and digital services play a key role in all aspects of development, from the economic to the socio-cultural dimensions, yet a substantial part of the world's population is deprived of this source of opportunities. Rural regions, characterized by having low population densities, suffer this lack of provision the most. On top of that, the remoteness and complicated orography of rural localities render traditional network infrastructure close to useless. To ensure that these localities benefit from access to digital services and to the Internet, we envision the use of swarms of Unmanned Aerial Vehicles (UAVs). Through computing enabled UAVs, the deployment of IoT applications decomposed into microservices that have an impact in the main socio-economic activities becomes a possibility. However, UAVs consume a lot of battery power, which complicates the feasibility of their use in real-world environments. To overcome this limitation, in this paper the energy optimal deployment and migration of microservices is studied, resulting in an Mix Integer Linear Programming (MILP) problem formulation. As a result, an optimal battery drain aware deployer and migrator of microservices in UAV-based networks is proposed. Our method has proved effective during the simulation, perfectly balancing the work load between UAVs, thus balancing also battery drain and maximizing fly time. © 2024 Elsevier B.V.
+KW  - Energy efficiency
+KW  - IoT
+KW  - Microservices migration
+KW  - UAV
+PY  - 2025
+N1  - ASReview_relevant
+ER  - 
+
+40.
+TY  - JOUR
+DO  - 10.23919/WMNC56391.2022.9954292
+AU  - J. Galán-Jiménez
+AU  - A. G. Vegas
+AU  - J. Berrocal
+TI  - Energy-efficient deployment of IoT applications in remote rural areas using UAV networks
+JO  - 2022 14th IFIP Wireless and Mobile Networking Conference (WMNC)
+DA  - 25-Nov-22
+PB  - IEEE
+AB  - The Internet penetration rates are increasing every year, reaching more than 80% in developed countries. However, there are at least two billion people living in rural and low-income areas experiencing a complete lack of Internet connectivity, which prevents the deployment of key services such as remote health-care, emergency services, remote learning, or personal communications. In order to bring services closer to people living in rural areas, this paper exploits the capabilities of Unmanned Aerial Vehicles (UAVs) to propose an UAV-based network architecture and an energy-efficient algorithm to deploy IoT applications that can improve the quality of life of rural population. In particular, IoT applications are decomposed into microservices, which are deployed into a subset of UAVs to overcome the limitations of running the whole IoT application at a single UAV, which could result in worse outcomes due to their battery and computation limitations. Simulation results over a realistic scenario show the effectiveness of the proposed solution, evaluating the percentage of IoT requests that are served to users in the area under evaluation and reducing the energy consumption required by UAVs when handling such requests.
+KW  - Energy efficiency
+KW  - UAV
+KW  - IoT
+KW  - microservices
+KW  - digital divide
+KW  - Wireless communication
+KW  - Energy consumption
+KW  - Simulation
+KW  - Sociology
+KW  - Microservice architectures
+KW  - Network architecture
+KW  - Autonomous aerial vehicles
+SN  - 2473-3644
+N1  - ASReview_relevant
+ER  - 
+
+41.
+TY  - JOUR
+DO  - 10.1007/s10922-024-09825-9
+AU  - Ramos-Ramos D.
+AU  - González-Vegas A.
+AU  - Berrocal J.
+AU  - Galán-Jiménez J.
+TI  - Energy-Aware Microservice-Based Application Deployment in UAV-Based Networks for Rural Scenarios
+JO  - Journal of Network and Systems Management
+AB  - Yearly, the rates of Internet penetration are on the rise, surpassing 80% in developed nations. Despite this progress, over two billion individuals in rural and low-income regions face a complete absence of Internet access. This lack of connectivity hinders the implementation of vital services like remote healthcare, emergency assistance, distance learning, and personal communications. To bridge this gap and bring essential services to rural populations, this paper leverages Unmanned Aerial Vehicles (UAVs). The proposal introduces a UAV-based network architecture and an energy-efficient algorithm to deploy Internet of Things (IoT) applications. These applications are broken down into microservices, strategically distributed among a subset of UAVs. This approach addresses the limitations associated with running an entire IoT application on a single UAV, which could lead to suboptimal outcomes due to battery and computational constraints. Simulation results conducted in a realistic scenario underscore the effectiveness of the proposed solution. The evaluation includes assessing the percentage of IoT requests successfully served to users in the designated area and reducing the energy consumption required by UAVs during the handling of such requests. © The Author(s) 2024.
+KW  - Digital divide
+KW  - Energy efficiency
+KW  - IoT
+KW  - Microservices
+KW  - UAV
+KW  - Antennas
+KW  - Distance education
+KW  - Energy utilization
+KW  - Internet of things
+KW  - Network architecture
+KW  - Power management (telecommunication)
+KW  - Rural areas
+KW  - Unmanned aerial vehicles (UAV)
+KW  - Aerial vehicle
+KW  - Application deployment
+KW  - Digital divide
+KW  - Distance-learning
+KW  - Energy aware
+KW  - Essential services
+KW  - Internet access
+KW  - Low incomes
+KW  - Microservice
+KW  - Unmanned aerial vehicle
+KW  - Energy efficiency
+PY  - 2024
+N1  - ASReview_relevant
+ER  - 
+
+42.
+TY  - JOUR
+DO  - 10.1109/ACCESS.2024.3486983
+AU  - W. Villegas-Ch
+AU  - R. Gutierrez
+AU  - I. Sánchez-Salazar
+AU  - A. Mera-Navarrete
+TI  - Adaptive Security Framework for the Internet of Things: Improving Threat Detection and Energy Optimization in Distributed Environments
+JO  - IEEE Access
+DA  - 28-Oct-24
+PB  - IEEE
+AB  - The increasing use of Internet of Things (IoT) devices in critical sectors has increased exposure to security threats, making protecting these systems a priority challenge. Based on static configurations, traditional security approaches have proven ineffective in the face of the dynamic nature of emerging threats, as they cannot adapt in real time to changes in the environment or new attack vectors. This work proposes an adaptive security framework for Internet of Things (IoT) systems capable of autonomously detecting, mitigating, and adapting to various threats, improving precision and response times, and optimizing energy consumption. The framework was implemented in a distributed Internet of Things environment, using adaptive architectures based on the Robot Operating System (ROS) and microservices orchestration with Kubernetes. The results showed a significant improvement in response time, with a reduction of 44%, reaching an average of 250 milliseconds, compared to 450 milliseconds for static approaches. Furthermore, a 92% precision in threat detection was achieved, reducing false positives to 4% and false negatives to 6%. Power consumption was controlled, reaching a maximum of 160 milliamp-hours after facing multiple threats, confirming the system’s efficiency in resource-limited environments. These results demonstrate that the proposed adaptive framework is a robust and efficient solution for security in Internet of Things environments, overcoming the limitations of traditional approaches and ensuring adequate protection without compromising energy efficiency.
+KW  - Adaptive security framework
+KW  - Internet of Things
+KW  - threat detection
+KW  - energy efficiency in Internet of Things
+KW  - Security
+KW  - Internet of Things
+KW  - Adaptive systems
+KW  - Real-time systems
+KW  - Time factors
+KW  - Threat assessment
+KW  - Energy consumption
+KW  - Energy efficiency
+KW  - Sensors
+KW  - Logic gates
+SN  - 2169-3536
+N1  - ASReview_relevant
+ER  - 
+
+43.
+TY  - JOUR
+DO  - 10.1007/978-3-031-07472-1_6
+AU  - Vitali, Monica
+TI  - Towards Greener Applications: Enabling Sustainable-aware Cloud Native Applications Design
+JO  - Advanced Information Systems Engineering: 34th International Conference, CAiSE 2022, Leuven, Belgium, June 6–10, 2022, Proceedings
+DA  - 2022
+PB  - Springer-Verlag
+AB  - Data centers energy demand is increasing. While a great deal of effort has been made to reduce the amount of CO2 generated by large cloud providers, too little has been done from the application perspective. We claim that application developers can impact the environmental footprint by enhancing the application design with additional features. Following the proposed Sustainable Application Design Process (SADP), the application design is enriched with information that can be leveraged by cloud providers to manage application execution in an energy-aware manner. This exploratory work aims to emphasize the awareness on the sustainability of applications by proposing a methodology for its evaluation. To this end, we first suggest possible actions to enrich the application design towards sustainability, and finally describe how this additional information can be leveraged in the application workflow. We discuss the feasibility of our methodology by referring to existing tools and technologies capable of supporting the design features proposed in a production environment.
+KW  - Cloud-native
+KW  - Energy-efficiency
+KW  - Sustainability-awareness
+KW  - Sustainable applications
+KW  - Workflow design
+SN  - 978-3-031-07471-4
+N1  - ASReview_relevant
+ER  - 
+
+44.
+TY  - JOUR
+DO  - 10.1109/IC2E59103.2023.00011
+AU  - M. Vitali
+AU  - P. Schmiedmayer
+AU  - V. Bootz
+TI  - Enriching Cloud-native Applications with Sustainability Features
+JO  - 2023 IEEE International Conference on Cloud Engineering (IC2E)
+DA  - 06-Nov-23
+PB  - IEEE
+AB  - Due to the ever-growing demand for computational resources, the environmental impact of data centers is continuously increasing. Recently, a great effort has been made to mitigate this impact, while the demand for computational resources has continued to grow. Current mitigation strategies focus on the infrastructure perspective, while the application perspective has been neglected. This paper aims to engage application designers and developers on the path to greener application design. Following the Sustainable Application Design Process (SADP) methodology, we introduce a Sustainable Application Design Architecture (SADA) for enriching cloud-native application components with sustainability features that can be exploited to adapt the application workflow to the environmental context. The architecture enables synergies from design to deployment between all stakeholders involved in the application management. The paper focuses on enriching the application with sustainability features in the design and development phases. We also present and discuss a prototype that can translate design-level sustainability features into development features.
+KW  - cloud-native applications
+KW  - green IS
+KW  - application design
+KW  - adaptive workflow
+KW  - microservices
+KW  - Green products
+KW  - Prototypes
+KW  - Microservice architectures
+KW  - Computer architecture
+KW  - Quality of service
+KW  - Energy efficiency
+KW  - Stakeholders
+SN  - 2694-0825
+N1  - ASReview_relevant
+ER  - 
+
+45.
+TY  - JOUR
+DO  - 10.1109/ACCESS.2023.3340195
+AU  - I. Fé
+AU  - T. A. Nguyen
+AU  - A. B. Soares
+AU  - S. Son
+AU  - E. Choi
+AU  - D. Min
+AU  - J. -W. Lee
+AU  - F. A. Silva
+TI  - Model-Driven Dependability and Power Consumption Quantification of Kubernetes-Based Cloud-Fog Continuum
+JO  - IEEE Access
+DA  - 07-Dec-23
+PB  - IEEE
+AB  - System dependability is pivotal for the reliable execution of designated computing functions. With the emergence of cloud-fog computing and microservices architectures, new challenges and opportunities arise in evaluating system dependability. Enhancing dependability in microservices often involves component replication, potentially increasing energy costs. Thus, discerning optimal redundancy strategies and understanding their energy implications is crucial for both cost efficiency and ecological sustainability. This paper presents a model-driven approach to evaluate the dependability and energy consumption of cloud-fog systems, utilizing Kubernetes, a container application orchestration platform. The developed model considers various determinants affecting system dependability, including hardware and software reliability, resource accessibility, and support personnel availability. Empirical studies validate the model’s effectiveness, demonstrating a 22.33% increase in system availability with only a 1.33% rise in energy consumption. Moreover, this methodology provides a structured framework for understanding cloud-fog system dependability, serves as a reference for comparing dependability across different systems, and aids in resource allocation optimization. This research significantly contributes to the efforts to enhance cloud-fog system dependability.
+KW  - Cloud-fog continuum
+KW  - dependability
+KW  - Kubernetes
+KW  - stochastic modeling
+KW  - Modeling
+KW  - Stochastic processes
+KW  - Power demand
+KW  - Energy consumption
+KW  - Edge computing
+KW  - Cloud computing
+SN  - 2169-3536
+N1  - ASReview_relevant
+ER  - 
+
+46.
+TY  - JOUR
+DO  - 10.1109/MASCOTS.2018.00030
+AU  - J. von Kistowski
+AU  - S. Eismann
+AU  - N. Schmitt
+AU  - A. Bauer
+AU  - J. Grohmann
+AU  - S. Kounev
+TI  - TeaStore: A Micro-Service Reference Application for Benchmarking, Modeling and Resource Management Research
+JO  - 2018 IEEE 26th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+DA  - 08-Nov-18
+PB  - IEEE
+AB  - Modern distributed applications offer complex performance behavior and many degrees of freedom regarding deployment and configuration. Researchers employ various methods of analysis, modeling, and management that leverage these degrees of freedom to predict or improve non-functional properties of the software under consideration. In order to demonstrate and evaluate their applicability in the real world, methods resulting from such research areas require test and reference applications that offer a range of different behaviors, as well as the necessary degrees of freedom. Existing production software is often inaccessible for researchers or closed off to instrumentation. Existing testing and benchmarking frameworks, on the other hand, are either designed for specific testing scenarios, or they do not offer the necessary degrees of freedom. Further, most test applications are difficult to deploy and run, or are outdated. In this paper, we introduce the TeaStore, a state-of-the-art micro-service-based test and reference application. TeaStore offers services with different performance characteristics and many degrees of freedom regarding deployment and configuration to be used as a benchmarking framework for researchers. The TeaStore allows evaluating performance modeling and resource management techniques; it also offers instrumented variants to enable extensive run-time analysis. We demonstrate TeaStore's use in three contexts: performance modeling, cloud resource management, and energy efficiency analysis. Our experiments show that TeaStore can be used for evaluating novel approaches in these contexts and also motivates further research in the areas of performance modeling and resource management.
+KW  - Microservice
+KW  - Benchmarking
+KW  - Performance
+KW  - Power
+KW  - Energy Efficiency
+KW  - Models
+KW  - Auto Scaler
+KW  - Container
+KW  - Cloud
+KW  - Benchmark testing
+KW  - Software
+KW  - Analytical models
+KW  - Resource management
+KW  - Predictive models
+KW  - Instruments
+SN  - 2375-0227
+N1  - ASReview_relevant
+ER  - 
+
+47.
+TY  - JOUR
+DO  - 10.1109/ISCA59077.2024.00040
+AU  - J. Stojkovic
+AU  - P. A. Misra
+AU  - Í. Goiri
+AU  - S. Whitlock
+AU  - E. Choukse
+AU  - M. Das
+AU  - C. Bansal
+AU  - J. Lee
+AU  - Z. Sun
+AU  - H. Qiu
+AU  - R. Zimmermann
+AU  - S. Samal
+AU  - B. Warrier
+AU  - A. Raniwala
+AU  - R. Bianchini
+TI  - SmartOClock: Workload- and Risk-Aware Overclocking in the Cloud
+JO  - 2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA)
+DA  - 01-Aug-24
+PB  - IEEE
+AB  - Operating server components beyond their voltage and power design limit (i.e., overclocking) enables improving performance and lowering cost for cloud workloads. However, overclocking can significantly degrade component lifetime, increase power draw, and cause power capping events, eventually diminishing the performance benefits. In this paper, we characterize the impact of overclocking on cloud workloads by studying their profiles from production deployments. Based on the characterization insights, we propose SmartOClock, the first distributed overclocking management platform specifically designed for cloud environments. SmartOClock is a workload-aware scheme that relies on power predictions to heterogeneously distribute the power budgets across its servers based on their needs and then enforce budget compliance locally, per-server, in a decentralized manner. SmartOClock reduces the tail latency by 9%, application cost by 30% and total energy consumption by 10% for latencysensitive microservices on a 36-server deployment. Simulation analysis using production traces show that SmartOClock reduces the number of power capping events by up to 95% while increasing the overclocking success rate by up to 62%. We also describe lessons from building a first-of-its-kind overclockable cluster in Microsoft Azure for production experiments.
+KW  - Energy consumption
+KW  - Costs
+KW  - Buildings
+KW  - Microservice architectures
+KW  - Production
+KW  - Tail
+KW  - Computer architecture
+N1  - ASReview_relevant
+ER  - 
+
+48.
+TY  - JOUR
+DO  - 10.1109/ICSCC62041.2024.10690844
+AU  - G. H. Prathama
+AU  - P. E. G. Gunawan
+AU  - A. W. O. Gama
+TI  - Green Computing Implementation for Indonesian Higher Education Adopting Serverless Microservices Architecture
+JO  - 2024 10th International Conference on Smart Computing and Communication (ICSCC)
+DA  - 01-Oct-24
+PB  - IEEE
+AB  - Sustainability poses a significant challenge within the realm of global information technology, especially within the resource-intensive settings of higher education. The present research delves into the application of serverless microservices architecture in universities in Indonesia as a prospective solution for eco-friendly computing. Through the utilization of cutting-edge serverless technologies, a prototype representing the IT framework of an Indonesian institution of higher education was formulated and assessed. The outcomes of this investigation reveal that the adoption of serverless microservices not only improves operational effectiveness but also brings about a notable reduction in energy consumption and carbon footprints. These findings offer valuable perspectives for academic leaders and IT experts who aspire to shift towards more sustainable IT infrastructures.
+KW  - Cost Efficiency
+KW  - cloud computing
+KW  - private universities
+KW  - serverless computation
+KW  - microservices architecture
+KW  - green computing
+KW  - Energy consumption
+KW  - Scalability
+KW  - Education
+KW  - Microservice architectures
+KW  - Prototypes
+KW  - Computer architecture
+KW  - Computational efficiency
+KW  - Resource management
+KW  - Sustainable development
+KW  - Information technology
+N1  - ASReview_relevant
+ER  - 
+
+49.
+TY  - JOUR
+DO  - 10.1145/3307650.3322227
+AU  - Sriraman, Akshitha
+AU  - Dhanotia, Abhishek
+AU  - Wenisch, Thomas F.
+TI  - SoftSKU: optimizing server architectures for microservice diversity @scale
+JO  - Proceedings of the 46th International Symposium on Computer Architecture
+DA  - 2019
+PB  - Association for Computing Machinery
+AB  - The variety and complexity of microservices in warehouse-scale data centers has grown precipitously over the last few years to support a growing user base and an evolving product portfolio. Despite accelerating microservice diversity, there is a strong requirement to limit diversity in underlying server hardware to maintain hardware resource fungibility, preserve procurement economies of scale, and curb qualification/test overheads. As such, there is an urgent need for strategies that enable limited server CPU architectures (a.k.a "SKUs") to provide performance and energy efficiency over diverse microservices. To this end, we first undertake a comprehensive characterization of the top seven microservices that run on the compute-optimized data center fleet at Facebook.Our characterization reveals profound diversity in OS and I/O interaction, cache misses, memory bandwidth utilization, instruction mix, and CPU stall behavior. Whereas customizing a CPU SKU for each microservice might be beneficial, it is prohibitive. Instead, we argue for "soft SKUs", wherein we exploit coarse-grain (e.g., boot time) configuration knobs to tune the platform for a particular microservice. We develop a tool, μSKU, that automates search over a soft-SKU design space using A/B testing in production and demonstrate how it can obtain statistically significant gains (up to 7.2% and 4.5% performance improvement over stock and production servers, respectively) with no additional hardware requirements.
+KW  - microservice
+KW  - resource fungibility
+KW  - soft SKU
+SN  - 978-1-4503-6669-4
+N1  - ASReview_relevant
+ER  - 
+
+50.
+TY  - JOUR
+DO  - 10.1007/978-3-031-48421-6_13
+AU  - Dinga, Madalina
+AU  - Malavolta, Ivano
+AU  - Giamattei, Luca
+AU  - Guerriero, Antonio
+AU  - Pietrantuono, Roberto
+TI  - An Empirical Evaluation of&nbsp;the&nbsp;Energy and&nbsp;Performance Overhead of&nbsp;Monitoring Tools on&nbsp;Docker-Based Systems
+JO  - Service-Oriented Computing: 21st International Conference, ICSOC 2023, Rome, Italy, November 28 – December 1, 2023, Proceedings, Part I
+DA  - 2023
+PB  - Springer-Verlag
+AB  - Context. Energy efficiency is gaining importance in the design of software systems, but is still marginally addressed in the area of microservice-based systems. Energy-related aspects often get neglected in favor of other software quality attributes, such as performance, service composition, maintainability, and security.Goal. The aim of this study is to identify, synthesize and empirically evaluate the energy and performance overhead of monitoring tools employed in the microservices and DevOps context.Method. We selected four representative monitoring tools in the microservices and DevOps context. These were evaluated via a controlled experiment on an open-source Docker-based microservice benchmark system.Results. The results highlight: i) the specific frequency and workload conditions under which energy consumption and performance metrics are impacted by the tools; ii) the differences between the tools; iii) the relation between energy and performance overhead.
+SN  - 978-3-031-48420-9
+N1  - ASReview_relevant
+ER  - 
+
+51.
+TY  - JOUR
+DO  - 10.1109/ICWS62655.2024.00112
+AU  - V. Berry
+AU  - A. Castelltort
+AU  - B. Lange
+AU  - J. Teriihoania
+AU  - C. Tibermacine
+AU  - C. Trubiani
+TI  - Is it Worth Migrating a Monolith to Microservices? An Experience Report on Performance, Availability and Energy Usage
+JO  - 2024 IEEE International Conference on Web Services (ICWS)
+DA  - 15-Oct-24
+PB  - IEEE
+AB  - The microservice architecture (MSA) emerged as an evolution of existing architectural styles with the promise of improving software quality by decomposing an app into modules that can be maintained, deployed, and scaled independently. However, the transition from a monolithic to a microservice architecture is fraught with difficulties, especially when it comes to assessing qualitative aspects, as controversial results can arise. In this paper, we present an experience report on the migration of a monolithic web application and use performance, availability and energy efficiency as quality attributes to shed light on such an architectural transition. Horizontal scaling, i.e., distributing the workload across several service instances, is applied and we study its impact.Our main findings are: i) when no app component is replicated, MSA outperforms the monolithic architecture; ii) the monolithic architecture shows performance and availability improvement when replicating the entire app; iii) the replicated MSA version reaches a ceiling when not replicating its routing part (i.e., the API gateway), showing worse response times compared to the replicated monolith; iv) when replicating the API gateway, the MSA version reaches optimal performance with fewer replicates than the monolith; v) when not replicating services, MSA consumes more CPU resources than the monolithic architecture; vi) when scaling up, the MSA version is more efficient than the replicated monolith in terms of memory usage, and it can better exploit CPU resources; vii) when not replicating services, MSA consumes more energy than the monolithic architecture, whereas when scaling up, the MSA version is more efficient than the replicated monolith; MSA version reaches a good balance between CPU and memory usage.
+KW  - Microservices
+KW  - architecture migration
+KW  - horizontal scaling
+KW  - load tests
+KW  - performance
+KW  - availability
+KW  - energy usage
+KW  - Energy consumption
+KW  - Web services
+KW  - Memory management
+KW  - Microservice architectures
+KW  - Software quality
+KW  - Logic gates
+KW  - Routing
+KW  - Energy efficiency
+KW  - Time factors
+KW  - Testing
+SN  - 2836-3868
+N1  - ASReview_relevant
+ER  - 
+
+52.
+TY  - JOUR
+DO  - 10.3390/fi16080296
+AU  - Miao J.
+AU  - Rajasekhar D.
+AU  - Mishra S.
+AU  - Nayak S.K.
+AU  - Yadav R.
+TI  - A Microservice-Based Smart Agriculture System to Detect Animal Intrusion at the Edge
+JO  - Future Internet
+AB  - Smart agriculture stands as a promising domain for IoT-enabled technologies, with the potential to elevate crop quality, quantity, and operational efficiency. However, implementing a smart agriculture system encounters challenges such as the high latency and bandwidth consumption linked to cloud computing, Internet disconnections in rural locales, and the imperative of cost efficiency for farmers. Addressing these hurdles, this paper advocates a fog-based smart agriculture infrastructure integrating edge computing and LoRa communication. We tackle farmers’ prime concern of animal intrusion by presenting a solution leveraging low-cost PIR sensors, cameras, and computer vision to detect intrusions and predict animal locations using an innovative algorithm. Our system detects intrusions pre-emptively, identifies intruders, forecasts their movements, and promptly alerts farmers. Additionally, we compare our proposed strategy with other approaches and measure their power consumptions, demonstrating significant energy savings afforded by our strategy. Experimental results highlight the effectiveness, energy efficiency, and cost-effectiveness of our system compared to state-of-the-art systems. © 2024 by the authors.
+KW  - animal intrusion detection
+KW  - fog computing
+KW  - LoRa
+KW  - smart agriculture
+KW  - Fog computing
+KW  - Agriculture systems
+KW  - Animal intrusion detection
+KW  - Bandwidth consumption
+KW  - Cloud-computing
+KW  - Cost-efficiency
+KW  - Crop quality
+KW  - Intrusion-Detection
+KW  - Lora
+KW  - Operational efficiencies
+KW  - Smart agricultures
+KW  - Smart agriculture
+PY  - 2024
+N1  - ASReview_relevant
+ER  - 
+
+53.
+TY  - JOUR
+DO  - 10.1109/ICWS62655.2024.00079
+AU  - M. S. Floroiu
+AU  - S. Russo
+AU  - L. Giamattei
+AU  - A. Guerriero
+AU  - I. Malavolta
+AU  - R. Pietrantuono
+TI  - Anomaly Detection and Root Cause Analysis of Microservices Energy Consumption
+JO  - 2024 IEEE International Conference on Web Services (ICWS)
+DA  - 15-Oct-24
+PB  - IEEE
+AB  - With the expansion of cloud computing and data centers, the need has arisen to tackle their environmental impact. The increasing adoption of microservice architectures, while offering scalability and flexibility, poses new challenges in the effective management of systems’ energy consumption.This study analyzes experimentally the effectiveness, with respect to energy consumption, of algorithms for Anomaly Detection (AD) and Root Cause Analysis (RCA) for (containerized) microservices systems. The study analyzes five AD and three RCA algorithms. Metrics to assess the effectiveness of AD algorithms are Precision, Recall, and F-Score. For RCA algorithms, the chose metric is Precision at level k. Two subjects of different complexity are used: Sock Shop and UNI-Cloud. Experiments use a cross-over paired comparison design, involving multiple randomized runs for robust measures.The experiments show that AD algorithms exhibit a relatively moderate performance. The mean adjusted Precision for Sock Shop is 61.5%, while it is 75% for the best-performing algorithms (BIRCH, KNN, and SVM) on UNI-Cloud. The Recall and F-Score for UNI-Cloud, for the same algorithms, are 75%, while for Sock Shop KNN yields the best outcome at roughly 45%. MicroRCA and RCD emerge as the top-performing algorithms for RCA.We found that the effectiveness of AD algorithms is strongly influenced by anomaly thresholds, emphasizing the importance of careful tuning such algorithms. RCA algorithms reveal promising results, particularly RCD and MicroRCA, which showed robust performance. However, challenges remain, as seen with the ϵ-diagnosis algorithm, suggesting the need for further refinement.For DevOps engineers, the findings highlight the need to carefully select and tune AD and RCA algorithms for energy, and to take into account system topology and monitoring configurations.
+KW  - Microservices
+KW  - Energy consumption
+KW  - Anomaly Detection
+KW  - Root Cause Analysis
+KW  - Measurement
+KW  - Energy consumption
+KW  - Root cause analysis
+KW  - Web services
+KW  - Software algorithms
+KW  - Microservice architectures
+KW  - Nearest neighbor methods
+KW  - Topology
+KW  - Anomaly detection
+KW  - Tuning
+SN  - 2836-3868
+N1  - ASReview_relevant
+ER  - 
+
+54.
+TY  - JOUR
+DO  - 10.14569/IJACSA.2021.0120768
+AU  - Thanh L.N.T.
+AU  - Phien N.N.
+AU  - Nguyen T.A.
+AU  - Vo H.K.
+AU  - Luong H.H.
+AU  - Anh T.D.
+AU  - Tuan K.N.H.
+AU  - Son H.X.
+TI  - IoHT-MBA: An Internet of Healthcare Things (IoHT) Platform based on Microservice and Brokerless Architecture
+JO  - International Journal of Advanced Computer Science and Applications
+AB  - Internet of Thing (IoT), currently, is one of the technology trends that are most interested. IoT can be divided into five main areas including: Health-care, Environmental, Smart city, Commercial and Industrial. The IoHT-MBA Platform is considered the backbone of every IoT architecture, so the optimal design of the IoHT-MBA Platform is essential issue, which should be carefully considered in the different aspects. Although, IoT is applied in multiple domains, however, there are still three main features that are challenge to improve: i) data collection, ii) users, devices management, and iii) remote device control. Today’s medical IoT systems, often too focused on the big data or access control aspects of participants, but not focused on collecting data accurately, quickly, and efficiently; power redundancy and system expansion. This is very important for the medical sector - which always prioritizes the availability of data for therapeutic purposes over other aspects. In this paper, we introduce the IoHT Platform for Healthcare environment which is designed by microservice and brokerless architecture, focusing strongly on the three aforementioned characteristics. In addition, our IoHT Platform considers the five other issues including (1) the limited processing capacity of the devices, (2) energy saving for the device, (3) speed and accurate of the data collection, (4) security mechanisms and (5) scalability of the system. Also, in order for the IoHT Platform to be suitable for the field of health monitoring, we also add realtime alerts for the medical team. In the evaluation section, moreover, we describe the evaluation to prove the effectiveness of the proposed IoHT Platform (i.e. the proof-of-concept) in the performance, non-error, and non affected by geographical distance. Finally, a complete code solution is publicized on the authors’ GitHub repository to engage further reproducibility and improvement. © 2021. All Rights Reserved.
+KW  - brokerless
+KW  - gRPC
+KW  - Internet of Health Things (IoHT)
+KW  - kafka
+KW  - microservice
+KW  - RBAC
+KW  - single sign-on
+KW  - Access control
+KW  - Data acquisition
+KW  - Energy conservation
+KW  - Health care
+KW  - Information management
+KW  - Broker-less
+KW  - Data collection
+KW  - GRPC
+KW  - Internet of health thing
+KW  - Kafkum
+KW  - Microservice
+KW  - RBAC
+KW  - Single sign on
+KW  - Single signs-on
+KW  - Technology trends
+KW  - Internet of things
+PY  - 2021
+N1  - ASReview_relevant
+ER  - 
