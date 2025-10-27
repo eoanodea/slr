@@ -1,0 +1,18 @@
+# Core data analysis and manipulation
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Jupyter notebook support
+notebook>=7.0.0
+ipykernel>=6.25.0
+
+# OpenAI API integration
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# PDF processing
+PyPDF2>=3.0.0
+
+# Web automation (for ASReview automation)
+selenium>=4.0.0
+webdriver-manager>=4.0.0
