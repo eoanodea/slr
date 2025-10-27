@@ -1,0 +1,568 @@
+1.
+TY  - JOUR
+DO  - 10.1007/978-3-031-48421-6_13
+AU  - Dinga, Madalina
+AU  - Malavolta, Ivano
+AU  - Giamattei, Luca
+AU  - Guerriero, Antonio
+AU  - Pietrantuono, Roberto
+TI  - An Empirical Evaluation of&nbsp;the&nbsp;Energy and&nbsp;Performance Overhead of&nbsp;Monitoring Tools on&nbsp;Docker-Based Systems
+JO  - Service-Oriented Computing: 21st International Conference, ICSOC 2023, Rome, Italy, November 28 – December 1, 2023, Proceedings, Part I
+SN  - 978-3-031-48420-9
+DA  - 2023
+PB  - Springer-Verlag
+AB  - Context. Energy efficiency is gaining importance in the design of software systems, but is still marginally addressed in the area of microservice-based systems. Energy-related aspects often get neglected in favor of other software quality attributes, such as performance, service composition, maintainability, and security.Goal. The aim of this study is to identify, synthesize and empirically evaluate the energy and performance overhead of monitoring tools employed in the microservices and DevOps context.Method. We selected four representative monitoring tools in the microservices and DevOps context. These were evaluated via a controlled experiment on an open-source Docker-based microservice benchmark system.Results. The results highlight: i) the specific frequency and workload conditions under which energy consumption and performance metrics are impacted by the tools; ii) the differences between the tools; iii) the relation between energy and performance overhead.
+N1  - ASReview_prior
+N1  - ASReview_relevant
+ER  - 
+
+2.
+TY  - JOUR
+DO  - 10.1145/3511094
+AU  - Muralidhar, Rajeev
+AU  - Borovica-Gajic, Renata
+AU  - Buyya, Rajkumar
+TI  - Energy Efficient Computing Systems: Architectures, Abstractions and Modeling to Techniques and Standards
+JO  - ACM Comput. Surv.
+SN  - 0360-0300
+DA  - 2022-09
+AB  - Computing systems have undergone a tremendous change in the last few decades with several inflexion points. While Moore’s law guided the semiconductor industry to cram more and more transistors and logic into the same volume, the limits of instruction-level parallelism (ILP) and the end of Dennard’s scaling drove the industry towards multi-core chips. More recently, we have entered the era of domain-specific architectures (DSA) and chips for new workloads like artificial intelligence (AI) and machine learning (ML). These trends continue, arguably with other limits, along with challenges imposed by tighter integration, extreme form factors and increasingly diverse workloads, making systems more complex to architect, design, implement and optimize from an energy efficiency perspective. Energy efficiency has now become a first order design parameter and constraint across the entire spectrum of computing devices.Many research surveys have gone into different aspects of energy efficiency techniques implemented in hardware and microarchitecture across devices, servers, HPC/cloud, data center systems along with improved software, algorithms, frameworks, and modeling energy/thermals. Somewhat in parallel, the semiconductor industry has developed techniques and standards around specification, modeling/simulation, benchmarking and verification of complex chips; these areas have not been addressed in detail by previous research surveys. This survey aims to bring these domains holistically together, present the latest in each of these areas, highlight potential gaps and challenges, and discuss opportunities for the next generation of energy efficient systems. The survey is composed of a systematic categorization of key aspects of building energy efficient systems - (1) specification - the ability to precisely specify the power intent, attributes or properties at different layers (2) modeling and simulation of the entire system or subsystem (hardware or software or both) so as to be able to experiment with possible options and perform what-if analysis, (3) techniques used for implementing energy efficiency at different levels of the stack, (4) verification techniques used to provide guarantees that the functionality of complex designs are preserved, and (5) energy efficiency benchmarks, standards and consortiums that aim to standardize different aspects of energy efficiency, including cross-layer optimizations.
+KW  - dynamic power management
+KW  - Energy efficiency
+KW  - low power
+KW  - low power optimizations
+KW  - modeling
+KW  - platform-level power management
+KW  - specification
+N1  - ASReview_relevant
+ER  - 
+
+3.
+TY  - JOUR
+DO  - 10.1007/978-3-031-20984-0_38
+AU  - N. Toosi, Adel
+AU  - Agarwal, Chayan
+AU  - Mashayekhy, Lena
+AU  - Moghaddam, Sara K.
+AU  - Mahmud, Redowan
+AU  - Tari, Zahir
+TI  - GreenFog: A Framework for&nbsp;Sustainable Fog Computing
+JO  - Service-Oriented Computing: 20th International Conference, ICSOC 2022, Seville, Spain, November 29 – December 2, 2022, Proceedings
+SN  - 978-3-031-20983-3
+DA  - 2022
+PB  - Springer-Verlag
+AB  - The alarming rate of increase in energy demand and carbon footprint of Fog environments has become a critical issue. It is, therefore, necessary to reduce the percentage of brown energy consumption in these systems and integrate renewable energy use into Fog. Renewables, however, are prone to availability fluctuations due to their variable and intermittent nature. In this paper, we propose a new Fog framework and design various optimization techniques, including linear programming optimization, linear regression estimation, and Multi-Armed Bandit (MAB) learning to optimize renewable energy use in the Fog based on a novel idea of load shaping with adaptive Quality of Service (QoS). The proposed framework, along with the optimization techniques, are tested on a real-world micro data center (Fog environment) powered by solar energy sources connected to multiple IoT devices. The results show that our proposed framework significantly reduces the difference between renewable energy generation and total energy consumption while efficiently adjusting the QoS of applications.
+N1  - ASReview_relevant
+ER  - 
+
+4.
+TY  - JOUR
+DO  - 10.1145/3406208
+AU  - Lin, Weiwei
+AU  - Shi, Fang
+AU  - Wu, Wentai
+AU  - Li, Keqin
+AU  - Wu, Guangxin
+AU  - Mohammed, Al-Alas
+TI  - A Taxonomy and Survey of Power Models and Power Modeling for Cloud Servers
+JO  - ACM Comput. Surv.
+SN  - 0360-0300
+DA  - 2020-09
+AB  - Due to the increasing demand of cloud resources, the ever-increasing number and scale of cloud data centers make their massive power consumption a prominent issue today. Evidence reveals that the behaviors of cloud servers make the major impact on data centers’ power consumption. Although extensive research can be found in this context, a systematic review of the models and modeling methods for the entire hierarchy (from underlying hardware components to the upper-layer applications) of the cloud server is still missing, which is supposed to cover the relevant studies on physical and virtual cloud server instances, server components, and cloud applications. In this article, we summarize a broad range of relevant studies from three perspectives: power data acquisition, power models, and power modeling methods for cloud servers (including bare-metal, virtual machine (VM), and container instances). We present a comprehensive taxonomy on the collection methods of server-level power data, the existing mainstream power models at multiple levels from hardware to software and application, and commonly used methods for modeling power consumption including classical regression analysis and emerging methods like reinforcement learning. Throughout the work, we introduce a variety of models and methods, illustrating their implementation, usability, and applicability while discussing the limitations of existing approaches and possible ways of improvement. Apart from reviewing existing studies on server power models and modeling methods, we further figure out several open challenges and possible research directions, such as the study on modeling the power consumption of lightweight virtual units like unikernel and the necessity of further explorations toward empowering server power estimation/prediction with machine learning. As power monitoring is drawing increasing attention from cloud service providers (CSPs), this survey provides useful guidelines on server power modeling and can be inspiring for further research on energy-efficient data centers.
+KW  - data center
+KW  - Cloud server
+KW  - power consumption
+KW  - power model
+KW  - power modeling
+N1  - ASReview_relevant
+ER  - 
+
+5.
+TY  - JOUR
+DO  - 10.1145/3147213.3147227
+AU  - Hasan, MD Sabbir
+AU  - Alvares, Frederico
+AU  - Ledoux, Thomas
+TI  - GPaaScaler: Green Energy Aware Platform Scaler for Interactive Cloud Application
+JO  - Proceedings of The10th International Conference on Utility and Cloud Computing
+SN  - 978-1-4503-5149-2
+DA  - 2017
+PB  - Association for Computing Machinery
+AB  - Recently, smart usage of renewable energy has been a hot topic in the Cloud community. In this vein, we have recently proposed the creation of green energy awareness around Interactive Cloud Applications, but in static amount of underlying resources. This paper adds to previous ones as it considers elastic underlying infrastructure, that is, we propose a PaaS solution which efficiently utilize the elasticity nature at both infrastructure and application levels, by leveraging adaptation in facing to changing condition i.e., workload burst, performance degradation, quality of energy, etc. While applications are adapted by dynamically re-configuring their service level based on performance and/or green energy availability, the infrastructure takes care of addition/removal of resources based on application's resource demand. Both adaptive behaviors are implemented in separated modules and are coordinated in a sequential manner.We validate our approach by extensive experiments and results obtained over Grid'5000 test bed. Results show that, application can reduce significant amount of brown energy consumption by 35% and daily instance hour cost by 37% compared to a baseline approach when green energy aware adaptation is considered.
+KW  - energy consumption
+KW  - autonomic computing
+KW  - green it
+KW  - interactive cloud application
+KW  - paas
+KW  - sustainable computing.
+N1  - ASReview_relevant
+ER  - 
+
+6.
+TY  - JOUR
+DO  - 10.1145/3624486.3624504
+AU  - Chochliouros, Ioannis P.
+AU  - Pages-Montanera, Enric
+AU  - Alcázar-Fernández, Aitor
+AU  - Zahariadis, Theodore
+AU  - Velivassaki, Terpsichori-Helen
+AU  - Skianis, Charalabos
+AU  - Rossini, Rosaria
+AU  - Belesioti, Maria
+AU  - Drosos, Nikolaos
+AU  - Bakiris, Emmanouil
+AU  - Pedholla, Prashanth Kumar
+AU  - Karkazis, Panagiotis
+AU  - Samal, Astik Kumar
+AU  - Contreras Murillo, Luis Miguel
+AU  - Del Río, Alberto
+AU  - Serrano, Javier
+AU  - Skias, Dimitrios
+AU  - Segou, Olga E.
+AU  - Waechter, Sonja
+TI  - NEMO: Building the Next Generation Meta Operating System
+JO  - Proceedings of the 3rd Eclipse Security, AI, Architecture and Modelling Conference on Cloud to Edge Continuum
+SN  - 979-8-4007-0835-0
+DA  - 2023
+PB  - Association for Computing Machinery
+AB  - Artificial Intelligence of Things (AIoT) is one of the next big concepts to support societal changes and economic growth, being one of the fastest growing ICT segments. A specific challenge is to leverage existing technology strengths to develop solutions that sustain the European industry and values. The ongoing ΝΕΜΟ (“Next Generation Meta-Operating System”) EU-funded project intends to establish itself as the “game changer” of the AIoT-Edge-Cloud continuum by introducing an open source, modular and cybersecure meta-operating system, leveraging on existing technologies and introducing novel concepts, methods, tools, testing and engagement campaigns.NEMO will bring intelligence closer to the data and make AI-as-a-Service an integral part of network self-organisation and micro-services execution orchestration. Its widespread penetration and massive acceptance will be achieved via new technology, pre-commercial exploitation components and liaison with open-source communities.By defining a modular and adaptable mOS (meta-OS) architecture together with building blocks and plugins the project will “address” current and future technological and business needs.
+KW  - Artificial Intelligence of Things
+KW  - Meta Operating system
+KW  - The Cloud-to-Thing continuum: opportunities and challenges
+N1  - ASReview_relevant
+ER  - 
+
+7.
+TY  - JOUR
+DO  - 10.1109/MICRO56248.2022.00065
+AU  - Antoniou, Georgia
+AU  - Volos, Haris
+AU  - Bartolini, Davide B.
+AU  - Rollet, Tom
+AU  - Sazeides, Yiannakis
+AU  - Yahya, Jawad Haj
+TI  - AgilePkgC: An Agile System Idle State Architecture for Energy Proportional Datacenter Servers
+JO  - Proceedings of the 55th Annual IEEE/ACM International Symposium on Microarchitecture
+SN  - 978-1-6654-6272-3
+DA  - 2023
+PB  - IEEE Press
+AB  - Modern user-facing applications deployed in data-centers use a distributed system architecture that exacerbates the latency requirements of their constituent microservices (30–250μs). Existing CPU power-saving techniques degrade the performance of these applications due to the long transition latency (order of 100μs) to wake up from a deep CPU idle state (C-state). For this reason, server vendors recommend only enabling shallow core C-states (e.g., CC1) for idle CPU cores, thus preventing the system from entering deep package C-states (e.g., PC6) when all CPU cores are idle. This choice, however, impairs server energy proportionality since power-hungry resources (e.g., IOs, uncore, DRAM) remain active even when there is no active core to use them. As we show, it is common for all cores to be idle due to the low average utilization (e.g., 5 – 20%) of datacenter servers running user-facing applications.We propose to reap this opportunity with AgilePkgC (APC), a new package C-state architecture that improves the energy proportionality of server processors running latency-critical applications. APC implements PC1A (package C1 agile), a new deep package C-state that a system can enter once all cores are in a shallow C-state (i.e., CC1) and has a nanosecond-scale transition latency. PC1A is based on four key techniques. First, a hardware-based agile power management unit (APMU) rapidly detects when all cores enter a shallow core C-state (CC1) and triggers the system-level power savings control flow. Second, an IO Standby Mode (IOSM) places IO interfaces (e.g., PCIe, DMI, UPI, DRAM) in shallow (nanosecond-scale transition latency) low-power modes. Third, a CLM Retention (CLMR) mode rapidly reduces the CLM (Cache-and-home-agent, Last-level-cache, and Mesh network-on-chip) domain's voltage to its retention level, drastically reducing its power consumption. Fourth, APC keeps all system PLLs active in PC1A to allow nanosecond-scale exit latency by avoiding PLL re-locking overhead.Combining these techniques enables significant power savings while requiring less than 200ns transition latency, &gt;250× faster than existing deep package C-states (e.g., PC6), making PC1A practical for datacenter servers. Our evaluation based on an Intel Skylake-based server shows that APC reduces the energy consumption of Memcached by up to 41% (25% on average) with &lt;0.1% performance degradation. APC provides similar benefits for other representative workloads.
+N1  - ASReview_relevant
+ER  - 
+
+8.
+TY  - JOUR
+DO  - 10.1109/MICRO56248.2022.00063
+AU  - Yahya, Jawad Haj
+AU  - Volos, Haris
+AU  - Bartolini, Davide B.
+AU  - Antoniou, Georgia
+AU  - Kim, Jeremie S.
+AU  - Wang, Zhe
+AU  - Kalaitzidis, Kleovoulos
+AU  - Rollet, Tom
+AU  - Chen, Zhirui
+AU  - Geng, Ye
+AU  - Mutlu, Onur
+AU  - Sazeides, Yiannakis
+TI  - AgileWatts: An Energy-Efficient CPU Core Idle-State Architecture for Latency-Sensitive Server Applications
+JO  - Proceedings of the 55th Annual IEEE/ACM International Symposium on Microarchitecture
+SN  - 978-1-6654-6272-3
+DA  - 2023
+PB  - IEEE Press
+AB  - User-facing applications running in modern datacenters exhibit irregular request patterns and are implemented using a multitude of services with tight latency requirements (30–250μs). These characteristics render existing energy-conserving techniques ineffective when processors are idle due to the long transition time (order of 100μs) from a deep CPU core idle power state (C-state). While prior works propose management techniques to mitigate this inefficiency, we tackle it at its root with AgileWatts (AW): a new deep CPU core C-state architecture optimized for datacenter server processors targeting latency-sensitive applications.AW drastically reduces the transition latency from deep CPU core idle power states while retaining most of their power savings based on three key ideas. First, AW eliminates the latency (several microseconds) of saving/restoring the core context when powering-off/-on the core in a deep idle state by i) implementing medium-grained power-gates, carefully distributed across the CPU core, and ii) retaining context in the power-ungated domain. Second, AW eliminates the flush latency (several tens of microseconds) of the L1/L2 caches when entering a deep idle state by keeping L1/L2 content power-ungated. A small control logic also remains ungated to serve cache coherence traffic. AW implements cache sleep-mode and leakage reduction for the power-ungated domain by lowering a core's voltage to the minimum operational level. Third, using a state-of-the-art power efficient all-digital phase-locked loop (ADPLL) clock generator, AW keeps the PLL active and locked during the idle state, cutting microseconds of wake-up latency at negligible power cost.Our evaluation with an accurate industrial-grade simulator calibrated against an Intel Skylake server shows that AW reduces the energy consumption of Memcached by up to 71% (35% on average) with &lt;1% end-to-end performance degradation. We observe similar trends for other evaluated services (MySQL and Kafka). AW's new deep C-states C6A and C6AE reduce transition-time by up to 900× as compared to the deepest existing idle state C6, while consuming only 7% and 5% of the active state (C0) power, respectively.
+N1  - ASReview_relevant
+ER  - 
+
+9.
+TY  - JOUR
+DO  - 10.1145/3674734
+AU  - Antoniou, Georgia
+AU  - Bartolini, Davide
+AU  - Volos, Haris
+AU  - Kleanthous, Marios
+AU  - Wang, Zhe
+AU  - Kalaitzidis, Kleovoulos
+AU  - Rollet, Tom
+AU  - Li, Ziwei
+AU  - Mutlu, Onur
+AU  - Sazeides, Yiannakis
+AU  - Haj Yahya, Jawad
+TI  - Agile C-states: A Core C-state Architecture for Latency Critical Applications Optimizing both Transition and Cold-Start Latency
+JO  - ACM Trans. Archit. Code Optim.
+SN  - 1544-3566
+DA  - 2024-11
+AB  - Latency-critical applications running in modern datacenters exhibit irregular request arrival patterns and are implemented using multiple services with strict latency requirements (30–250μs). These characteristics render existing energy-saving idle CPU sleep states ineffective due to the performance overhead caused by the state’s transition latency. Besides the state transition latency, another important contributor to the performance overhead of sleep states is the cold-start latency, or in other words, the time required to warm up the microarchitectural state (e.g., cache contents, branch predictor metadata) that is flushed or discarded when transitioning to a lower-power state. Both the transition latency and cold-start latency can be particularly detrimental to the performance of latency critical applications with short execution times. While prior work focuses on mitigating the effects of transition and cold-start latency by optimizing request scheduling, in this work we propose a redesign of the core C-state architecture for latency-critical applications. In particular, we introduce C6Awarm, a new Agile core C-state that drastically reduces the performance overhead caused by idle sleep state transition latency and cold-start latency while maintaining significant energy savings. C6Awarm achieves its goals by (1) implementing medium-grained power gating, (2) preserving the microarchitectural state of the core, and (3) keeping the clock generator and PLL active and locked. Our analysis for a set of microservices based on an Intel Skylake server shows that C6Awarm manages to reduce the energy consumption by up to 70% with limited performance degradation (at most 2%).
+KW  - microservices
+KW  - datacenters
+KW  - Power management
+KW  - C-states
+KW  - idle states
+N1  - ASReview_relevant
+ER  - 
+
+10.
+TY  - JOUR
+DO  - 10.1145/3528535.3565242
+AU  - Zandberg, Koen
+AU  - Baccelli, Emmanuel
+AU  - Yuan, Shenghao
+AU  - Besson, Frédéric
+AU  - Talpin, Jean-Pierre
+TI  - Femto-containers: lightweight virtualization and fault isolation for small software functions on low-power IoT microcontrollers
+JO  - Proceedings of the 23rd ACM/IFIP International Middleware Conference
+SN  - 978-1-4503-9340-9
+DA  - 2022
+PB  - Association for Computing Machinery
+AB  - Low-power operating system runtimes used on IoT microcontrollers typically provide rudimentary APIs, basic connectivity and, sometimes, a (secure) firmware update mechanism. In contrast, on less constrained hardware, networked software has entered the age of serverless, microservices and agility. With a view to bridge this gap, in the paper we design Femto-Containers, a new middleware runtime which can be embedded on heterogeneous low-power IoT devices. Femto-Containers enable the secure deployment, execution and isolation of small virtual software functions on low-power IoT devices, over the network. We implement Femto-Containers, and provide integration in RIOT, a popular open source IoT operating system. We then evaluate the performance of our implementation, which was formally verified for fault-isolation, guaranteeing that RIOT is shielded from logic loaded and executed in a Femto-Container. Our experiments on various popular micro-controller architectures (Arm Cortex-M, ESP32 and RISC-V) show that Femto-Containers offer an attractive trade-off in terms of memory footprint overhead, energy consumption, and security.
+KW  - security
+KW  - IoT
+KW  - middleware
+KW  - container
+KW  - function-as-a-service
+KW  - low-power
+KW  - microcontroller
+KW  - virtual machine
+N1  - ASReview_relevant
+ER  - 
+
+11.
+TY  - JOUR
+DO  - 10.1145/3139290
+AU  - Fokaefs, Marios
+AU  - Barna, Cornel
+AU  - Litoiu, Marin
+TI  - From DevOps to BizOps: Economic Sustainability for Scalable Cloud Applications
+JO  - ACM Trans. Auton. Adapt. Syst.
+SN  - 1556-4665
+DA  - 2017-11
+AB  - Virtualization of resources in cloud computing has enabled developers to commission and recommission resources at will and on demand. This virtualization is a coin with two sides. On one hand, the flexibility in managing virtual resources has enabled developers to efficiently manage their costs; they can easily remove unnecessary resources or add resources temporarily when the demand increases. On the other hand, the volatility of such environment and the velocity with which changes can occur may have a greater impact on the economic position of a stakeholder and the business balance of the overall ecosystem. In this work, we recognise the business ecosystem of cloud computing as an economy of scale and explore the effect of this fact on decisions concerning scaling the infrastructure of web applications to account for fluctuations in demand. The goal is to reveal and formalize opportunities for economically optimal scaling that takes into account not only the cost of infrastructure but also the revenue from service delivery and eventually the profit of the service provider. The end product is a scaling mechanism that makes decisions based on both performance and economic criteria and takes adaptive actions to optimize both performance and profitability for the system.
+KW  - Cloud computing
+KW  - DevOps
+KW  - self-adaptive systems
+KW  - software engineering economics
+N1  - ASReview_relevant
+ER  - 
+
+12.
+TY  - JOUR
+DO  - 10.1109/MICRO56248.2022.00040
+AU  - Khairy, Mahmoud
+AU  - Alawneh, Ahmad
+AU  - Barnes, Aaron
+AU  - Rogers, Timothy G.
+TI  - SIMR: Single Instruction Multiple Request Processing for Energy-Efficient Data Center Microservices
+JO  - Proceedings of the 55th Annual IEEE/ACM International Symposium on Microarchitecture
+SN  - 978-1-6654-6272-3
+DA  - 2023
+PB  - IEEE Press
+AB  - Contemporary data center servers process thousands of similar, independent requests per minute. In the interest of programmer productivity and ease of scaling, workloads in data centers have shifted from single monolithic processes toward a micro and nanoservice software architecture. As a result, single servers are now packed with many threads executing the same, relatively small task on different data.State-of-the-art data centers run these microservices on multi-core CPUs. However, the flexibility offered by traditional CPUs comes at an energy-efficiency cost. The Multiple Instruction Multiple Data execution model misses opportunities to aggregate the similarity in contemporary microservices. We observe that the Single Instruction Multiple Thread execution model, employed by GPUs, provides better thread scaling and has the potential to reduce frontend and memory system energy consumption. However, contemporary GPUs are ill-suited for the latency-sensitive microservice space.To exploit the similarity in contemporary microservices, while maintaining acceptable latency, we propose the Request Processing Unit (RPU). The RPU combines elements of out-of-order CPUs with lockstep thread aggregation mechanisms found in GPUs to execute microservices in a Single Instruction Multiple Request (SIMR) fashion. To complement the RPU, we also propose a SIMR-aware software stack that uses novel mechanisms to batch requests based on their predicted control-flow, split batches based on predicted latency divergence and map per-request memory allocations to maximize coalescing opportunities. Our resulting RPU system processes 5.7× more requests/joule than multi-core CPUs, while increasing single thread latency by only 1.44×.
+KW  - data center
+KW  - GPU
+KW  - microservices
+KW  - SIMT
+N1  - ASReview_relevant
+ER  - 
+
+13.
+TY  - JOUR
+DO  - 10.1145/3652620.3688266
+AU  - Aissat, Sara
+AU  - Beaulieu, Jonathan
+AU  - Bordeleau, Francis
+AU  - Gascon-Samson, Julien
+AU  - Poirier, Erik A.
+AU  - Motamedi, Ali
+TI  - JuNo-OPS: A DevOps Framework for the Engineering of Digital Twins for Built Assets
+JO  - Proceedings of the ACM/IEEE 27th International Conference on Model Driven Engineering Languages and Systems
+SN  - 979-8-4007-0622-6
+DA  - 2024
+PB  - Association for Computing Machinery
+AB  - Digital Twins (DT) constitute complex software systems that need to be continuously modified/updated to meet evolving user requirements and priorities, and support continual improvement. Because they aim at monitoring and improving different system aspects, their development requires the collaboration of people from different domains of expertise, e.g. the development of a DT for built assets may involve the collaboration of experts in software engineering, thermal comfort, air quality, and energy consumption, etc. Consequently, DTs need to be engineered to enable the fast and secure integration and deployment of new code, the systematic and iterative evolution of their components, and the independent development of different system aspects by those experts.In this paper, we present JuNo-OPS, a DevOps framework for the engineering of DTs for built assets. The framework is being developed, tested and validated in the the context of a multi-function room at École de Technologie Supérieure (ETS). We focus on two main facets of the DT software: the microservices architecture; and the DevOps infrastructure used to support the development, continuous integration, continuous delivery and the automation thereof. We also discuss challenges and next steps related to the development and evolution of the framework.
+KW  - digital twins
+KW  - microservices
+KW  - DevOps
+KW  - IoT
+KW  - CI/CD pipelines
+N1  - ASReview_relevant
+ER  - 
+
+14.
+TY  - JOUR
+DO  - 10.1145/3620665.3640413
+AU  - Mahapatra, Rohan
+AU  - Ghodrati, Soroush
+AU  - Ahn, Byung Hoon
+AU  - Kinzer, Sean
+AU  - Wang, Shu-Ting
+AU  - Xu, Hanyang
+AU  - Karthikeyan, Lavanya
+AU  - Sharma, Hardik
+AU  - Yazdanbakhsh, Amir
+AU  - Alian, Mohammad
+AU  - Esmaeilzadeh, Hadi
+TI  - In-Storage Domain-Specific Acceleration for Serverless Computing
+JO  - Proceedings of the 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2
+SN  - 979-8-4007-0385-0
+DA  - 2024
+PB  - Association for Computing Machinery
+AB  - While (I) serverless computing is emerging as a popular form of cloud execution, datacenters are going through major changes: (II) storage dissaggregation in the system infrastructure level and (III) integration of domain-specific accelerators in the hardware level. Each of these three trends individually provide significant benefits; however, when combined the benefits diminish. On the convergence of these trends, the paper makes the observation that for serverless functions, the overhead of accessing dissaggregated storage overshadows the gains from accelerators. Therefore, to benefit from all these trends in conjunction, we propose In-Storage Domain-Specific Acceleration for Serverless Computing (dubbed DSCS-Serverless1). The idea contributes a server-less model that utilizes a programmable accelerator embedded within computational storage to unlock the potential of acceleration in disaggregated datacenters. Our results with eight applications show that integrating a comparatively small accelerator within the storage (DSCS-Serverless) that fits within the storage's power constraints (25 Watts), significantly outperforms a traditional disaggregated system that utilizes NVIDIA RTX 2080 Ti GPU (250 Watts). Further, the work highlights that disaggregation, serverless model, and the limited power budget for computation in storage device require a different design than the conventional practices of integrating microprocessors and FPGAs. This insight is in contrast with current practices of designing computational storage devices that are yet to address the challenges associated with the shifts in datacenters. In comparison with two such conventional designs that use ARM cores or a Xilinx FPGA, DSCS-Serverless provides 3.7× and 1.7× end-to-end application speedup, 4.3× and 1.9× energy reduction, and 3.2× and 2.3× better cost efficiency, respectively.
+KW  - serverless computing
+KW  - accelerator
+KW  - computational storage drive (CSD)
+KW  - deep neural network (DNN)
+KW  - disaggregated datacenter
+KW  - domain specific architecture (DSA)
+KW  - in-storage acceleration
+KW  - large language model (LLM)
+KW  - neural processing unit (NPU)
+KW  - serverless function
+KW  - storage systems
+N1  - ASReview_relevant
+ER  - 
+
+15.
+TY  - JOUR
+DO  - 10.1145/3423211.3425683
+AU  - Gunasekaran, Jashwant Raj
+AU  - Thinakaran, Prashanth
+AU  - Nachiappan, Nachiappan C.
+AU  - Kandemir, Mahmut Taylan
+AU  - Das, Chita R.
+TI  - Fifer: Tackling Resource Underutilization in the Serverless Era
+JO  - Proceedings of the 21st International Middleware Conference
+SN  - 978-1-4503-8153-6
+DA  - 2020
+PB  - Association for Computing Machinery
+AB  - Datacenters are witnessing a rapid surge in the adoption of serverless functions for microservices-based applications. A vast majority of these microservices typically span less than a second, have strict SLO requirements, and are chained together as per the requirements of an application. The aforementioned characteristics introduce a new set of challenges, especially in terms of container provisioning and management, as the state-of-the-art resource management frameworks, employed in serverless platforms, tend to look at microservice-based applications similar to conventional monolithic applications. Hence, these frameworks suffer from microservice agnostic scheduling and colossal container over-provisioning, especially during workload fluctuations, thereby resulting in poor resource utilization.In this work, we quantify the above shortcomings using a variety of workloads on a multi-node cluster managed by the Kubernetes and Brigade serverless framework. To address them, we propose Fifer — an adaptive resource management framework to efficiently manage function-chains on serverless platforms. The key idea is to make Fifer (i) utilization conscious by efficiently bin packing jobs to fewer containers using function-aware container scaling and intelligent request batching, and (ii) at the same time, SLO-compliant by proactively spawning containers to avoid cold-starts, thus minimizing the overall response latency. Combining these benefits, Fifer improves container utilization and cluster-wide energy consumption by 4× and 31%, respectively, without compromising on SLO's, when compared to the state-of-the-art schedulers employed by serverless platforms.
+KW  - scheduling
+KW  - serverless
+KW  - resource-management
+KW  - queuing
+N1  - ASReview_relevant
+ER  - 
+
+16.
+TY  - JOUR
+DO  - 10.1145/3110355.3110359
+AU  - Tsiachri Renta, Pelagia
+AU  - Sotiriadis, Stelios
+AU  - Petrakis, Euripides G.M.
+TI  - Healthcare Sensor Data Management on the Cloud
+JO  - Proceedings of the 2017 Workshop on Adaptive Resource Management and Scheduling for Cloud Computing
+SN  - 978-1-4503-5116-4
+DA  - 2017
+PB  - Association for Computing Machinery
+AB  - The quality of medical services can be significantly improved by supporting health care procedures with new technologies such as Cloud computing and Internet of Things (IoTs). The need to monitor patient's health remotely and in real time becomes more and more a vital requirement, especially for chronic patients and elderly. In this work, we focus on the management of health care related data stored on the Cloud produced by Bluetooth low energy devices. We present a Cloud based IoT Management System that collects vital user data (e.g. cardiac pulse rate and blood oxygen saturation) on real time. Our solution enables sensor data collection and processing fast and efficient, while users such as medical personnel can subscribe to patient's data and get notifications. The system is designed based on microservices and includes a notification service for both health care providers and patients minimizing the risk of late response to emergency conditions. Alerts are produced according to predefined rules and on patient specific reaction plans. We present an experimental study where we evaluate our system based on real world sensors, while we generate a synthetic dataset for simulating thousands of users. The results are prosperous, as the system responds close to real time even under heavy loads binding to the limits of the web server that receives the service request. The heaviest workload simulates 2000 user requests (while 80 are executed concurrently) is completed in less than 13 seconds when the system deployed in a virtual machine of 2GB RAM, 1 VCPU and 20GB Disk.
+KW  - cloud computing
+KW  - internet of things
+N1  - ASReview_relevant
+ER  - 
+
+17.
+TY  - JOUR
+DO  - 10.1007/978-3-031-44836-2_3
+AU  - Nam, T. B.
+AU  - Khiem, H. G.
+AU  - Triet, M. N.
+AU  - Hong, K. V.
+AU  - Khoa, T. D.
+AU  - Bao, Q. T.
+AU  - Phuc, N. T.
+AU  - Hieu, M. D.
+AU  - Loc, V. C. P.
+AU  - Quy, T. L.
+AU  - Anh, N. T.
+AU  - Hien, Q. N.
+AU  - Bang, L. K.
+AU  - Trong, D. P. N.
+AU  - Ngan, N. T. K.
+AU  - Son, H.
+AU  - Luong, H. H.
+TI  - SPaMeR: Securing Patient Medical Records in&nbsp;the&nbsp;Cloud - A Microservice and&nbsp;Brokerless Architecture Approach
+JO  - Web Services – ICWS 2023: 30th International Conference, Held as Part of the Services Conference Federation, SCF 2023, Honolulu, HI, USA, September 23–26, 2023, Proceedings
+SN  - 978-3-031-44835-5
+DA  - 2023
+PB  - Springer-Verlag
+AB  - The expansion of Internet of Things (IoT) technologies has revolutionized various sectors, one of the most critical being healthcare. The effective management of Patient Medical Records (PMRs) is an area where IoT plays a significant role, and its integration with Cloud Computing offers an enormous opportunity to enhance data accessibility, efficiency, and cost-effectiveness. However, the challenge of securing PMRs in the cloud remains a key concern. This paper introduces SPaMeR, an innovative IoT platform based on microservice and brokerless architecture, tailored to address this challenge and the specific requirements of healthcare environments. SPaMeR platform incorporates and extends the core functionalities of the IoT platform designed in our previous work - data collection, device and user management, and remote device control - while specifically addressing six critical issues for healthcare data: a) secure and reliable transmission of medical data, b) energy efficiency for healthcare devices, c) high-speed and accurate data collection from medical devices, d) robust security mechanisms to protect sensitive patient information, e) scalability to accommodate the ever-growing number of patients and medical devices, and f) compliance with healthcare data regulations and standards. To demonstrate the effectiveness and feasibility of SPaMeR, we provide a comprehensive evaluation with two distinct healthcare scenarios. Our results indicate significant improvements in the areas of data security, energy efficiency, and system scalability compared to traditional healthcare platforms.
+KW  - microservice
+KW  - micro-service
+KW  - Internet of Things
+KW  - Kafka
+KW  - brokerless
+KW  - gRPC
+KW  - Medical record
+KW  - RBAC
+KW  - Single Sign-On
+N1  - ASReview_relevant
+ER  - 
+
+18.
+TY  - JOUR
+DO  - 10.1145/3715700
+AU  - Yang, Yihong
+AU  - Zhou, Zhangbing
+AU  - Shu, Lei
+AU  - Zhou, Feng
+AU  - Gaaloul, Walid
+AU  - Khan, Arif Ali
+TI  - Web 3.0-Enabled Microservice Re-Scheduling for Heterogenous Resources Co-Optimization in Metaverse-Integrated Edge Networks
+JO  - ACM Trans. Auton. Adapt. Syst.
+SN  - 1556-4665
+DA  - 2025-01
+AB  - The Web 3.0 and metaverse can empower intelligent application of Connected Autonomous Vehicles (CAVs). The adoption of edge computing can contribute to the low latency interaction between CAVs and the metaverse. Microservices are widely deployed on edge networks and the cloud nowadays. User's requests from CAVs are typically fulfilled through the composition of microservices, which may be hosted by contiguous edge nodes. Requests may differ on their required resources at runtime. Consequently, when requests are continuously injected into edge networks, the usage of heterogenous resources, including CPU, memory, and network bandwidth, may not be the same, or differ significantly, on certain edge nodes. This happens especially when burst requests are injected into the network to be satisfied concurrently. Therefore, the usage of heterogenous resources provided by edge nodes should be co-optimized through re-scheduling microservices. To address this challenge, this paper proposes a Web 3.0-enabled Microservice Re-Scheduling approach (called MRS), which is a migration-based mechanism integrating a placement strategy. Specifically, we formulate the microservice re-scheduling task as a multi-objective and multi-constraint optimization problem, which can be solved through a penalty signal-integrated framework and an improved pointer network. Extensive experiments are conducted on two real-world datasets. Evaluation results show that our MRS performs better than the counterparts with improvements of at least 7.7%, 2.4% and 2.2% in terms of network throughput, latency and energy consumption.
+KW  - Connected Autonomous Vehicles (CAVs)
+KW  - Heterogenous Resources Co-Optimization
+KW  - Metaverse
+KW  - Microservice Re-Scheduling
+KW  - Web 3.0
+N1  - ASReview_relevant
+ER  - 
+
+19.
+TY  - JOUR
+DO  - 10.1007/978-3-030-59824-2_2
+AU  - Kaneko, Yu
+AU  - Yokoyama, Yuhei
+AU  - Monma, Nobuyuki
+AU  - Terashima, Yoshiki
+AU  - Teramoto, Keiichi
+AU  - Kishimoto, Takuya
+AU  - Saito, Takeshi
+TI  - A Microservice-Based Industrial Control System Architecture Using Cloud and&nbsp;MEC
+JO  - Edge Computing – EDGE 2020: 4th International Conference, Held as Part of the Services Conference Federation, SCF 2020, Honolulu, HI, USA, September 18-20, 2020, Proceedings
+SN  - 978-3-030-59823-5
+DA  - 2020
+PB  - Springer-Verlag
+AB  - Cloud computing has been adapted for various application areas. Several research projects are underway to migrate Industrial Control Systems (ICSs) to the public cloud. Some functions of ICSs require real-time processing that is difficult to migrate to the public cloud because network latency of the internet is unpredictable. Fog computing is a new computing paradigm that could address this latency issue. In particular, Multi-access Edge Computing (MEC) is a fog computing environment integrated with the 5G network, and therefore the real-time processing requirement of ICSs could be satisfied by using MEC. In this paper, we propose a microservice-based ICS architecture using the cloud and fog computing. In the architecture, each function of an ICS is implemented as a microservice and its execution locations are determined by an algorithm minimizing the total usage fee for cloud and fog computing while satisfying the real-time processing requirement. The proposed architecture and placement algorithm are evaluated by simulation under the scenario of a virtual power plant that manages distributed energy resources. The simulation result shows the proposed placement algorithm suppresses VM usage fee while satisfying the requirement of a real-time control function.
+KW  - 5G
+KW  - Cloud
+KW  - Fog
+KW  - Industrial Control System
+KW  - MEC
+N1  - ASReview_relevant
+ER  - 
+
+20.
+TY  - JOUR
+DO  - 10.1145/3634814.3634838
+AU  - Kawalkar, Shreyash N
+TI  - Geo-Intelligent Architecture for Smart Grid Evolution: Addressing Contemporary Challenges through Spatial AI and Knowledge Integration
+JO  - Proceedings of the 2023 4th Asia Service Sciences and Software Engineering Conference
+SN  - 979-8-4007-0853-4
+DA  - 2024
+PB  - Association for Computing Machinery
+AB  - This research explores the challenges of contemporary Smart Grid (SG) technology products and proposes a novel methodology to address them. Through a comprehensive survey, we identified common hurdles SG technologies face, especially with the rapid evolution of technology and the expansion of energy sector assets. Central to our methodology is the development of a conceptual architecture that is adaptive, scalable, and optimized for complex data management. Key features of this architecture include a Modular Architecture with Micro-Services, Serverless 2.0 for Scalability, and the integration of Knowledge Graphs for enhanced data-driven decision-making. At the heart of these solutions lies the synthesis of geospatial intelligence via Geo-Spatial AI and the use of cognitive mapping to bridge micro-services with energy assets, to ensure the grid's responsive adjustment to dynamic energy landscapes. By synthesizing advanced AI technologies and geospatial mapping techniques, our approach promises a leap in efficiency, adaptability, and accuracy for future Smart Grid platforms.
+KW  - AI in Modern Energy Infrastructures
+KW  - AI Solutions for Smart Grid Technology Challenges
+KW  - Cognitive Mapping of Micro Services to Energy Assets
+KW  - Context aware Energy Management System
+KW  - Geo Intelligent Software Architecture
+KW  - Knowledge Graph Embedded AI
+KW  - Streamlined Smart Grid Assets and Data Management
+N1  - ASReview_relevant
+ER  - 
+
+21.
+TY  - JOUR
+DO  - 10.1007/978-3-031-18192-4_1
+AU  - Akasiadis, Charilaos
+AU  - Iatrakis, Georgios
+AU  - Spanoudakis, Nikolaos
+AU  - Chalkiadakis, Georgios
+TI  - An Open MAS/IoT-Based Architecture for&nbsp;Large-Scale V2G/G2V
+JO  - Advances in Practical Applications of Agents, Multi-Agent Systems, and Complex Systems Simulation. The PAAMS Collection: 20th International Conference, PAAMS 2022, L'Aquila, Italy, July 13–15, 2022, Proceedings
+SN  - 978-3-031-18191-7
+DA  - 2022
+PB  - Springer-Verlag
+AB  - In this paper we put forward an open multi-agent systems (MAS) architecture for the important and challenging to engineer vehicle-to-grid (V2G) and grid-to-vehicle (G2V) energy transfer problem domains. To promote scalability, our solution is provided in the form of modular microservices that are interconnected using a multi-protocol Internet of Things (IoT) platform. On the one hand, the low-level modularity of Smart Grid services allows the seamless integration of different agent strategies, pricing mechanisms and algorithms; and on the other, the IoT-based implementation offers both direct applicability in real-world settings, as well as advanced analytics capabilities by enabling digital twins models for Smart Grid ecosystems. We describe our MAS/IoT-based architecture and present results from simulations that incorporate large numbers of heterogeneous Smart Grid agents, which might follow different strategies for their decision making tasks. Our framework enables the testing of various schemes in simulation mode, and can also be used as the basis for the implementation of real-world prototypes for the delivery of large-scale V2G/G2V services.
+KW  - Internet of things
+KW  - Smart grid
+KW  - Open multi-agent systems
+N1  - ASReview_relevant
+ER  - 
+
+22.
+TY  - JOUR
+DO  - 10.1145/3565010.3569065
+AU  - Tootaghaj, Diman Zad
+AU  - Mercian, Anu
+AU  - Adarsh, Vivek
+AU  - Sharifian, Mehrnaz
+AU  - Sharma, Puneet
+TI  - SmartNICs at edge for transient compute elasticity
+JO  - Proceedings of the 3rd International Workshop on Distributed Machine Learning
+SN  - 978-1-4503-9922-7
+DA  - 2022
+PB  - Association for Computing Machinery
+AB  - This paper proposes a new architecture that strategically harvests the untapped compute capacity of the SmartNICs to offload transient microservices workload spikes, thereby reducing the SLA violations while providing better performance/energy consumption. This is particularly important for ML workloads at Edge deployments with stringent SLA requirements. Usage of the untapped compute capacity is more favorable than deploying extra servers, as SmartNICs are economically and operationally more desirable. We propose Spike-Offload, a low-cost and scalable platform that leverages machine learning to predict the spikes and orchestrates seamless offloading of generic microservices workloads to the SmartNICs, eliminating the need for pre-deploying expensive host servers and their under-utilization. Our SpikeOffload evaluation shows that SLA violations can be reduced by up to 20% for specific workloads. Furthermore, we demonstrate that for specific workloads our approach can potentially reduce capital expenditure (CAPEX) by more than 40%. Also, performance per unit energy consumption can be improved by upto 2X.
+KW  - edge
+KW  - serverless computing
+KW  - application offload
+KW  - SmartNIC
+N1  - ASReview_relevant
+ER  - 
+
+23.
+TY  - JOUR
+DO  - 10.1145/3520304.3533997
+AU  - Khalloof, Hatem
+AU  - Ciftci, Sergen
+AU  - Shahoud, Shadi
+AU  - Duepmeier, Clemens
+AU  - Foerderer, Kevin
+AU  - Hagenmeyer, Veit
+TI  - Facilitating the hybridization of parallel evolutionary algorithms in cluster computing environments
+JO  - Proceedings of the Genetic and Evolutionary Computation Conference Companion
+SN  - 978-1-4503-9268-6
+DA  - 2022
+PB  - Association for Computing Machinery
+AB  - Evolutionary Algorithms (EAs) need domain-specific adaptations for achieving better results, tend to converge to suboptimal solutions and are computationally expensive when they are applied to complex and large-scale optimization problems. For addressing these challenges, hybridizing EAs with other algorithms and methods and parallelizing them in cluster computing environments represent essential solutions. In the present paper, a new software solution for supporting the hybridizations of parallel EAs is proposed. Unlike other software solutions for hybridizing EAs, the proposed software solution provides a flexible, generic and scalable mechanism for integrating any algorithmic approach like a Machine Learning (ML) algorithm to seed the initial population of parallel EAs. It is designed based on three modern software technologies, namely microservices, container virtualization and the publish/subscribe messaging paradigm. The applicability and generality of the presented software solution is tested by hybridizing the General Learning Evolutionary Algorithm and Method (GLEAM) with ML techniques for solving the problem of scheduling Distributed Energy Resources (DERs). The benchmarking tests are performed in a cluster computing environment. The obtained results show that the new software solution represents a successful approach to facilitate the hybridization of parallel EAs paving the road for future applications of EAs in several domains.
+KW  - microservice
+KW  - scalability
+KW  - container
+KW  - global model
+KW  - hybrid evolutionary algorithms
+KW  - parallel computing
+KW  - parallel evolutionary algorithms
+KW  - scheduling distributed energy resources
+KW  - virtualization
+N1  - ASReview_relevant
+ER  - 
+
+24.
+TY  - JOUR
+DO  - 10.1145/3629527.3651844
+AU  - D'Angelo, Andrea
+AU  - d'Aloisio, Giordano
+TI  - Grammar-Based Anomaly Detection of Microservice Systems Execution Traces
+JO  - Companion of the 15th ACM/SPEC International Conference on Performance Engineering
+SN  - 979-8-4007-0445-1
+DA  - 2024
+PB  - Association for Computing Machinery
+AB  - Microservice architectures are a widely adopted architectural pattern for large-scale applications. Given the large adoption of these systems, several works have been proposed to detect performance anomalies starting from analysing the execution traces. However, most of the proposed approaches rely on machine learning (ML) algorithms to detect anomalies. While ML methods may be effective in detecting anomalies, the training and deployment of these systems as been shown to be less efficient in terms of time, computational resources, and energy required.In this paper, we propose a novel approach based on Context-free grammar for anomaly detection of microservice systems execution traces. We employ the SAX encoding to transform execution traces into strings. Then, we select strings encoding anomalies, and for each possible anomaly, we build a Context-free grammar using the Sequitur grammar induction algorithm. We test our approach on two real-world datasets and compare it with a Logistic Regression classifier. We show how our approach is more effective in terms of training time of 15 seconds with a minimum loss in effectiveness of 5% compared to the Logistic Regression baseline.
+KW  - anomaly detection
+KW  - context-free grammar
+KW  - execution traces
+KW  - micro service system
+N1  - ASReview_relevant
+ER  - 
+
+25.
+TY  - JOUR
+DO  - 10.1145/3575693.3575710
+AU  - Switzer, Jennifer
+AU  - Marcano, Gabriel
+AU  - Kastner, Ryan
+AU  - Pannuto, Pat
+TI  - Junkyard Computing: Repurposing Discarded Smartphones to Minimize Carbon
+JO  - Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2
+SN  - 978-1-4503-9916-6
+DA  - 2023
+PB  - Association for Computing Machinery
+AB  - 1.5 billion smartphones are sold annually, and most are decommissioned less than two years later. Most of these unwanted smartphones are neither discarded nor recycled but languish in junk drawers and storage units. This computational stockpile represents a substantial wasted potential: modern smartphones have increasingly high-performance and energy-efficient processors, extensive networking capabilities, and a reliable built-in power supply. This project studies the ability to reuse smartphones as "junkyard computers." Junkyard computers grow global computing capacity by extending device lifetimes, which supplants the manufacture of new devices. We show that the capabilities of even decade-old smartphones are within those demanded by modern cloud microservices and discuss how to combine phones to perform increasingly complex tasks. We describe how current operation-focused metrics do not capture the actual carbon costs of compute. We propose Computational Carbon Intensity—a performance metric that balances the continued service of older devices with the superlinear runtime improvements of newer machines. We use this metric to redefine device service lifetime in terms of carbon efficiency. We develop a cloudlet of reused Pixel 3A phones. We analyze the carbon benefits of deploying large, end-to-end microservice-based applications on these smartphones. Finally, we describe system architectures and associated challenges to scale to cloudlets with hundreds and thousands of smartphones.
+KW  - cloud computing
+KW  - sustainability
+KW  - life cycle assessment
+N1  - ASReview_relevant
+ER  - 
