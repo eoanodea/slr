@@ -16,3 +16,5 @@ PyPDF2>=3.0.0
 # Web automation (for ASReview automation)
 selenium>=4.0.0
 webdriver-manager>=4.0.0
+
+dotenv

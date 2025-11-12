@@ -1,0 +1,595 @@
+TY  - JOUR
+TI  - DRACeo: A smart simulator to deploy energy saving methods in microservices based networks
+AU  - H. H. A. Valera
+AU  - M. Dalmau
+AU  - P. Roose
+AU  - J. Larracoechea
+AU  - C. Herzog
+JO  - 2020 IEEE 29th International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE)
+DO  - 10.1109/WETICE49692.2020.00026
+ER  - 
+
+TY  - JOUR
+TI  - Energy Efficient Scheduling of Cloud Application Components with Brownout
+AU  - Xu M.
+AU  - Dastjerdi A.V.
+AU  - Buyya R.
+JO  - IEEE Transactions on Sustainable Computing
+DO  - 10.1109/TSUSC.2017.2661339
+ER  - 
+
+TY  - JOUR
+TI  - Fifer: Tackling Resource Underutilization in the Serverless Era
+AU  - Gunasekaran, Jashwant Raj
+AU  - Thinakaran, Prashanth
+AU  - Nachiappan, Nachiappan C.
+AU  - Kandemir, Mahmut Taylan
+AU  - Das, Chita R.
+JO  - Proceedings of the 21st International Middleware Conference
+DO  - 10.1145/3423211.3425683
+ER  - 
+
+TY  - JOUR
+TI  - Dynamic Management of Constrained Computing Resources for Serverless Services
+AU  - Adeppady M.
+AU  - Conte A.
+AU  - Giaccone P.
+AU  - Karl H.
+AU  - Chiasserini C.F.
+JO  - IEEE Transactions on Network and Service Management
+DO  - 10.1109/TNSM.2024.3497155
+ER  - 
+
+TY  - JOUR
+TI  - A Microservice Store for Efficient Edge Offloading
+AU  - J. Gedeon
+AU  - M. Wagner
+AU  - J. Heuschkel
+AU  - L. Wang
+AU  - M. Muhlhauser
+JO  - 2019 IEEE Global Communications Conference (GLOBECOM)
+DO  - 10.1109/GLOBECOM38437.2019.9014114
+ER  - 
+
+TY  - JOUR
+TI  - Improved QoS at the Edge Using Serverless Computing to Deploy Virtual Network Functions
+AU  - S. R. Chaudhry
+AU  - A. Palade
+AU  - A. Kazmi
+AU  - S. Clarke
+JO  - IEEE Internet of Things Journal
+DO  - 10.1109/JIOT.2020.3011057
+ER  - 
+
+TY  - JOUR
+TI  - Joint optimization of service request routing and instance placement in the microservice system
+AU  - Yu Y.
+AU  - Yang J.
+AU  - Guo C.
+AU  - Zheng H.
+AU  - He J.
+JO  - Journal of Network and Computer Applications
+DO  - 10.1016/j.jnca.2019.102441
+ER  - 
+
+TY  - JOUR
+TI  - X-MAN: A Non-Intrusive Power Manager for Energy-Adaptive Cloud-Native Network Functions
+AU  - Z. Xiang
+AU  - M. H√∂weler
+AU  - D. You
+AU  - M. Reisslein
+AU  - F. H. P. Fitzek
+JO  - IEEE Transactions on Network and Service Management
+DO  - 10.1109/TNSM.2021.3126822
+ER  - 
+
+TY  - JOUR
+TI  - Energy-Delay-Aware Joint Microservice Deployment and Request Routing with DVFS in Edge: A Reinforcement Learning Approach
+AU  - Wang L.
+AU  - Liu X.
+AU  - Ding H.
+AU  - Hu Y.
+AU  - Peng K.
+AU  - Hu M.
+JO  - IEEE Transactions on Computers
+DO  - 10.1109/TC.2025.3535826
+ER  - 
+
+TY  - JOUR
+TI  - Efficient Microservice Deployment in the Edge-Cloud Networks With Policy-Gradient Reinforcement Learning
+AU  - K. Afachao
+AU  - A. M. Abu-Mahfouz
+AU  - G. P. Hanke
+JO  - IEEE Access
+DO  - 10.1109/ACCESS.2024.3461149
+ER  - 
+
+TY  - JOUR
+TI  - Adaptive Security Framework for the Internet of Things: Improving Threat Detection and Energy Optimization in Distributed Environments
+AU  - W. Villegas-Ch
+AU  - R. Gutierrez
+AU  - I. S√°nchez-Salazar
+AU  - A. Mera-Navarrete
+JO  - IEEE Access
+DO  - 10.1109/ACCESS.2024.3486983
+ER  - 
+
+TY  - JOUR
+TI  - Energy efficient scheduling of application components via brownout and approximate markov decision process
+AU  - Xu M.
+AU  - Buyya R.
+JO  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+DO  - 10.1007/978-3-319-69035-3_14
+ER  - 
+
+TY  - JOUR
+TI  - SatEdge: Platform of Edge Cloud at Satellite and Scheduling Mechanism for Microservice Modules
+AU  - Y. Huang
+AU  - X. Zhang
+AU  - Z. Xu
+JO  - IEEE Access
+DO  - 10.1109/ACCESS.2023.3330649
+ER  - 
+
+TY  - JOUR
+TI  - Article Containerized Microservices Orchestration and Provisioning in Cloud Computing: A Conceptual Framework and Future Perspectives
+AU  - Saboor A.
+AU  - Hassan M.F.
+AU  - Akbar R.
+AU  - Shah S.N.M.
+AU  - Hassan F.
+AU  - Magsi S.A.
+AU  - Siddiqui M.A.
+JO  - Applied Sciences (Switzerland)
+DO  - 10.3390/app12125793
+ER  - 
+
+TY  - JOUR
+TI  - Model-Driven Dependability and Power Consumption Quantification of Kubernetes-Based Cloud-Fog Continuum
+AU  - I. F√©
+AU  - T. A. Nguyen
+AU  - A. B. Soares
+AU  - S. Son
+AU  - E. Choi
+AU  - D. Min
+AU  - J. -W. Lee
+AU  - F. A. Silva
+JO  - IEEE Access
+DO  - 10.1109/ACCESS.2023.3340195
+ER  - 
+
+TY  - JOUR
+TI  - Service Level Objective Adaptive Energy Efficiency Management
+AU  - C. Song
+AU  - F. Jiang
+AU  - X. Liang
+AU  - N. Ahuja
+AU  - M. J. Kumar
+JO  - 2022 IEEE 28th International Conference on Parallel and Distributed Systems (ICPADS)
+DO  - 10.1109/ICPADS56603.2022.00082
+ER  - 
+
+TY  - JOUR
+TI  - GreenFog: A Framework for Sustainable Fog Computing
+AU  - ['N. Toosi, Adel', 'Agarwal, Chayan', 'Mashayekhy, Lena', 'Moghaddam, Sara K.', 'Mahmud, Redowan', 'Tari, Zahir']
+DO  - 10.1007/978-3-031-20984-0_38
+ER  - 
+
+TY  - JOUR
+TI  - SIMR: Single Instruction Multiple Request Processing for Energy-Efficient Data Center Microservices
+AU  - ['Khairy, Mahmoud', 'Alawneh, Ahmad', 'Barnes, Aaron', 'Rogers, Timothy G.']
+DO  - 10.1109/MICRO56248.2022.00040
+ER  - 
+
+TY  - JOUR
+TI  - iBrownout: An Integrated Approach for Managing Energy and Brownout in Container-Based Clouds
+AU  - M. Xu
+AU  - A. N. Toosi
+AU  - R. Buyya
+JO  - IEEE Transactions on Sustainable Computing
+DO  - 10.1109/TSUSC.2018.2808493
+ER  - 
+
+TY  - JOUR
+TI  - Towards Greener Applications: Enabling Sustainable-aware Cloud Native Applications Design
+AU  - Vitali, Monica
+JO  - Advanced Information Systems Engineering: 34th International Conference, CAiSE 2022, Leuven, Belgium, June 6‚Äì10, 2022, Proceedings
+DO  - 10.1007/978-3-031-07472-1_6
+ER  - 
+
+TY  - JOUR
+TI  - TeaStore: A Micro-Service Reference Application for Benchmarking, Modeling and Resource Management Research
+AU  - J. von Kistowski
+AU  - S. Eismann
+AU  - N. Schmitt
+AU  - A. Bauer
+AU  - J. Grohmann
+AU  - S. Kounev
+JO  - 2018 IEEE 26th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)
+DO  - 10.1109/MASCOTS.2018.00030
+ER  - 
+
+TY  - JOUR
+TI  - Analyzing Energy-Efficient and Kubernetes-Based Autoscaling of Microservices Using Probabilistic Model Checking
+AU  - Agos Jawaddi S.N.
+AU  - Ismail A.
+AU  - Sulaiman M.S.
+AU  - Cardellini V.
+JO  - Journal of Grid Computing
+DO  - 10.1007/s10723-024-09789-9
+ER  - 
+
+TY  - JOUR
+TI  - Exploring Sustainable Alternatives for the Deployment of Microservices Architectures in the Cloud
+AU  - Cortellessa V.
+AU  - Di Pompeo D.
+AU  - Tucci M.
+JO  - Proceedings - IEEE 21st International Conference on Software Architecture, ICSA 2024
+DO  - 10.1109/ICSA59870.2024.00012
+ER  - 
+
+TY  - JOUR
+TI  - PISCO: A smart simulator to deploy energy saving methods in microservices based networks
+AU  - H. Humberto Alvarez Valera
+AU  - M. Dalmau
+AU  - P. Roose
+AU  - J. Larracoechea
+AU  - C. Herzog
+JO  - 2022 18th International Conference on Intelligent Environments (IE)
+DO  - 10.1109/IE54923.2022.9826775
+ER  - 
+
+TY  - JOUR
+TI  - Kraken: Adaptive Container Provisioning for Deploying Dynamic DAGs in Serverless Platforms
+AU  - Bhasi, Vivek M.
+AU  - Gunasekaran, Jashwant Raj
+AU  - Thinakaran, Prashanth
+AU  - Mishra, Cyan Subhra
+AU  - Kandemir, Mahmut Taylan
+AU  - Das, Chita
+JO  - Proceedings of the ACM Symposium on Cloud Computing
+DO  - 10.1145/3472883.3486992
+ER  - 
+
+TY  - JOUR
+TI  - An energy saving approach: understanding microservices as multidimensional entities in p2p networks
+AU  - Valera, Hernan Humberto Alvarez
+AU  - Dalmau, Marc
+AU  - Roose, Philippe
+AU  - Larracoechea, Jorge
+AU  - Herzog, Christina
+JO  - Proceedings of the 36th Annual ACM Symposium on Applied Computing
+DO  - 10.1145/3412841.3441888
+ER  - 
+
+TY  - JOUR
+TI  - GAS: DVFS-Driven Energy Efficiency Approach for Latency-Guaranteed Edge Computing Microservices
+AU  - Z. Bellal
+AU  - L. Lahlou
+AU  - N. Kara
+AU  - I. El Khayat
+JO  - IEEE Transactions on Green Communications and Networking
+DO  - 10.1109/TGCN.2024.3420957
+ER  - 
+
+TY  - JOUR
+TI  - DECA: A Dynamic Energy Cost and Carbon Emission-Efficient Application Placement Method for Edge Clouds
+AU  - E. Ahvar
+AU  - S. Ahvar
+AU  - Z. √Å. Mann
+AU  - N. Crespi
+AU  - R. Glitho
+AU  - J. Garcia-Alfaro
+JO  - IEEE Access
+DO  - 10.1109/ACCESS.2021.3075973
+ER  - 
+
+TY  - JOUR
+TI  - Enabling efficient collection and usage of network performance metrics at the edge
+AU  - Calagna A.
+AU  - Ravera S.
+AU  - Chiasserini C.F.
+JO  - Computer Networks
+DO  - 10.1016/j.comnet.2025.111158
+ER  - 
+
+TY  - JOUR
+TI  - Enriching Cloud-native Applications with Sustainability Features
+AU  - M. Vitali
+AU  - P. Schmiedmayer
+AU  - V. Bootz
+JO  - 2023 IEEE International Conference on Cloud Engineering (IC2E)
+DO  - 10.1109/IC2E59103.2023.00011
+ER  - 
+
+TY  - JOUR
+TI  - RADIANCE: A CASE Tool For Green Software Design
+AU  - J. A. Larracoechea
+AU  - S. Ilarri
+AU  - P. Roose
+JO  - 2024 32nd International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE)
+DO  - 10.1109/WETICE64632.2024.00024
+ER  - 
+
+TY  - JOUR
+TI  - Is it Worth Migrating a Monolith to Microservices? An Experience Report on Performance, Availability and Energy Usage
+AU  - V. Berry
+AU  - A. Castelltort
+AU  - B. Lange
+AU  - J. Teriihoania
+AU  - C. Tibermacine
+AU  - C. Trubiani
+JO  - 2024 IEEE International Conference on Web Services (ICWS)
+DO  - 10.1109/ICWS62655.2024.00112
+ER  - 
+
+TY  - JOUR
+TI  - Online Power Consumption Estimation for Functions in Cloud Applications
+AU  - N. Schmitt
+AU  - L. Iffl√§nder
+AU  - A. Bauer
+AU  - S. Kounev
+JO  - 2019 IEEE International Conference on Autonomic Computing (ICAC)
+DO  - 10.1109/ICAC.2019.00018
+ER  - 
+
+TY  - JOUR
+TI  - Towards Digital Sustainability: Involving Cloud Users as Key Players
+AU  - A. Mokhtari
+AU  - B. Jonglez
+AU  - T. Ledoux
+JO  - 2024 IEEE International Conference on Cloud Engineering (IC2E)
+DO  - 10.1109/IC2E61754.2024.00021
+ER  - 
+
+TY  - JOUR
+TI  - A Black-box Monitoring Approach to Measure Microservices Runtime Performance
+AU  - Brondolin, Rolando
+AU  - Santambrogio, Marco D.
+JO  - ACM Trans. Archit. Code Optim.
+DO  - 10.1145/3418899
+ER  - 
+
+TY  - JOUR
+TI  - An Empirical Evaluation of the Energy and Performance Overhead of Monitoring Tools on Docker-Based Systems
+AU  - Dinga, Madalina
+AU  - Malavolta, Ivano
+AU  - Giamattei, Luca
+AU  - Guerriero, Antonio
+AU  - Pietrantuono, Roberto
+JO  - Service-Oriented Computing: 21st International Conference, ICSOC 2023, Rome, Italy, November 28 ‚Äì December 1, 2023, Proceedings, Part I
+DO  - 10.1007/978-3-031-48421-6_13
+ER  - 
+
+TY  - JOUR
+TI  - Studying the end-to-end performance, energy consumption and carbon footprint of fog applications
+AU  - C. Courageux-Sudan
+AU  - A. -C. Orgerie
+AU  - M. Quinson
+JO  - 2024 IEEE Symposium on Computers and Communications (ISCC)
+DO  - 10.1109/ISCC61673.2024.10733735
+ER  - 
+
+TY  - JOUR
+TI  - Anomaly Detection and Root Cause Analysis of Microservices Energy Consumption
+AU  - M. S. Floroiu
+AU  - S. Russo
+AU  - L. Giamattei
+AU  - A. Guerriero
+AU  - I. Malavolta
+AU  - R. Pietrantuono
+JO  - 2024 IEEE International Conference on Web Services (ICWS)
+DO  - 10.1109/ICWS62655.2024.00079
+ER  - 
+
+TY  - JOUR
+TI  - Green Computing Implementation for Indonesian Higher Education Adopting Serverless Microservices Architecture
+AU  - G. H. Prathama
+AU  - P. E. G. Gunawan
+AU  - A. W. O. Gama
+JO  - 2024 10th International Conference on Smart Computing and Communication (ICSCC)
+DO  - 10.1109/ICSCC62041.2024.10690844
+ER  - 
+
+TY  - JOUR
+TI  - Agile C-states: A Core C-state Architecture for Latency Critical Applications Optimizing both Transition and Cold-Start Latency
+AU  - ['Antoniou, Georgia', 'Bartolini, Davide', 'Volos, Haris', 'Kleanthous, Marios', 'Wang, Zhe', 'Kalaitzidis, Kleovoulos', 'Rollet, Tom', 'Li, Ziwei', 'Mutlu, Onur', 'Sazeides, Yiannakis', 'Haj Yahya, Jawad']
+DO  - 10.1145/3674734
+ER  - 
+
+TY  - JOUR
+TI  - A Microservice-Based Smart Agriculture System to Detect Animal Intrusion at the Edge
+AU  - Miao J.
+AU  - Rajasekhar D.
+AU  - Mishra S.
+AU  - Nayak S.K.
+AU  - Yadav R.
+JO  - Future Internet
+DO  - 10.3390/fi16080296
+ER  - 
+
+TY  - JOUR
+TI  - Web 3.0-Enabled Microservice Re-Scheduling for Heterogenous Resources Co-Optimization in Metaverse-Integrated Edge Networks
+AU  - Yang, Yihong
+AU  - Zhou, Zhangbing
+AU  - Shu, Lei
+AU  - Zhou, Feng
+AU  - Gaaloul, Walid
+AU  - Khan, Arif Ali
+DO  - 10.1145/3715700
+ER  - 
+
+TY  - JOUR
+TI  - Microservice-Oriented Service Placement for Mobile Edge Computing in Sustainable Internet of Vehicles
+AU  - L. Wang
+AU  - X. Deng
+AU  - J. Gui
+AU  - X. Chen
+AU  - S. Wan
+JO  - IEEE Transactions on Intelligent Transportation Systems
+DO  - 10.1109/TITS.2023.3274307
+ER  - 
+
+TY  - JOUR
+TI  - Cloud-Edge Microservice Architecture for DNN-based Distributed Multimedia Event Processing
+AU  - Pontes F.A.
+AU  - Curry E.
+JO  - Communications in Computer and Information Science
+DO  - 10.1007/978-3-030-71906-7_6
+ER  - 
+
+TY  - JOUR
+TI  - SoftSKU: optimizing server architectures for microservice diversity @scale
+AU  - Sriraman, Akshitha
+AU  - Dhanotia, Abhishek
+AU  - Wenisch, Thomas F.
+JO  - Proceedings of the 46th International Symposium on Computer Architecture
+DO  - 10.1145/3307650.3322227
+ER  - 
+
+TY  - JOUR
+TI  - IoHT-MBA: An Internet of Healthcare Things (IoHT) Platform based on Microservice and Brokerless Architecture
+AU  - Thanh L.N.T.
+AU  - Phien N.N.
+AU  - Nguyen T.A.
+AU  - Vo H.K.
+AU  - Luong H.H.
+AU  - Anh T.D.
+AU  - Tuan K.N.H.
+AU  - Son H.X.
+JO  - International Journal of Advanced Computer Science and Applications
+DO  - 10.14569/IJACSA.2021.0120768
+ER  - 
+
+TY  - JOUR
+TI  - SmartOClock: Workload- and Risk-Aware Overclocking in the Cloud
+AU  - J. Stojkovic
+AU  - P. A. Misra
+AU  - √ç. Goiri
+AU  - S. Whitlock
+AU  - E. Choukse
+AU  - M. Das
+AU  - C. Bansal
+AU  - J. Lee
+AU  - Z. Sun
+AU  - H. Qiu
+AU  - R. Zimmermann
+AU  - S. Samal
+AU  - B. Warrier
+AU  - A. Raniwala
+AU  - R. Bianchini
+JO  - 2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA)
+DO  - 10.1109/ISCA59077.2024.00040
+ER  - 
+
+TY  - JOUR
+TI  - Constraint-aware and multi-objective optimization for micro-service composition in mobile edge computing
+AU  - Wu J.
+AU  - Zhang J.
+AU  - Zhang Y.
+AU  - Wen Y.
+JO  - Software - Practice and Experience
+DO  - 10.1002/spe.3217
+ER  - 
+
+TY  - JOUR
+TI  - EELAS: Energy Efficient and Latency Aware Scheduling of Cloud-Native ML Workloads
+AU  - I. Syrigos
+AU  - D. Kefalas
+AU  - N. Makris
+AU  - T. Korakis
+JO  - 2023 15th International Conference on COMmunication Systems & NETworkS (COMSNETS)
+DO  - 10.1109/COMSNETS56262.2023.10041344
+ER  - 
+
+TY  - JOUR
+TI  - Energy consumption and workload prediction for edge nodes in the Computing Continuum
+AU  - Laso S.
+AU  - Rodr√≠guez P.
+AU  - Herrera J.L.
+AU  - Berrocal J.
+AU  - Murillo J.M.
+JO  - Sustainable Computing: Informatics and Systems
+DO  - 10.1016/j.suscom.2025.101088
+ER  - 
+
+TY  - JOUR
+TI  - Energy-Aware Microservice-Based Application Deployment in UAV-Based Networks for Rural Scenarios
+AU  - Ramos-Ramos D.
+AU  - Gonz√°lez-Vegas A.
+AU  - Berrocal J.
+AU  - Gal√°n-Jim√©nez J.
+JO  - Journal of Network and Systems Management
+DO  - 10.1007/s10922-024-09825-9
+ER  - 
+
+TY  - JOUR
+TI  - Energy-Aware Microservice-Based SaaS Deployment in a Cloud Data Center Using Hybrid Particle Swarm Optimization
+AU  - A. Alzahrani
+AU  - M. Tang
+JO  - IEEE Access
+DO  - 10.1109/ACCESS.2024.3462894
+ER  - 
+
+TY  - JOUR
+TI  - Energy-efficient deployment of IoT applications in remote rural areas using UAV networks
+AU  - J. Gal√°n-Jim√©nez
+AU  - A. G. Vegas
+AU  - J. Berrocal
+JO  - 2022 14th IFIP Wireless and Mobile Networking Conference (WMNC)
+DO  - 10.23919/WMNC56391.2022.9954292
+ER  - 
+
+TY  - JOUR
+TI  - Joint Optimization of Throughput and Energy Consumption in Microservices-Based UAV Networks
+AU  - J. G√≥mez-DelaHiz
+AU  - A. Fakhreddine
+AU  - J. M. Murillo
+AU  - J. Gal√°n-Jim√©nez
+JO  - IEEE INFOCOM 2024 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)
+DO  - 10.1109/INFOCOMWKSHPS61880.2024.10620732
+ER  - 
+
+TY  - JOUR
+TI  - Microservice Application Scheduling in Multi-Tiered Fog-Computing-Enabled IoT
+AU  - Ashraf M.
+AU  - Shiraz M.
+AU  - Abbasi A.
+AU  - Alqahtani O.
+AU  - Badshah G.
+AU  - Lasisi A.
+JO  - Sensors
+DO  - 10.3390/s23167142
+ER  - 
+
+TY  - JOUR
+TI  - Microservices migration: A pathway to improved energy efficiency in UAV networks
+AU  - Garc√≠a-Gil S.
+AU  - Ramos-Ramos D.
+AU  - Berrocal J.
+AU  - Murillo J.M.
+AU  - Gal√°n-Jim√©nez J.
+JO  - Internet of Things (The Netherlands)
+DO  - 10.1016/j.iot.2024.101463
+ER  - 
+
+TY  - JOUR
+TI  - Online Microservice Orchestration for IoT via Multiobjective Deep Reinforcement Learning
+AU  - Yu Y.
+AU  - Liu J.
+AU  - Fang J.
+JO  - IEEE Internet of Things Journal
+DO  - 10.1109/JIOT.2022.3155598
+ER  - 
+
+TY  - JOUR
+TI  - SmartNICs at edge for transient compute elasticity
+AU  - Tootaghaj, Diman Zad
+AU  - Mercian, Anu
+AU  - Adarsh, Vivek
+AU  - Sharifian, Mehrnaz
+AU  - Sharma, Puneet
+JO  - Proceedings of the 3rd International Workshop on Distributed Machine Learning
+DO  - 10.1145/3565010.3569065
+ER  - 
+

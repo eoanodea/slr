@@ -1,0 +1,363 @@
+{
+    "research_questions": [
+        {
+            "id": "RQ1",
+            "question": "How is energy efficiency considered in microservice architecture research?",
+            "subquestions": [
+                {
+                    "id": "RQ1.1",
+                    "question": "At which stages of the software lifecycle is energy efficiency considered in microservice-based systems?",
+                    "inclusion_criteria_ids": [
+                        "IC7"
+                    ],
+                    "parameters": [
+                        {
+                            "id": "RQ1.1.P1",
+                            "name": "Lifecycle Stage",
+                            "description": "The specific software lifecycle stage(s) in which energy efficiency is considered (e.g., requirements, design, implementation, deployment, runtime, maintenance).",
+                            "example": "requirements; design; implementation; deployment; runtime; maintenance",
+                            "prompt": "The specific software lifecycle stage(s) in which energy efficiency is considered (e.g., requirements, design, implementation, deployment, runtime, maintenance). Examples: requirements; design; implementation; deployment; runtime; maintenance. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ1.1.P2",
+                            "name": "Energy Awareness Stage",
+                            "description": "Where in the lifecycle energy awareness is first introduced or explicitly considered.",
+                            "example": "introduced at requirements; first considered during design; explicit at runtime",
+                            "prompt": "Where in the lifecycle energy awareness is first introduced or explicitly considered. Examples: introduced at requirements; first considered during design; explicit at runtime. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ1.1.P3",
+                            "name": "Integration Approach",
+                            "description": "How energy-efficiency concerns are integrated into the lifecycle (e.g., as non-functional requirements, design constraints, refactoring, monitoring).",
+                            "example": "non-functional requirement; design constraint; refactoring; runtime monitoring",
+                            "prompt": "How energy-efficiency concerns are integrated into the lifecycle (e.g., as non-functional requirements, design constraints, refactoring, monitoring). Examples: non-functional requirement; design constraint; refactoring; runtime monitoring. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        }
+                    ]
+                },
+                {
+                    "id": "RQ1.2",
+                    "question": "Which microservice architectural elements are primarily considered when measuring energy consumption, and how do they impact energy efficiency?",
+                    "inclusion_criteria_ids": [
+                        "IC8"
+                    ],
+                    "parameters": [
+                        {
+                            "id": "RQ1.2.P1",
+                            "name": "Component Type",
+                            "description": "The type of architectural component considered (e.g., services, APIs, gateways, databases, containers, orchestrators).",
+                            "example": "service; API gateway; database; container; orchestrator",
+                            "prompt": "The type of architectural component considered (e.g., services, APIs, gateways, databases, containers, orchestrators). Examples: service; API gateway; database; container; orchestrator. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ1.2.P2",
+                            "name": "Energy Consumption Source",
+                            "description": "The source or locus of energy consumption within or across architectural elements.",
+                            "example": "CPU; network I/O; disk I/O; container orchestration; database queries",
+                            "prompt": "The source or locus of energy consumption within or across architectural elements. Examples: CPU; network I/O; disk I/O; container orchestration; database queries. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ1.2.P3",
+                            "name": "Component Relationship",
+                            "description": "How interactions or relationships between components (e.g., communication patterns, coupling) influence energy efficiency.",
+                            "example": "synchronous REST increases overhead; asynchronous messaging reduces energy; tight coupling increases calls",
+                            "prompt": "How interactions or relationships between components (e.g., communication patterns, coupling) influence energy efficiency. Examples: synchronous REST increases overhead; asynchronous messaging reduces energy; tight coupling increases calls. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "RQ2",
+            "question": "How is energy consumption measured in microservices?",
+            "subquestions": [
+                {
+                    "id": "RQ2.1",
+                    "question": "What methods are used to measure energy consumption in microservices?",
+                    "inclusion_criteria_ids": [
+                        "IC9"
+                    ],
+                    "parameters": [
+                        {
+                            "id": "RQ2.1.P1",
+                            "name": "Measurement Level",
+                            "description": "The level of abstraction at which energy is measured (e.g., hardware, OS, container, service, request).",
+                            "example": "hardware; OS; container; service; request",
+                            "prompt": "The level of abstraction at which energy is measured (e.g., hardware, OS, container, service, request). Examples: hardware; OS; container; service; request. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ2.1.P2",
+                            "name": "Measurement Technique",
+                            "description": "The technique used for measuring energy (e.g., direct power measurement, model-based estimation, profiling).",
+                            "example": "power meter; model-based estimation; profiling; energy model",
+                            "prompt": "The technique used for measuring energy (e.g., direct power measurement, model-based estimation, profiling). Examples: power meter; model-based estimation; profiling; energy model. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ2.1.P3",
+                            "name": "Data Collection",
+                            "description": "How energy-related data is collected (e.g., sampling, tracing, logging, monitoring frameworks).",
+                            "example": "sampling; tracing; logging; Prometheus metrics",
+                            "prompt": "How energy-related data is collected (e.g., sampling, tracing, logging, monitoring frameworks). Examples: sampling; tracing; logging; Prometheus metrics. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ2.1.P4",
+                            "name": "Implementation Approach",
+                            "description": "How the measurement method is implemented in practice (e.g., instrumentation, external tools, benchmarks).",
+                            "example": "code instrumentation; external tool; benchmark workload (e.g., TPC-W)",
+                            "prompt": "How the measurement method is implemented in practice (e.g., instrumentation, external tools, benchmarks). Examples: code instrumentation; external tool; benchmark workload (e.g., TPC-W). Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        }
+                    ]
+                },
+                {
+                    "id": "RQ2.2",
+                    "question": "What tools are employed for energy consumption analysis in microservices?",
+                    "inclusion_criteria_ids": [
+                        "IC10"
+                    ],
+                    "parameters": [
+                        {
+                            "id": "RQ2.2.P1",
+                            "name": "Tool Type",
+                            "description": "The category of tool used (e.g., profiler, monitoring platform, energy meter, simulator).",
+                            "example": "profiler; monitoring platform; energy meter; simulator",
+                            "prompt": "The category of tool used (e.g., profiler, monitoring platform, energy meter, simulator). Examples: profiler; monitoring platform; energy meter; simulator. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ2.2.P2",
+                            "name": "Deployment Method",
+                            "description": "How the tool is deployed or integrated (e.g., sidecar, agent, external service, library).",
+                            "example": "sidecar; agent; external service; library",
+                            "prompt": "How the tool is deployed or integrated (e.g., sidecar, agent, external service, library). Examples: sidecar; agent; external service; library. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ2.2.P3",
+                            "name": "Analysis Capability",
+                            "description": "What kinds of analyses the tool supports (e.g., per-service energy, bottleneck detection, trend analysis).",
+                            "example": "per-service energy; bottleneck detection; trend analysis",
+                            "prompt": "What kinds of analyses the tool supports (e.g., per-service energy, bottleneck detection, trend analysis). Examples: per-service energy; bottleneck detection; trend analysis. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ2.2.P4",
+                            "name": "Granularity",
+                            "description": "The granularity at which the tool can analyze or report energy consumption (e.g., per function, per service, per node).",
+                            "example": "per function; per service; per node; per request",
+                            "prompt": "The granularity at which the tool can analyze or report energy consumption (e.g., per function, per service, per node). Examples: per function; per service; per node; per request. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        }
+                    ]
+                },
+                {
+                    "id": "RQ2.3",
+                    "question": "What energy efficiency metrics are commonly used to evaluate microservices?",
+                    "inclusion_criteria_ids": [
+                        "IC11"
+                    ],
+                    "parameters": [
+                        {
+                            "id": "RQ2.3.P1",
+                            "name": "Metric Type",
+                            "description": "The type or name of metric used (e.g., energy per request, energy-delay product, power consumption, PUE).",
+                            "example": "energy per request; energy-delay product (EDP); power consumption; PUE",
+                            "prompt": "The type or name of metric used (e.g., energy per request, energy-delay product, power consumption, PUE). Examples: energy per request; energy-delay product (EDP); power consumption; PUE. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ2.3.P2",
+                            "name": "Measurement Scope",
+                            "description": "The scope of the metric (e.g., single service, service composition, entire application, infrastructure).",
+                            "example": "single service; service composition; entire application; infrastructure",
+                            "prompt": "The scope of the metric (e.g., single service, service composition, entire application, infrastructure). Examples: single service; service composition; entire application; infrastructure. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ2.3.P3",
+                            "name": "Normalization Basis",
+                            "description": "What the metric is normalized against (e.g., time, number of requests, CPU utilization, throughput).",
+                            "example": "per request; per second; CPU utilization; throughput-normalized",
+                            "prompt": "What the metric is normalized against (e.g., time, number of requests, CPU utilization, throughput). Examples: per request; per second; CPU utilization; throughput-normalized. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ2.3.P4",
+                            "name": "Business Relevance",
+                            "description": "How the metric relates to business or user-level outcomes (e.g., cost, SLA compliance, user-perceived performance).",
+                            "example": "cost; SLA compliance; user-perceived latency",
+                            "prompt": "How the metric relates to business or user-level outcomes (e.g., cost, SLA compliance, user-perceived performance). Examples: cost; SLA compliance; user-perceived latency. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "RQ3",
+            "question": "What architectural solutions exist for energy-efficient microservices?",
+            "subquestions": [
+                {
+                    "id": "RQ3.1",
+                    "question": "What approaches are used to improve energy efficiency in microservice architectures?",
+                    "inclusion_criteria_ids": [
+                        "IC12"
+                    ],
+                    "parameters": [
+                        {
+                            "id": "RQ3.1.P1",
+                            "name": "Modernization Strategy",
+                            "description": "The strategy used to modernize or adapt the architecture for energy efficiency (e.g., refactoring, re-architecting, migration).",
+                            "example": "refactoring; re-architecting; migration",
+                            "prompt": "The strategy used to modernize or adapt the architecture for energy efficiency (e.g., refactoring, re-architecting, migration). Examples: refactoring; re-architecting; migration. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ3.1.P2",
+                            "name": "Solution Category",
+                            "description": "The high-level category of solution (e.g., workload management, autoscaling, service consolidation, scheduling, caching).",
+                            "example": "workload management; autoscaling; service consolidation; scheduling; caching",
+                            "prompt": "The high-level category of solution (e.g., workload management, autoscaling, service consolidation, scheduling, caching). Examples: workload management; autoscaling; service consolidation; scheduling; caching. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ3.1.P3",
+                            "name": "Implementation Technologies",
+                            "description": "Key technologies or platforms used to implement the solution (e.g., Kubernetes, service mesh, specific frameworks or libraries).",
+                            "example": "Kubernetes; service mesh (e.g., Istio); Docker",
+                            "prompt": "Key technologies or platforms used to implement the solution (e.g., Kubernetes, service mesh, specific frameworks or libraries). Examples: Kubernetes; service mesh (e.g., Istio); Docker. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        }
+                    ]
+                },
+                {
+                    "id": "RQ3.2",
+                    "question": "What trade-offs exist between energy efficiency and other quality attributes in microservice architectures?",
+                    "inclusion_criteria_ids": [
+                        "IC13"
+                    ],
+                    "parameters": [
+                        {
+                            "id": "RQ3.2.P1",
+                            "name": "Quality Attribute",
+                            "description": "The quality attribute(s) involved in the trade-off (e.g., performance, scalability, reliability, maintainability).",
+                            "example": "performance; scalability; reliability; maintainability",
+                            "prompt": "The quality attribute(s) involved in the trade-off (e.g., performance, scalability, reliability, maintainability). Examples: performance; scalability; reliability; maintainability. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ3.2.P2",
+                            "name": "Trade-off Relationship",
+                            "description": "The nature of the relationship between energy efficiency and other quality attributes (e.g., improves, degrades, balances).",
+                            "example": "improves; degrades; balances",
+                            "prompt": "The nature of the relationship between energy efficiency and other quality attributes (e.g., improves, degrades, balances). Examples: improves; degrades; balances. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ3.2.P3",
+                            "name": "Trade-off Severity",
+                            "description": "How strong or significant the trade-off is reported to be (e.g., minor, moderate, severe).",
+                            "example": "minor; moderate; severe",
+                            "prompt": "How strong or significant the trade-off is reported to be (e.g., minor, moderate, severe). Examples: minor; moderate; severe. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ3.2.P4",
+                            "name": "Trade-off Strategy",
+                            "description": "How the trade-off is managed or mitigated (e.g., tuning, adaptive policies, multi-objective optimization).",
+                            "example": "tuning; adaptive policy; multi-objective optimization",
+                            "prompt": "How the trade-off is managed or mitigated (e.g., tuning, adaptive policies, multi-objective optimization). Examples: tuning; adaptive policy; multi-objective optimization. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        }
+                    ]
+                },
+                {
+                    "id": "RQ3.3",
+                    "question": "What challenges affect the adoption of energy-efficient architectural solutions in microservices?",
+                    "inclusion_criteria_ids": [
+                        "IC14"
+                    ],
+                    "parameters": [
+                        {
+                            "id": "RQ3.3.P1",
+                            "name": "Challenge Type",
+                            "description": "The type of challenge encountered (e.g., technical, organizational, tooling, measurement).",
+                            "example": "technical; organizational; tooling; measurement",
+                            "prompt": "The type of challenge encountered (e.g., technical, organizational, tooling, measurement). Examples: technical; organizational; tooling; measurement. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ3.3.P2",
+                            "name": "Adoption Phase",
+                            "description": "The phase of adoption or lifecycle where the challenge appears (e.g., design, implementation, operation, evolution).",
+                            "example": "design; implementation; operation; evolution",
+                            "prompt": "The phase of adoption or lifecycle where the challenge appears (e.g., design, implementation, operation, evolution). Examples: design; implementation; operation; evolution. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ3.3.P3",
+                            "name": "Challenge Complexity",
+                            "description": "How complex or difficult the challenge is to address (e.g., simple, complex, systemic).",
+                            "example": "simple; complex; systemic",
+                            "prompt": "How complex or difficult the challenge is to address (e.g., simple, complex, systemic). Examples: simple; complex; systemic. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        },
+                        {
+                            "id": "RQ3.3.P4",
+                            "name": "Mitigation Approach",
+                            "description": "Any mitigation strategy or solution proposed to address the challenge.",
+                            "example": "benchmarking; training; tooling improvements; process changes",
+                            "prompt": "Any mitigation strategy or solution proposed to address the challenge. Examples: benchmarking; training; tooling improvements; process changes. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "inclusion_criteria": [
+        {
+            "id": "IC7",
+            "name": "Lifecycle stages",
+            "description": "Information about which software lifecycle stages consider energy efficiency in microservice-based systems.",
+            "linked_subquestions": [
+                "RQ1.1"
+            ]
+        },
+        {
+            "id": "IC8",
+            "name": "Architectural Elements",
+            "description": "Information about which microservice architectural elements are considered in relation to energy efficiency and consumption.",
+            "linked_subquestions": [
+                "RQ1.2"
+            ]
+        },
+        {
+            "id": "IC9",
+            "name": "Methods",
+            "description": "Information about methods used to measure energy consumption in microservices.",
+            "linked_subquestions": [
+                "RQ2.1"
+            ]
+        },
+        {
+            "id": "IC10",
+            "name": "Tools",
+            "description": "Information about tools employed for energy consumption analysis in microservices.",
+            "linked_subquestions": [
+                "RQ2.2"
+            ]
+        },
+        {
+            "id": "IC11",
+            "name": "Metrics",
+            "description": "Information about energy efficiency metrics used to evaluate microservices.",
+            "linked_subquestions": [
+                "RQ2.3"
+            ]
+        },
+        {
+            "id": "IC12",
+            "name": "Approaches/Solutions",
+            "description": "Architectural or technical approaches proposed to improve energy efficiency in microservice architectures.",
+            "linked_subquestions": [
+                "RQ3.1"
+            ]
+        },
+        {
+            "id": "IC13",
+            "name": "Trade-offs",
+            "description": "Trade-offs between energy efficiency and other quality attributes in microservice architectures.",
+            "linked_subquestions": [
+                "RQ3.2"
+            ]
+        },
+        {
+            "id": "IC14",
+            "name": "Challenges",
+            "description": "Challenges and obstacles related to adopting energy-efficient microservice architectures.",
+            "linked_subquestions": [
+                "RQ3.3"
+            ]
+        }
+    ]
+}
