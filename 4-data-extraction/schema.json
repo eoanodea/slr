@@ -156,21 +156,21 @@
                             "name": "Metric Type",
                             "description": "The type or name of metric used (e.g., energy per request, energy-delay product, power consumption, PUE).",
                             "example": "energy per request; energy-delay product (EDP); power consumption; PUE",
-                            "prompt": "The type or name of metric used (e.g., energy per request, energy-delay product, power consumption, PUE). Examples: energy per request; energy-delay product (EDP); power consumption; PUE. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "The type or name of metric used. Examples: energy per request; energy-delay product (EDP); power consumption; PUE. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ2.3.P2",
                             "name": "Measurement Scope",
                             "description": "The scope of the metric (e.g., single service, service composition, entire application, infrastructure).",
                             "example": "single service; service composition; entire application; infrastructure",
-                            "prompt": "The scope of the metric (e.g., single service, service composition, entire application, infrastructure). Examples: single service; service composition; entire application; infrastructure. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "The scope of the metric. Examples: single service; service composition; entire application; infrastructure. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ2.3.P3",
                             "name": "Normalization Basis",
                             "description": "What the metric is normalized against (e.g., time, number of requests, CPU utilization, throughput).",
                             "example": "per request; per second; CPU utilization; throughput-normalized",
-                            "prompt": "What the metric is normalized against (e.g., time, number of requests, CPU utilization, throughput). Examples: per request; per second; CPU utilization; throughput-normalized. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "What the metric is normalized against. Examples: per request; per second; CPU utilization; throughput-normalized. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ2.3.P4",
@@ -199,21 +199,21 @@
                             "name": "Modernization Strategy",
                             "description": "The strategy used to modernize or adapt the architecture for energy efficiency (e.g., refactoring, re-architecting, migration).",
                             "example": "refactoring; re-architecting; migration",
-                            "prompt": "The strategy used to modernize or adapt the architecture for energy efficiency (e.g., refactoring, re-architecting, migration). Examples: refactoring; re-architecting; migration. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "The strategy used to modernize or adapt the architecture for energy efficiency. Examples: refactoring; re-architecting; migration. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ3.1.P2",
                             "name": "Solution Category",
                             "description": "The high-level category of solution (e.g., workload management, autoscaling, service consolidation, scheduling, caching).",
                             "example": "workload management; autoscaling; service consolidation; scheduling; caching",
-                            "prompt": "The high-level category of solution (e.g., workload management, autoscaling, service consolidation, scheduling, caching). Examples: workload management; autoscaling; service consolidation; scheduling; caching. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "The high-level category of solution. Examples: workload management; autoscaling; service consolidation; scheduling; caching. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ3.1.P3",
                             "name": "Implementation Technologies",
                             "description": "Key technologies or platforms used to implement the solution (e.g., Kubernetes, service mesh, specific frameworks or libraries).",
                             "example": "Kubernetes; service mesh (e.g., Istio); Docker",
-                            "prompt": "Key technologies or platforms used to implement the solution (e.g., Kubernetes, service mesh, specific frameworks or libraries). Examples: Kubernetes; service mesh (e.g., Istio); Docker. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "Key technologies or platforms used to implement the solution. Examples: Kubernetes; service mesh (e.g., Istio); Docker. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         }
                     ]
                 },
@@ -229,28 +229,28 @@
                             "name": "Quality Attribute",
                             "description": "The quality attribute(s) involved in the trade-off (e.g., performance, scalability, reliability, maintainability).",
                             "example": "performance; scalability; reliability; maintainability",
-                            "prompt": "The quality attribute(s) involved in the trade-off (e.g., performance, scalability, reliability, maintainability). Examples: performance; scalability; reliability; maintainability. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "The quality attribute(s) involved in the trade-off. Examples: performance; scalability; reliability; maintainability. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ3.2.P2",
                             "name": "Trade-off Relationship",
                             "description": "The nature of the relationship between energy efficiency and other quality attributes (e.g., improves, degrades, balances).",
                             "example": "improves; degrades; balances",
-                            "prompt": "The nature of the relationship between energy efficiency and other quality attributes (e.g., improves, degrades, balances). Examples: improves; degrades; balances. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "The nature of the relationship between energy efficiency and other quality attributes. Examples: improves; degrades; balances. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ3.2.P3",
                             "name": "Trade-off Severity",
                             "description": "How strong or significant the trade-off is reported to be (e.g., minor, moderate, severe).",
                             "example": "minor; moderate; severe",
-                            "prompt": "How strong or significant the trade-off is reported to be (e.g., minor, moderate, severe). Examples: minor; moderate; severe. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "How strong or significant the trade-off is reported to be. Examples: minor; moderate; severe. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ3.2.P4",
                             "name": "Trade-off Strategy",
                             "description": "How the trade-off is managed or mitigated (e.g., tuning, adaptive policies, multi-objective optimization).",
                             "example": "tuning; adaptive policy; multi-objective optimization",
-                            "prompt": "How the trade-off is managed or mitigated (e.g., tuning, adaptive policies, multi-objective optimization). Examples: tuning; adaptive policy; multi-objective optimization. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "How the trade-off is managed or mitigated. Examples: tuning; adaptive policy; multi-objective optimization. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         }
                     ]
                 },
@@ -266,21 +266,21 @@
                             "name": "Challenge Type",
                             "description": "The type of challenge encountered (e.g., technical, organizational, tooling, measurement).",
                             "example": "technical; organizational; tooling; measurement",
-                            "prompt": "The type of challenge encountered (e.g., technical, organizational, tooling, measurement). Examples: technical; organizational; tooling; measurement. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "The type of challenge encountered. Examples: technical; organizational; tooling; measurement. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ3.3.P2",
                             "name": "Adoption Phase",
                             "description": "The phase of adoption or lifecycle where the challenge appears (e.g., design, implementation, operation, evolution).",
                             "example": "design; implementation; operation; evolution",
-                            "prompt": "The phase of adoption or lifecycle where the challenge appears (e.g., design, implementation, operation, evolution). Examples: design; implementation; operation; evolution. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "The phase of adoption or lifecycle where the challenge appears. Examples: design; implementation; operation; evolution. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ3.3.P3",
                             "name": "Challenge Complexity",
                             "description": "How complex or difficult the challenge is to address (e.g., simple, complex, systemic).",
                             "example": "simple; complex; systemic",
-                            "prompt": "How complex or difficult the challenge is to address (e.g., simple, complex, systemic). Examples: simple; complex; systemic. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "How complex or difficult the challenge is to address. Examples: simple; complex; systemic. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ3.3.P4",
