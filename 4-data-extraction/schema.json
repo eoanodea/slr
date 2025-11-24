@@ -266,7 +266,7 @@
                             "name": "Challenge Type",
                             "description": "The type of challenge encountered (e.g., technical, organizational, tooling, measurement).",
                             "example": "technical; organizational; tooling; measurement",
-                            "prompt": "The type of challenge encountered. Examples: technical; organizational; tooling; measurement. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
+                            "prompt": "The type of challenge encountered. Examples: technical; organizational; tooling; measurement. Please provide a very short description of the challenge, along with the challenge type. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples"
                         },
                         {
                             "id": "RQ3.3.P2",

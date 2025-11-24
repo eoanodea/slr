@@ -1,32 +1,3 @@
-I am conducting the data extraction phase of an SLR. This paper has been included based on some inclusion criteria mentioned below.
+I am conducting a systematic literature review on green microservices. I am extracting data from this paper attached. I will start asking you questions based on this paper and this paper alone. Do not provide an answer that is not explicity mentioned in this paper. If you are unsure, you can simply respond with "Not Found"
 
-PLease analyse the following parameters, and extract data (if exists) based on each one in very short sentences that will be added to a google sheet. Do not extract data that does not exist. You must source where you got every piece of data.
-
-Extract Data for the following Parameters:
-
-```
-{
-                    "id": "RQ1.2",
-                    "question": "Which microservice architectural elements are primarily considered when measuring energy consumption, and how do they impact energy efficiency?",
-                    "inclusion_criteria_ids": [
-                        "IC8"
-                    ],
-                    "parameters": [
-                        {
-                            "id": "RQ1.2.P1",
-                            "name": "Component Type",
-                            "description": "The type of architectural component considered (e.g., services, APIs, gateways, databases, containers, orchestrators)."
-                        },
-                        {
-                            "id": "RQ1.2.P2",
-                            "name": "Energy Consumption Source",
-                            "description": "The source or locus of energy consumption within or across architectural elements."
-                        },
-                        {
-                            "id": "RQ1.2.P3",
-                            "name": "Component Relationship",
-                            "description": "How interactions or relationships between components (e.g., communication patterns, coupling) influence energy efficiency."
-                        }
-                    ]
-                }
-```
+At which stages of the software lifecycle is energy efficiency considered in microservice-based systems? Please provide The specific software lifecycle stage(s) in which energy efficiency is considered (e.g., requirements, design, implementation, deployment, runtime, maintenance). Examples: requirements; design; implementation; deployment; runtime; maintenance. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples
