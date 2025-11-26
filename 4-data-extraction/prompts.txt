@@ -1,0 +1,57 @@
+[RQ1.1.P1] At which stages of the software lifecycle is energy efficiency considered in microservice-based systems? - The specific software lifecycle stage(s) in which energy efficiency is considered (e.g., requirements, design, implementation, deployment, runtime, maintenance). Examples: requirements; design; implementation; deployment; runtime; maintenance. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ1.1.P2] At which stages of the software lifecycle is energy efficiency considered in microservice-based systems? - Where in the lifecycle energy awareness is first introduced or explicitly considered. Examples: introduced at requirements; first considered during design; explicit at runtime. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ1.1.P3] At which stages of the software lifecycle is energy efficiency considered in microservice-based systems? - How energy-efficiency concerns are integrated into the lifecycle (e.g., as non-functional requirements, design constraints, refactoring, monitoring). Examples: non-functional requirement; design constraint; refactoring; runtime monitoring. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ1.2.P1] Which microservice architectural elements are primarily considered when measuring energy consumption, and how do they impact energy efficiency? - The type of architectural component considered (e.g., services, APIs, gateways, databases, containers, orchestrators). Examples: service; API gateway; database; container; orchestrator. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ1.2.P2] Which microservice architectural elements are primarily considered when measuring energy consumption, and how do they impact energy efficiency? - The source or locus of energy consumption within or across architectural elements. Examples: CPU; network I/O; disk I/O; container orchestration; database queries. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ1.2.P3] Which microservice architectural elements are primarily considered when measuring energy consumption, and how do they impact energy efficiency? - How interactions or relationships between components (e.g., communication patterns, coupling) influence energy efficiency. Examples: synchronous REST increases overhead; asynchronous messaging reduces energy; tight coupling increases calls. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.1.P1] What methods are used to measure energy consumption in microservices? - The level of abstraction at which energy is measured (e.g., hardware, OS, container, service, request). Examples: hardware; OS; container; service; request. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.1.P2] What methods are used to measure energy consumption in microservices? - The technique used for measuring energy (e.g., direct power measurement, model-based estimation, profiling). Examples: power meter; model-based estimation; profiling; energy model. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.1.P3] What methods are used to measure energy consumption in microservices? - How energy-related data is collected (e.g., sampling, tracing, logging, monitoring frameworks). Examples: sampling; tracing; logging; Prometheus metrics. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.1.P4] What methods are used to measure energy consumption in microservices? - How the measurement method is implemented in practice (e.g., instrumentation, external tools, benchmarks). Examples: code instrumentation; external tool; benchmark workload (e.g., TPC-W). Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.2.P1] What tools are employed for energy consumption analysis in microservices? - The category of tool used (e.g., profiler, monitoring platform, energy meter, simulator). Examples: profiler; monitoring platform; energy meter; simulator. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.2.P2] What tools are employed for energy consumption analysis in microservices? - How the tool is deployed or integrated (e.g., sidecar, agent, external service, library). Examples: sidecar; agent; external service; library. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.2.P3] What tools are employed for energy consumption analysis in microservices? - What kinds of analyses the tool supports (e.g., per-service energy, bottleneck detection, trend analysis). Examples: per-service energy; bottleneck detection; trend analysis. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.2.P4] What tools are employed for energy consumption analysis in microservices? - The granularity at which the tool can analyze or report energy consumption (e.g., per function, per service, per node). Examples: per function; per service; per node; per request. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.3.P1] What energy efficiency metrics are commonly used to evaluate microservices? - The type or name of metric used. Examples: energy per request; energy-delay product (EDP); power consumption; PUE. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.3.P2] What energy efficiency metrics are commonly used to evaluate microservices? - The scope of the metric. Examples: single service; service composition; entire application; infrastructure. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.3.P3] What energy efficiency metrics are commonly used to evaluate microservices? - What the metric is normalized against. Examples: per request; per second; CPU utilization; throughput-normalized. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ2.3.P4] What energy efficiency metrics are commonly used to evaluate microservices? - How the metric relates to business or user-level outcomes (e.g., cost, SLA compliance, user-perceived performance). Examples: cost; SLA compliance; user-perceived latency. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.1.P1] What approaches are used to improve energy efficiency in microservice architectures? - The strategy used to modernize or adapt the architecture for energy efficiency. Examples: refactoring; re-architecting; migration. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.1.P2] What approaches are used to improve energy efficiency in microservice architectures? - The high-level category of solution. Examples: workload management; autoscaling; service consolidation; scheduling; caching. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.1.P3] What approaches are used to improve energy efficiency in microservice architectures? - Key technologies or platforms used to implement the solution. Examples: Kubernetes; service mesh (e.g., Istio); Docker. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.2.P1] What trade-offs exist between energy efficiency and other quality attributes in microservice architectures? - The quality attribute(s) involved in the trade-off. Examples: performance; scalability; reliability; maintainability. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.2.P2] What trade-offs exist between energy efficiency and other quality attributes in microservice architectures? - The nature of the relationship between energy efficiency and other quality attributes. Examples: improves; degrades; balances. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.2.P3] What trade-offs exist between energy efficiency and other quality attributes in microservice architectures? - How strong or significant the trade-off is reported to be. Examples: minor; moderate; severe. Please back your answer up with a very short description as to why. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.2.P4] What trade-offs exist between energy efficiency and other quality attributes in microservice architectures? - How the trade-off is managed or mitigated. Examples: tuning; adaptive policy; multi-objective optimization. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.3.P1] What challenges affect the adoption of energy-efficient architectural solutions in microservices? - The type of challenge encountered. Examples: technical; organizational; tooling; measurement. Please provide a very short description of the challenge, along with the challenge type. No Bullet Points, very short sentences seperated by semi colons. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.3.P2] What challenges affect the adoption of energy-efficient architectural solutions in microservices? - The phase of adoption or lifecycle where the challenge appears. Examples: design; implementation; operation; evolution. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.3.P3] What challenges affect the adoption of energy-efficient architectural solutions in microservices? - How complex or difficult the challenge is to address. Examples: simple; complex; systemic. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
+
+[RQ3.3.P4] What challenges affect the adoption of energy-efficient architectural solutions in microservices? - Any mitigation strategy or solution proposed to address the challenge. Examples: benchmarking; training; tooling improvements; process changes. Short answer only, if unsure or not included in text leave blank. You do NOT need to use one of the provided examples 
