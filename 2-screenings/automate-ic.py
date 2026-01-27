@@ -7,11 +7,11 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 # CONFIG
-PROJECT_URL = 'http://localhost:5001/projects/69e26a8a15f94625bb4188b67c26e7f3/review'
+PROJECT_URL = 'http://localhost:5001/projects/1b3058b5018a4708815b8f7b156277d5/review'
 
 GROUP_A = ['micro', 'cloud application']
 GROUP_B = ['green', 'sustain', 'energy']
-IRR_THRESHOLD = 100
+IRR_THRESHOLD = 10000
 PAPERS_CHECKED = 0
 TOTAL_PAPERS = 3146
 # AVVIO

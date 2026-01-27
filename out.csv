@@ -1,0 +1,41 @@
+citekey,title,doi
+h_h_a_valera_draceo_nodate,{DRACeo}: {A} smart simulator to deploy energy saving methods in microservices based networks,10.1109/WETICE49692.2020.00026
+xu_m_energy_nodate,Energy {Efficient} {Scheduling} of {Cloud} {Application} {Components} with {Brownout},10.1109/TSUSC.2017.2661339
+gunasekaran_fifer_nodate,Fifer: {Tackling} {Resource} {Underutilization} in the {Serverless} {Era},10.1145/3423211.3425683
+adeppady_m_dynamic_nodate,Dynamic {Management} of {Constrained} {Computing} {Resources} for {Serverless} {Services},10.1109/TNSM.2024.3497155
+j_gedeon_microservice_nodate,A {Microservice} {Store} for {Efficient} {Edge} {Offloading},10.1109/GLOBECOM38437.2019.9014114
+s_r_chaudhry_improved_nodate,Improved {QoS} at the {Edge} {Using} {Serverless} {Computing} to {Deploy} {Virtual} {Network} {Functions},10.1109/JIOT.2020.3011057
+yu_y_joint_nodate,Joint optimization of service request routing and instance placement in the microservice system,10.1016/j.jnca.2019.102441
+z_xiang_x-man_nodate,X-{MAN}: {A} {Non}-{Intrusive} {Power} {Manager} for {Energy}-{Adaptive} {Cloud}-{Native} {Network} {Functions},10.1109/TNSM.2021.3126822
+wang_l_energy-delay-aware_nodate,Energy-{Delay}-{Aware} {Joint} {Microservice} {Deployment} and {Request} {Routing} with {DVFS} in {Edge}: {A} {Reinforcement} {Learning} {Approach},10.1109/TC.2025.3535826
+k_afachao_efficient_nodate,Efficient {Microservice} {Deployment} in the {Edge}-{Cloud} {Networks} {With} {Policy}-{Gradient} {Reinforcement} {Learning},10.1109/ACCESS.2024.3461149
+w_villegas-ch_adaptive_nodate,Adaptive {Security} {Framework} for the {Internet} of {Things}: {Improving} {Threat} {Detection} and {Energy} {Optimization} in {Distributed} {Environments},10.1109/ACCESS.2024.3486983
+xu_m_energy_nodate-1,Energy efficient scheduling of application components via brownout and approximate markov decision process,10.1007/978-3-319-69035-3_14
+y_huang_satedge_nodate,{SatEdge}: {Platform} of {Edge} {Cloud} at {Satellite} and {Scheduling} {Mechanism} for {Microservice} {Modules},10.1109/ACCESS.2023.3330649
+saboor_a_containerized_nodate,Containerized {Microservices} {Orchestration} and {Provisioning} in {Cloud} {Computing}: {A} {Conceptual} {Framework} and {Future} {Perspectives},10.3390/app12125793
+i_f_model-driven_nodate,Model-{Driven} {Dependability} and {Power} {Consumption} {Quantification} of {Kubernetes}-{Based} {Cloud}-{Fog} {Continuum},10.1109/ACCESS.2023.3340195
+c_song_service_nodate,Service {Level} {Objective} {Adaptive} {Energy} {Efficiency} {Management},10.1109/ICPADS56603.2022.00082
+n_toosi_greenfog_nodate,{GreenFog}: {A} {Framework} for {Sustainable} {Fog} {Computing},10.1007/978-3-031-20984-0_38
+khairy_simr_nodate,{SIMR}: {Single} {Instruction} {Multiple} {Request} {Processing} for {Energy}-{Efficient} {Data} {Center} {Microservices},10.1109/MICRO56248.2022.00040
+m_xu_ibrownout_nodate,{iBrownout}: {An} {Integrated} {Approach} for {Managing} {Energy} and {Brownout} in {Container}-{Based} {Clouds},10.1109/TSUSC.2018.2808493
+vitali_towards_nodate,Towards {Greener} {Applications}: {Enabling} {Sustainable}-aware {Cloud} {Native} {Applications} {Design},10.1007/978-3-031-07472-1_6
+j_von_kistowski_teastore_nodate,"{TeaStore}: {A} {Micro}-{Service} {Reference} {Application} for {Benchmarking}, {Modeling} and {Resource} {Management} {Research}",10.1109/MASCOTS.2018.00030
+agos_jawaddi_sn_analyzing_nodate,Analyzing {Energy}-{Efficient} and {Kubernetes}-{Based} {Autoscaling} of {Microservices} {Using} {Probabilistic} {Model} {Checking},10.1007/s10723-024-09789-9
+cortellessa_v_exploring_nodate,Exploring {Sustainable} {Alternatives} for the {Deployment} of {Microservices} {Architectures} in the {Cloud},10.1109/ICSA59870.2024.00012
+h_humberto_alvarez_valera_pisco_nodate,{PISCO}: {A} smart simulator to deploy energy saving methods in microservices based networks,10.1109/IE54923.2022.9826775
+bhasi_kraken_nodate,Kraken: {Adaptive} {Container} {Provisioning} for {Deploying} {Dynamic} {DAGs} in {Serverless} {Platforms},10.1145/3472883.3486992
+valera_energy_nodate,An energy saving approach: understanding microservices as multidimensional entities in p2p networks,10.1145/3412841.3441888
+z_bellal_gas_nodate,{GAS}: {DVFS}-{Driven} {Energy} {Efficiency} {Approach} for {Latency}-{Guaranteed} {Edge} {Computing} {Microservices},10.1109/TGCN.2024.3420957
+e_ahvar_deca_nodate,{DECA}: {A} {Dynamic} {Energy} {Cost} and {Carbon} {Emission}-{Efficient} {Application} {Placement} {Method} for {Edge} {Clouds},10.1109/ACCESS.2021.3075973
+calagna_a_enabling_nodate,Enabling efficient collection and usage of network performance metrics at the edge,10.1016/j.comnet.2025.111158
+m_vitali_enriching_nodate,Enriching {Cloud}-native {Applications} with {Sustainability} {Features},10.1109/IC2E59103.2023.00011
+j_a_larracoechea_radiance_nodate,{RADIANCE}: {A} {CASE} {Tool} {For} {Green} {Software} {Design},10.1109/WETICE64632.2024.00024
+v_berry_is_nodate,"Is it {Worth} {Migrating} a {Monolith} to {Microservices}? {An} {Experience} {Report} on {Performance}, {Availability} and {Energy} {Usage}",10.1109/ICWS62655.2024.00112
+n_schmitt_online_nodate,Online {Power} {Consumption} {Estimation} for {Functions} in {Cloud} {Applications},10.1109/ICAC.2019.00018
+a_mokhtari_towards_nodate,Towards {Digital} {Sustainability}: {Involving} {Cloud} {Users} as {Key} {Players},10.1109/IC2E61754.2024.00021
+brondolin_black-box_nodate,A {Black}-box {Monitoring} {Approach} to {Measure} {Microservices} {Runtime} {Performance},10.1145/3418899
+dinga_empirical_nodate,An {Empirical} {Evaluation} of the {Energy} and {Performance} {Overhead} of {Monitoring} {Tools} on {Docker}-{Based} {Systems},10.1007/978-3-031-48421-6_13
+c_courageux-sudan_studying_nodate,"Studying the end-to-end performance, energy consumption and carbon footprint of fog applications",10.1109/ISCC61673.2024.10733735
+m_s_floroiu_anomaly_nodate,Anomaly {Detection} and {Root} {Cause} {Analysis} of {Microservices} {Energy} {Consumption},10.1109/ICWS62655.2024.00079
+g_h_prathama_green_nodate,Green {Computing} {Implementation} for {Indonesian} {Higher} {Education} {Adopting} {Serverless} {Microservices} {Architecture},10.1109/ICSCC62041.2024.10690844
+antoniou_agile_nodate,Agile {C}-states: {A} {Core} {C}-state {Architecture} for {Latency} {Critical} {Applications} {Optimizing} both {Transition} and {Cold}-{Start} {Latency},10.1145/3674734
