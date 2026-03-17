@@ -2,12 +2,12 @@
 
 How is energy consumption addressed throughout the software lifecycle and across different architectural components in microservice systems?
 
-### **RQ1.1 - At which stages of the software lifecycle is energy efficiency considered in microservice-based systems?**
+### **RQ1.1 - At which stages of the software lifecycle is energy efficiency considered in microservices?**
 
 ### Parameters
 
-- **Lifecycle Stage**: Requirements, Design, Implementation, Testing, Deployment, Operations
-- **Energy Awareness Stage**: Explicit requirements, Implicit concerns, Post-deployment optimization
+- **Lifecycle Stage Energy Awareness**: Requirements, Design, Implementation, Testing, Deployment, Operations
+- **Energy Integration Point**: Explicit requirements, Implicit concerns, Post-deployment optimization
 - **Integration Approach**: Built-in, Add-on, External monitoring, Manual assessment
 
 ### **RQ1.2 - Which microservice architectural elements are primarily considered when measuring energy consumption, and how do they impact energy efficiency?**
@@ -55,8 +55,8 @@ How is energy consumption addressed throughout the software lifecycle and across
 
 ### **RQ3.1 - What approaches are used to improve energy efficiency in microservice architectures?**
 
-- **Modernization Strategy**: Strangler pattern, Incremental refactoring, Complete rebuild, Containerization
-- **Solution Category**: Architectural patterns, Design patterns, Resource management tactics, Request handling tactics, Data management tactics
+- **Energy Management Strategy**: Strangler pattern, Incremental refactoring, Complete rebuild, Containerization
+- **Tactic Category**: Architectural patterns, Design patterns, Resource management tactics, Request handling tactics, Data management tactics
 - **Implementation Technologies**: Containerization, Serverless, Service mesh, Orchestration platforms, Green computing frameworks
 
 ### **RQ3.2 - What trade-offs exist between energy efficiency and other quality attributes in microservice architectures?**
@@ -65,7 +65,6 @@ How is energy consumption addressed throughout the software lifecycle and across
 
 - **Quality Attribute**: Performance, Scalability, Maintainability, Reliability, Security, Availability
 - **Trade-off Relationship**: Competing, Complementary, Context-dependent, Independent
-- **Trade-off Severity**: Minimal, Moderate, Significant, Prohibitive
 - **Trade-off Strategy**: Architectural refactoring, Compensating tactics, Prioritization frameworks, Incremental evolution
 
 ### **RQ3.3 - What challenges affect the adoption of energy-efficient architectural solutions in microservices?**
