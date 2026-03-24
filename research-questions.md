@@ -6,9 +6,9 @@ How is energy consumption addressed throughout the software lifecycle and across
 
 ### Parameters
 
-- **Lifecycle Stage Energy Awareness**: Requirements, Design, Implementation, Testing, Deployment, Operations
-- **Energy Integration Point**: Explicit requirements, Implicit concerns, Post-deployment optimization
-- **Integration Approach**: Built-in, Add-on, External monitoring, Manual assessment
+- **Energy Consideration Stage**: Requirements, Design, Implementation, Testing, Deployment, Operations
+- **Energy Intervention Stage**: Explicit requirements, Implicit concerns, Post-deployment optimization
+- **Energy Optimisation Technique**: Built-in, Add-on, External monitoring, Manual assessment
 
 ### **RQ1.2 - Which microservice architectural elements are primarily considered when measuring energy consumption, and how do they impact energy efficiency?**
 
