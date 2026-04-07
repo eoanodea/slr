@@ -25,6 +25,10 @@ A systematic literature review investigating how energy efficiency is addressed 
 └── digest.txt                    # Compressed repository context (for AI assistance)
 ```
 
+## 📌 Spreadsheet
+
+A Google Sheet was used to track papers through the screening process, with columns for metadata, screening decisions, and notes. You can accesss it under the file `SLR Tracker.xlsx` in the repository.
+
 ## 📋 Research Questions
 
 This review addresses three main research questions with multiple sub-questions covering the software lifecycle, measurement approaches, architectural solutions, and trade-offs.
