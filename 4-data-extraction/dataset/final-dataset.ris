@@ -229,17 +229,6 @@ DO  - 10.1109/ICSA59870.2024.00012
 ER  - 
 
 TY  - JOUR
-TI  - PISCO: A smart simulator to deploy energy saving methods in microservices based networks
-AU  - H. Humberto Alvarez Valera
-AU  - M. Dalmau
-AU  - P. Roose
-AU  - J. Larracoechea
-AU  - C. Herzog
-JO  - 2022 18th International Conference on Intelligent Environments (IE)
-DO  - 10.1109/IE54923.2022.9826775
-ER  - 
-
-TY  - JOUR
 TI  - Kraken: Adaptive Container Provisioning for Deploying Dynamic DAGs in Serverless Platforms
 AU  - Bhasi, Vivek M.
 AU  - Gunasekaran, Jashwant Raj
